@@ -2,7 +2,7 @@
 // ARGUMENTS
 //////////////////////////////////////////////////////////////////////
 #addin nuget:?package=Cake.FileHelpers
-#tool nuget:?package=Spellchecker
+#tool nuget:?package=Syncfusion.Spellcheck-CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 var cireports = Argument("cireports", "../cireports");
@@ -10,7 +10,8 @@ var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
 var buildStatus = true;
 var exitcode=0;
-var filePath="";
+var sourcefolder="";
+
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
 //////////////////////////////////////////////////////////////////////
@@ -23,17 +24,18 @@ var filePath="";
 Task("build")
     .Does(() =>
 {   
+ CopyFiles("./tools/syncfusion.spellcheck-ci/Syncfusion.Spellcheck-CI/content/*", "./tools");
+ CopyFiles("./tools/syncfusion.spellcheck-ci/Syncfusion.Spellcheck-CI/lib/*", "./tools");
 var directories = GetSubDirectories(reposistoryPath);
 foreach(var repository in directories)
     {
 	 if(!repository.ToString().Contains("ug_spellchecker")&&!repository.ToString().Contains("cireports"))
 	 {
-	   filePath=repository.ToString();
+	   sourcefolder=repository.ToString();
 	 }
 	}
-	Information(filePath);
     try {
-             exitcode=StartProcess("DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /filepath:"+filePath});
+             exitcode=StartProcess("DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    }
 	catch(Exception ex)
 	{        
@@ -55,7 +57,9 @@ Task("CopyFile")
 		{
 			CreateDirectory(cireports);
 		}
-CopyFileToDirectory(filePath+"/spellcheckreport.htm", cireports);
+		EnsureDirectoryExists(cireports+"/spellcheck/");
+		
+CopyFileToDirectory(sourcefolder+"/spellcheckreport.htm", cireports+"/spellcheck/");
 });
 
 //////////////////////////////////////////////////////////////////////
