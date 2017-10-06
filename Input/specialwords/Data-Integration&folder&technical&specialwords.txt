@@ -1,0 +1,39 @@
+
+single sign-on
+http
+https
+framework
+java
+JQuery
+jdbc
+hbase
+kerberos
+json
+csv
+sql
+syds
+MySql
+hadoop
+hdfs
+javascript
+js
+EXIF
+microsoft
+css
+html
+twitter
+smtp
+mongodb
+ok
+jpeg
+gif
+jpg
+png
+bmp
+xml
+sdk
+google
+pdf
+internet
+Data base
+build in
