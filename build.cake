@@ -2,7 +2,7 @@
 // ARGUMENTS
 //////////////////////////////////////////////////////////////////////
 #addin nuget:?package=Cake.FileHelpers
-#tool nuget:?package=Syncfusion.Spellcheck-CI
+#tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 var cireports = Argument("cireports", "../cireports");
@@ -24,8 +24,8 @@ var sourcefolder="";
 Task("build")
     .Does(() =>
 {   
- CopyFiles("./tools/syncfusion.spellcheck-ci/Syncfusion.Spellcheck-CI/content/*", "./tools");
- CopyFiles("./tools/syncfusion.spellcheck-ci/Syncfusion.Spellcheck-CI/lib/*", "./tools");
+ CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
+ CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
 var directories = GetSubDirectories(reposistoryPath);
 foreach(var repository in directories)
     {
@@ -35,7 +35,7 @@ foreach(var repository in directories)
 	 }
 	}
     try {
-             exitcode=StartProcess("DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
+             exitcode=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    }
 	catch(Exception ex)
 	{        
@@ -57,9 +57,15 @@ Task("CopyFile")
 		{
 			CreateDirectory(cireports);
 		}
+		
 		EnsureDirectoryExists(cireports+"/spellcheck/");
 		
-CopyFileToDirectory(sourcefolder+"/spellcheckreport.htm", cireports+"/spellcheck/");
+		if (FileExists(cireports+"/spellcheckreport.htm"))
+{
+    MoveFileToDirectory(cireports+"/spellcheckreport.htm", cireports+"/spellcheck/");
+}
+		
+
 });
 
 //////////////////////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 node('content')
 { 
-String platform='uwp';
+String platform='';
    try
 	{   
 		//Clone scm repository in Workspace source directory
@@ -11,11 +11,11 @@ String platform='uwp';
 		     checkout scm
 		    }
 			 
-		   //Checkout the ug_spellchecker Source
-	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.gitlabCredentialId, url: 'https://gitlab.syncfusion.com/testgroup/ug_spellchecker.git']]])
+		   //Checkout the ug_spellchecker from development Source
+	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.gitlabCredentialId, url: 'https://gitlab.syncfusion.com/content/ug_spellchecker.git']]])
 		 
 	  }
-	  //method to get  content
+	  //method to get modified file path
 	  changeLogs()
 	}
 	
@@ -42,14 +42,13 @@ if(currentBuild.result != 'FAILURE')
 
 	stage 'Delete Workspace'
 	
-		def files = findFiles(glob: '**/cireports/**/*.*')      
+		def files = findFiles(glob: '**/cireports/spellcheck/*.*')      
         
     if(files.size() > 0) 		
     { 		
-         archiveArtifacts artifacts: 'cireports/', excludes: null 	
-         //currentBuild.result = 'FAILURE'		 
+         archiveArtifacts artifacts: 'cireports/', excludes: null 	 
     }
-	   // step([$class: 'WsCleanup'])	
+	    step([$class: 'WsCleanup'])	
 }
 @NonCPS
 def changeLogs(){
@@ -73,7 +72,7 @@ for (int i = 0; i < changeLogSets.size(); i++) {
        writeFile file: env.WORKSPACE+"/cireports/content.txt", text: Content
     }
     else  {
-       writeFile file: env.WORKSPACE+"/cireports/content.txt", text: "No filepath found for this commit."
+       writeFile file: env.WORKSPACE+"/cireports/content.txt", text: "There are no filepaths found for this commit."
     }
 }
 	catch(Exception e)
