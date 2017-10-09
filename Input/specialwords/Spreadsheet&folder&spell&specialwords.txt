@@ -1,0 +1,15 @@
+Calculationfor
+Casingfor
+listofvalues
+dev
+.mdb
+ln
+yld
+Kth
+ja
+(“N/A”,”Incorrect”)
+findnreplace
+freezepane
+Dlg
+PrimaryKey
+printsettings

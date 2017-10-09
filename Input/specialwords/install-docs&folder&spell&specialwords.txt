@@ -1,0 +1,7 @@
+syncfusionessentialsourcecodeaddon
+compilemode
+frameworkversions
+removeall
+prebuilt
+Buildmanagerwindows
+buildmanagerwindows
