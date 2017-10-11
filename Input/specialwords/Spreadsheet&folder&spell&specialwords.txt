@@ -7,7 +7,7 @@ ln
 yld
 Kth
 ja
-(“N/A”,”Incorrect”)
+(â€œN/Aâ€,â€Incorrectâ€)
 findnreplace
 freezepane
 Dlg

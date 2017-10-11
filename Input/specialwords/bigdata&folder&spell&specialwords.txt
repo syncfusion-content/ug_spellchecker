@@ -17,3 +17,4 @@ kinit
 klist
 Ubuntu
 Elasticsearch
+onmicrosoft
