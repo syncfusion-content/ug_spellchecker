@@ -1,5 +1,3 @@
-Showrowswhere
-Dsc
 ressources
 Alignement
 Aucun
@@ -18,6 +16,7 @@ Sauver
 Autoriser
 contenu
 Largeur
+Alignement
 texte
 bulle
 Droite
@@ -36,4 +35,3 @@ dessus
 cette
 Remarques
 terminer
-Titel
