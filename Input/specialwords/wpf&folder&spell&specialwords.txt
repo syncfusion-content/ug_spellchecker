@@ -605,4 +605,3 @@ Offce
 offce
 sapdomain
 Locator
-ViewModelLocator 
