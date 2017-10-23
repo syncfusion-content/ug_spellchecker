@@ -34,4 +34,3 @@ bower
 cordova
 mit
 onDemand
-bower
