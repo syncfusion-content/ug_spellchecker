@@ -39,3 +39,4 @@ Icc
 Appearence
 Middot
 onchange
+Kanji
