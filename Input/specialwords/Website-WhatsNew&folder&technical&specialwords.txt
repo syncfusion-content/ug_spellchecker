@@ -1,3 +1,2 @@
 angular2
 Angular
-Multiselect
