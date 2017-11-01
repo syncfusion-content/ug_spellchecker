@@ -42,3 +42,4 @@ onchange
 Kanji
 Ogg
 bg
+datatable
