@@ -30,3 +30,15 @@ Gisha
 leftborder
 topborder
 exoplanets
+zh
+addbutton
+flatcolors
+seawolf
+webcolors
+pinkshades
+candycrush
+currentcolor
+selectedcolor
+basicpalette
+
+
