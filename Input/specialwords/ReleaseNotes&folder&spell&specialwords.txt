@@ -43,3 +43,5 @@ Kanji
 Ogg
 bg
 datatable
+Diagonl
+Sufix
