@@ -18,3 +18,4 @@ klist
 Ubuntu
 Elasticsearch
 onmicrosoft
+chmod
