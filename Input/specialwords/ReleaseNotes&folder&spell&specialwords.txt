@@ -43,3 +43,7 @@ Kanji
 Ogg
 bg
 datatable
+Foxit
+Bluebeam
+Diagonl
+Sufix
