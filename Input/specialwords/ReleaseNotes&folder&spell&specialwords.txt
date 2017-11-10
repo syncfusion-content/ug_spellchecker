@@ -45,3 +45,5 @@ bg
 datatable
 Diagonl
 Sufix
+Foxit
+Bluebeam
