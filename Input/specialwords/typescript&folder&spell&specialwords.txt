@@ -26,3 +26,11 @@ mit
 eu
 minlength
 maxlength
+Topof
+Bottomof
+ar
+Img
+Davloio
+dialogtemplate
+externalform
+externalformtemplate
