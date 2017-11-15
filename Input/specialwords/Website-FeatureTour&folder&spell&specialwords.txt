@@ -15,3 +15,5 @@ pivotgrid
 Munteanu
 slideontop
 Hiper
+Ogg
+Playlist
