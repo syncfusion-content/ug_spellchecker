@@ -37,3 +37,8 @@ pdf
 internet
 Data base
 build in
+JDBC
+MySQL
+Java
+CSS
+JS
