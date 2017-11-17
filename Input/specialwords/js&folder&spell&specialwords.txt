@@ -1605,6 +1605,3 @@ sqldata
 sqladapter
 onDemand
 mouseleave
-hilo
-Hiloopenclose
-svg
