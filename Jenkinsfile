@@ -5,7 +5,7 @@ String platform='';
 	{   
 	
 	def Content="";
-		env.PATH = "C:\\Program Files\\Git\\mingw64\\bin;${env.PATH}"
+		env.PATH = "${ProgramFiles}"+"\\Git\\mingw64\\bin;${env.PATH}"
 
 		//Clone scm repository in Workspace source directory
 		stage ('Checkout')   
