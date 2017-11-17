@@ -34,3 +34,17 @@ Davloio
 dialogtemplate
 externalform
 externalformtemplate
+waitingpopup
+dropdownlist
+splitbutton
+togglebutton
+textandimage
+imagetop
+ribbonfont
+lightblue
+homegallery
+Addressbar
+Searchbar
+nach
+Ja
+Machen
