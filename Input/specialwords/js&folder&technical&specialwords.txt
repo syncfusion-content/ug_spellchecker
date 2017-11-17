@@ -34,3 +34,5 @@ bower
 cordova
 mit
 onDemand
+Hiloopenclose
+svg
