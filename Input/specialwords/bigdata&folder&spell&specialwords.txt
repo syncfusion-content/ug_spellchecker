@@ -19,3 +19,4 @@ Ubuntu
 Elasticsearch
 onmicrosoft
 chmod
+jre
