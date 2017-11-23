@@ -43,3 +43,4 @@ pageup
 ime
 parentview
 Argb
+Spannable
