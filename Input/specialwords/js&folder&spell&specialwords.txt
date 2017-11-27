@@ -812,8 +812,6 @@ arg
 ccccff
 highlightsettings
 datavisualization
-startswith
-endswith
 lessthan
 lessthanorequal
 greaterthan
@@ -1618,3 +1616,5 @@ Wheatgrass
 norecord
 optgroup
 eimg
+notcontains
+notin

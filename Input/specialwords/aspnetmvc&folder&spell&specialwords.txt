@@ -1111,3 +1111,5 @@ indiqué
 opentype
 datamanager
 Json
+notcontains
+notin
