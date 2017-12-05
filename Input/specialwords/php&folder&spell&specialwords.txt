@@ -43,4 +43,5 @@ php
 focusout
 Concat
 minlength
-
+maxlength
+navigationdrawerbase
