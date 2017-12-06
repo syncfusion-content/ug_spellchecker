@@ -67,3 +67,7 @@ html
 csv
 pdf
 hashcode
+startcell
+endcell
+Num
+isborder
