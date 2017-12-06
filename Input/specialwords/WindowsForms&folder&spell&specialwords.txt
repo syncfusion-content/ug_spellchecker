@@ -265,3 +265,5 @@ Ignorae
 Anpassung
 Abbrechen
 ignorieren
+Selectedcolor
+Pressedcolor
