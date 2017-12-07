@@ -1,0 +1,19 @@
+jspm
+JSPM
+src
+App
+config
+aurelia-syncfusion-bridge
+npm: aurelia-syncfusion-bridge
+e-on-record-click.delegate
+require
+template
+nav-bar
+router
+cli
+CLI
+requirejs
+ejTemplate
+aurelia.json
+app.js
+main.js
