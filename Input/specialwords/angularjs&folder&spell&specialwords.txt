@@ -1,0 +1,12 @@
+module
+$scope
+ejangular
+ng-controller
+ng-app
+ng-model
+dataSource
+e-change
+e-value
+id
+ej.widget.angular.min.js
+ng-repeat
