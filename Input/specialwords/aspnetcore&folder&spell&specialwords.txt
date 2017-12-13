@@ -2,3 +2,4 @@ startswith
 endswith
 notcontains
 notin
+antiforgery

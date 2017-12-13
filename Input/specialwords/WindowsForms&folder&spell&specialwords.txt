@@ -267,3 +267,4 @@ Abbrechen
 ignorieren
 Selectedcolor
 Pressedcolor
+visualstyle
