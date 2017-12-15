@@ -301,3 +301,6 @@ png = PNG
 bmp = BMP
 hiloopenclose=HiLoOpenClose
 linux = Linux
+ReactJS = React
+reactjs = ReactJS
+Angular = AngularJS

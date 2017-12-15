@@ -17,3 +17,5 @@ ejTemplate
 aurelia.json
 app.js
 main.js
+cd
+nav
