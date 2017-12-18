@@ -97,3 +97,11 @@ imagetop
 imageonly
 printlayout
 ribbonfont
+ngtemplate
+buttonclick
+transpile
+transpiling
+deps
+md
+gulpfile
+dest
