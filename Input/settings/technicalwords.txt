@@ -305,3 +305,4 @@ ReactJS = React
 reactjs = ReactJS
 Angular = AngularJS
 nuget = NuGet
+active directory = Active Directory
