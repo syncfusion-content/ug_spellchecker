@@ -15,7 +15,7 @@ CLI
 requirejs
 ejTemplate
 aurelia.json
-app.js
-main.js
 cd
 nav
+app.js
+main.js

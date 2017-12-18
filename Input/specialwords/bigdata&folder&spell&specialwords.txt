@@ -20,3 +20,6 @@ Elasticsearch
 onmicrosoft
 chmod
 jre
+libunwind
+epel
+libicu
