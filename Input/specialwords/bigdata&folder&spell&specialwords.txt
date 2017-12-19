@@ -23,3 +23,6 @@ jre
 libunwind
 epel
 libicu
+dfs
+datanode
+netstat
