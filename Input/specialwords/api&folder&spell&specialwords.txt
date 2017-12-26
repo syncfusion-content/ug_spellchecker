@@ -71,3 +71,14 @@ startcell
 endcell
 Num
 isborder
+Zoomable
+PannableX
+PannableY
+Pannable
+Undoable
+cx
+cy
+fx
+fy
+Overline
+
