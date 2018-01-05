@@ -3,3 +3,4 @@ endswith
 notcontains
 notin
 antiforgery
+avi
