@@ -105,3 +105,6 @@ deps
 md
 gulpfile
 dest
+bulletgraph
+circulargauge
+lineargauge
