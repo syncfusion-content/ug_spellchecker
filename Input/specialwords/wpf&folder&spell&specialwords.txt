@@ -607,3 +607,5 @@ sapdomain
 Locator
 Reactance
 reactance
+Sheron
+emoji

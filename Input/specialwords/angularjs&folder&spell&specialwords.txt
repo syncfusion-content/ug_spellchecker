@@ -49,3 +49,6 @@ closerecurrence
 radiobutton
 dropdownlist
 recurrenceeditor
+bulletgraph
+circulargauge
+lineargauge
