@@ -5,14 +5,4 @@ notin
 antiforgery
 avi
 everyweekday
-btncancel
-btnsubmit
-reccancel
-recsubmit
-allday
-edittr
-recsummary
-summarytr
-formelement
-Recurrencerule
 emptytd
