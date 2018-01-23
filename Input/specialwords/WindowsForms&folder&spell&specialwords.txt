@@ -268,3 +268,4 @@ ignorieren
 Selectedcolor
 Pressedcolor
 visualstyle
+Pristina
