@@ -111,3 +111,6 @@ lineargauge
 grey
 fullcircle
 halfcircle	
+xl
+greaterthan
+redft
