@@ -110,7 +110,7 @@ circulargauge
 lineargauge
 grey
 fullcircle
-halfcircle	
+halfcircle
 xl
 greaterthan
 redft
