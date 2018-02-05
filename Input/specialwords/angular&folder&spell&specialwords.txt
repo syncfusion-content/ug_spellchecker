@@ -138,3 +138,5 @@ namemanager
 inputrange
 str
 Sel
+connectorline
+Dayworking
