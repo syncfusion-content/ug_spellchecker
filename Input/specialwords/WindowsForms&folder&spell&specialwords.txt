@@ -269,3 +269,4 @@ Selectedcolor
 Pressedcolor
 visualstyle
 Pristina
+  Winforms  
