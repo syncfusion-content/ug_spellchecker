@@ -49,3 +49,6 @@ pidkey
 portno
 servertype
 Machinekey
+fadein
+Ele
+Selectionparent
