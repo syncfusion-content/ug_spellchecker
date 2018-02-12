@@ -83,3 +83,10 @@ fy
 Overline
 connectorline
 Dayworking
+minlength
+maxlength
+timecells
+alldaycells
+monthcells
+blockout
+workcells
