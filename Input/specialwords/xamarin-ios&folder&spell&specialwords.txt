@@ -66,3 +66,7 @@ Startedi
 Autoresizing
 const
 Baskerville
+ar
+de
+lproj
+resw
