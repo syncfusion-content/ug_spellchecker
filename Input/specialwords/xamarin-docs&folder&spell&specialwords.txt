@@ -41,3 +41,7 @@ bluetooth
 wikipedia
 Subview
 Errorbar
+ar
+de
+lproj
+resw

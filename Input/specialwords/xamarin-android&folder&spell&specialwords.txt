@@ -44,3 +44,7 @@ ime
 parentview
 Argb
 Spannable
+ar
+de
+lproj
+resw
