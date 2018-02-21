@@ -269,4 +269,5 @@ Selectedcolor
 Pressedcolor
 visualstyle
 Pristina
-  Winforms  
+Winforms
+Reactance
