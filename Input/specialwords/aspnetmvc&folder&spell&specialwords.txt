@@ -1113,3 +1113,5 @@ datamanager
 Json
 notcontains
 notin
+xl
+WinLoss

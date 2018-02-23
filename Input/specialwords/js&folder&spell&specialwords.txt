@@ -1622,3 +1622,5 @@ antiforgery
 frozenheadersettings
 hashcode
 ej.dropdowntree.min.js
+xl
+WinLoss

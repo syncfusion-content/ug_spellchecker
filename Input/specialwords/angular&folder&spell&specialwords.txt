@@ -141,3 +141,5 @@ Sel
 connectorline
 Dayworking
 Bayern
+xl
+WinLoss
