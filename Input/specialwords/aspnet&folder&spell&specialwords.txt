@@ -1092,3 +1092,5 @@ eimg
 ua
 notcontains
 notin
+xl
+WinLoss

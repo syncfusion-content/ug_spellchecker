@@ -12,4 +12,6 @@ tuesday
 wednesday
 thursday
 friday
-saturday 
+saturday
+xl
+WinLoss

@@ -52,3 +52,5 @@ recurrenceeditor
 bulletgraph
 circulargauge
 lineargauge
+xl
+WinLoss
