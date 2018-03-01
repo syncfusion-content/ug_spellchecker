@@ -134,3 +134,10 @@ rowheaders
 btn
 colheader
 rowheader
+Mesures
+sélectionner
+Couleur
+Bordure
+dynamique
+Choisissez
+colheaders
