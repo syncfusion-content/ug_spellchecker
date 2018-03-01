@@ -19,3 +19,12 @@ cd
 nav
 app.js
 main.js
+stackingcolumn
+steparea 
+stackingbar 
+splinearea 
+stackingarea 
+fullcircle 
+halfcircle 
+pivotschema
+Btn
