@@ -5,3 +5,7 @@ removeall
 prebuilt
 Buildmanagerwindows
 buildmanagerwindows
+targetframework
+sourcefolderpath
+sourcefolder
+isfolderbackedup
