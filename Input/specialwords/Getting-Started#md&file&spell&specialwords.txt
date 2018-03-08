@@ -1,0 +1,4 @@
+digitalgauge
+rangenavigator
+sunburstchart
+Celcius
