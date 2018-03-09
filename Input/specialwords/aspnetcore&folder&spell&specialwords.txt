@@ -1,0 +1,17 @@
+startswith
+endswith
+notcontains
+notin
+antiforgery
+avi
+everyweekday
+emptytd
+sunday
+monday
+tuesday 
+wednesday
+thursday
+friday
+saturday
+xl
+WinLoss
