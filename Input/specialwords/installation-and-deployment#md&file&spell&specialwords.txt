@@ -2,3 +2,10 @@ usr
 jvm
 java
 jre
+liblttng
+lttng
+ust
+libcurl
+openssl
+libuuid
+zlib
