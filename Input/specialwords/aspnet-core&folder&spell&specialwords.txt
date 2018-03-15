@@ -141,3 +141,4 @@ Bordure
 dynamique
 Choisissez
 colheaders
+syncfusionessentialaspnetcore
