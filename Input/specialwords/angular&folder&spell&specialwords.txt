@@ -143,3 +143,11 @@ Dayworking
 Bayern
 xl
 WinLoss
+Saverin
+Moskovitz
+ico
+intl
+codelyzer
+istanbul
+tslint
+ngc
