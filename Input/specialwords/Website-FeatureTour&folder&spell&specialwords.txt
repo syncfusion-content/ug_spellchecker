@@ -24,3 +24,6 @@ rowspan
 colspan
 Uploader
 Preload
+preload
+uploader
+Datalabel
