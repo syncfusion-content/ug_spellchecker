@@ -1115,3 +1115,4 @@ notcontains
 notin
 xl
 WinLoss
+Connectorline

@@ -22,3 +22,5 @@ md
 ejgrid
 rowspan
 colspan
+Uploader
+Preload
