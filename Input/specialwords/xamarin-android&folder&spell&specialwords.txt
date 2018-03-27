@@ -49,3 +49,4 @@ de
 lproj
 resw
 ja
+Pacifico
