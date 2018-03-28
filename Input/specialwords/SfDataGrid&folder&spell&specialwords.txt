@@ -7,7 +7,7 @@ ln
 yld
 Kth
 ja
-(“N/A”,”Incorrect”)
+(N/A,Incorrect)
 msexcel
 Mkdir
 vnd
@@ -22,3 +22,4 @@ jni
 ql
 Antialiasing
 accdb
+cb
