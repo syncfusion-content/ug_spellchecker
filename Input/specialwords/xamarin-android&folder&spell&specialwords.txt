@@ -50,3 +50,5 @@ lproj
 resw
 ja
 Pacifico
+sfmaskededit
+maskededit
