@@ -102,3 +102,4 @@ portno
 servertype
 Machinekey
 currentdomain
+Dbms
