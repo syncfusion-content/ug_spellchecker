@@ -145,3 +145,5 @@ syncfusionessentialaspnetcore
 dotnet
 jspm
 Dotnet
+crossorigin
+fn
