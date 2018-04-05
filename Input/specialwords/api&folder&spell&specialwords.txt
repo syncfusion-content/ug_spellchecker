@@ -90,3 +90,5 @@ alldaycells
 monthcells
 blockout
 workcells
+playlist
+unmute
