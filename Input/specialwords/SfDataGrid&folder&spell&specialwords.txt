@@ -23,3 +23,14 @@ ql
 Antialiasing
 accdb
 cb
+ole
+northWind
+Ssl
+smtp
+Nll
+Trujilo
+Citeaux
+Sommer
+Lebihan
+Raclette
+Courdavault
