@@ -104,3 +104,4 @@ nuspec
 runtimes
 outputdirectory
 skiasharp
+LocaleIDs
