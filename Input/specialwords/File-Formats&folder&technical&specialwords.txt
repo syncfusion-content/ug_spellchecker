@@ -21,3 +21,4 @@ svg
 autoShape
 btn
 DLL
+LocaleIDs
