@@ -32,3 +32,6 @@ Uni
 Autocorrect
 Autocorrects
 Autoreplace
+autocorrect
+autocorrects
+autoreplace
