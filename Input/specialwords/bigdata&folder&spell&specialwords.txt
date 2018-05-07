@@ -27,3 +27,4 @@ dfs
 datanode
 netstat
 openjdk
+liblttng
