@@ -9,3 +9,5 @@ libcurl
 openssl
 libuuid
 zlib
+CentOS
+syncfusionbigdataclustermanagercore
