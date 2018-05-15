@@ -69,3 +69,15 @@ Autor
 Fach
 Eingesperrt
 Signatur
+Nächstes
+Richtung
+Nieder
+Finde
+chstes
+Vertikale
+Teilung
+Matchcase
+Horizontale
+Erweitern
+Bereich
+ausblenden
