@@ -28,3 +28,6 @@ datanode
 netstat
 openjdk
 liblttng
+Peerings
+setspn
+lsb
