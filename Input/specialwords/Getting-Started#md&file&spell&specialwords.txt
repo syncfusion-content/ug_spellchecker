@@ -3,3 +3,5 @@ rangenavigator
 sunburstchart
 Celcius
 userid
+reportdesigner
+ejservices
