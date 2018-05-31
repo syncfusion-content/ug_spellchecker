@@ -35,3 +35,8 @@ Autoreplace
 autocorrect
 autocorrects
 autoreplace
+Redock
+Redock
+Autohidden
+autohidden
+
