@@ -267,3 +267,17 @@ sliceanddiceauto
 sliceanddicehorizontal
 sliceanddicevertical
 populationdata
+showfilloptions
+filltype
+allowexporting
+importmapper
+importurl
+importonload
+excelurl
+allowprinting
+allowscrolling
+scrollmode
+allowvirtualscrolling
+selectionunit
+selectiontype
+undoredostep
