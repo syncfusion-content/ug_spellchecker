@@ -31,3 +31,9 @@ liblttng
 Peerings
 setspn
 lsb
+lttng
+ust
+libcurl
+openssl
+libuuid
+zlib
