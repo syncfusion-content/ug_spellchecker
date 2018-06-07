@@ -85,3 +85,5 @@ Rrdb
 Rbtn
 Rlbl
 Gobtn
+Änderungen
+speichern
