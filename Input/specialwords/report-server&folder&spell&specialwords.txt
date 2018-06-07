@@ -6,3 +6,4 @@ Quickconnect
 azurewebsites
 adfs
 bak
+rsd
