@@ -5,3 +5,8 @@ Celcius
 userid
 reportdesigner
 ejservices
+currencytextbox
+fileexplorer
+maskedit
+numerictextbox
+percentagetextbox
