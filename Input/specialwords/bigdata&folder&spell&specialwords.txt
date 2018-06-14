@@ -37,3 +37,8 @@ libcurl
 openssl
 libuuid
 zlib
+ppa
+justinludwig
+tzdata
+java
+sharelibupdate
