@@ -10,3 +10,5 @@ fileexplorer
 maskedit
 numerictextbox
 percentagetextbox
+sfgauge
+sfmaps
