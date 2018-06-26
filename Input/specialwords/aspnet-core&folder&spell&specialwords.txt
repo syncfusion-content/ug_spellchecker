@@ -188,3 +188,5 @@ dev
 gulpfile
 vscode
 Ubuntu
+nodejs
+hkp
