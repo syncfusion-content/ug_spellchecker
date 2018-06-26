@@ -183,3 +183,8 @@ usr
 libcrypto
 dylib
 libssl
+prerelease
+dev
+gulpfile
+vscode
+Ubuntu
