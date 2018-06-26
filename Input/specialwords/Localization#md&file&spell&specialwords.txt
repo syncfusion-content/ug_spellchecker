@@ -87,3 +87,8 @@ Rlbl
 Gobtn
 Änderungen
 speichern
+d'événements
+journéer
+Dotnet
+gsw
+Schwiizertüütsch
