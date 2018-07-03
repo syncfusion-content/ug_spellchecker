@@ -49,4 +49,6 @@ Sfpulltorefresh
 Listview
 Paramenter
 Csc 
+varbinary
+rsd
 
