@@ -107,4 +107,7 @@ skiasharp
 LocaleIDs
 Ds
 Xmlparts
+Desaturate
+Buzzsaw
+Loopde
 
