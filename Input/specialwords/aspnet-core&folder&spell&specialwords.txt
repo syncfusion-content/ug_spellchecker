@@ -190,3 +190,4 @@ vscode
 Ubuntu
 nodejs
 hkp
+Excelversion
