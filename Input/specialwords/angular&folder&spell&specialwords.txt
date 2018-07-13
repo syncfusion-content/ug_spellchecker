@@ -209,3 +209,7 @@ minlength
 maxlength
 Davolio
 emptytd
+visualmode
+img
+nowrap
+inserthtml
