@@ -11,3 +11,4 @@ libuuid
 zlib
 CentOS
 syncfusionbigdataclustermanagercore
+scriptable
