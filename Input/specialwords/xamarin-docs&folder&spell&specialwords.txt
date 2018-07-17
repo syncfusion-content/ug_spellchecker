@@ -52,3 +52,4 @@ Pacifico
 sfmaskededit
 maskededit
 Ortho
+syncfusionessentialxamarin
