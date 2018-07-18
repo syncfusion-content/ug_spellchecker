@@ -12,3 +12,4 @@ numerictextbox
 percentagetextbox
 sfgauge
 sfmaps
+numericedit
