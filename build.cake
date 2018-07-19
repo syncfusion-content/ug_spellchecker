@@ -46,9 +46,9 @@ foreach(var repository in directories)
 	    
 			 repositoryName =repo.Split('/')[4];
 			 Information(repositoryName);
-			 Information(reposistoryPath);
-			 DirectoryInfo di = new DirectoryInfo(reposistoryPath+"/"+repositoryName+"/");
-			 Information(reposistoryPath+"/"+repositoryName+"/");
+			 
+			 DirectoryInfo di = new DirectoryInfo(reposistoryPath+"/Spell-Checker/"+repositoryName+"/");
+			 Information(reposistoryPath+"/Spell-Checker/"+repositoryName+"/");
 			 DirectoryInfo[] dir1 = di.GetDirectories();
 			 var filePath = dir1[1].FullName;
 			 
