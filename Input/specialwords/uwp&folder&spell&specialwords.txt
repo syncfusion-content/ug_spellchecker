@@ -130,3 +130,4 @@ Textboxx
 Reactance
 reactance
 jxr
+syncfusionessentialuniversalwindows
