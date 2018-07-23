@@ -45,3 +45,4 @@ Concat
 minlength
 maxlength
 navigationdrawerbase
+syncfusionessentialphp
