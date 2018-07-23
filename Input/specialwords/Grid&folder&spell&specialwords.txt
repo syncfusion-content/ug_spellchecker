@@ -10,3 +10,5 @@ bottomleft
 externalformtemplate
 filterbar
 startswith
+IsHideColumnIncude
+onenter
