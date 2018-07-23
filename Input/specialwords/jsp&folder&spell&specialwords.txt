@@ -36,3 +36,8 @@ friday
 saturday
 blockout
 syncfusionessentialjsp
+jsp
+taglib
+tld
+webapps
+Servlet
