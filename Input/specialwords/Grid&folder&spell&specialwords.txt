@@ -1,2 +1,12 @@
 summaryrows
 groupsettings
+IsHideColumnIncude
+inlineform
+inlineformtemplate
+dialogtemplate
+externalform
+topright
+bottomleft
+externalformtemplate
+filterbar
+startswith
