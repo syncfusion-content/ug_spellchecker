@@ -46,3 +46,6 @@ minlength
 maxlength
 navigationdrawerbase
 syncfusionessentialphp
+splitbutton
+waitingpopup
+
