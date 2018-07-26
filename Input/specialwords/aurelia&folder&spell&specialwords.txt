@@ -67,3 +67,7 @@ Mumbai
 série
 pdfviewer
 currencytextbox
+pivotchart
+pivotgauge
+pivotgrid
+pivottreemap
