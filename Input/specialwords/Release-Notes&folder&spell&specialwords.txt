@@ -52,3 +52,4 @@ Csc
 varbinary
 rsd
 celltype
+clickable
