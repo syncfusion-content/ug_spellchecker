@@ -13,3 +13,4 @@ percentagetextbox
 sfgauge
 sfmaps
 numericedit
+Autoload
