@@ -10,3 +10,5 @@ sourcefolderpath
 sourcefolder
 isfolderbackedup
 netstandard
+cancelled
+msiexec
