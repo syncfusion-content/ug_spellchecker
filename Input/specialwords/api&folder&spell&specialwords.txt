@@ -100,8 +100,10 @@ rowheader
 columnheader
 userid
 insertafter
-mouseenter , keyup
-Greek, Noto
+mouseenter
+keyup
+Greek
+Noto
 func
 te
 audaz
