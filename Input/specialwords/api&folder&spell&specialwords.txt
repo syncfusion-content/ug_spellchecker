@@ -299,3 +299,4 @@ palabra
 especificada
 colores
 transparente
+mousemove
