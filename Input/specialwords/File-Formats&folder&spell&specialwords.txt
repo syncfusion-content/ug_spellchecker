@@ -110,4 +110,4 @@ Xmlparts
 Desaturate
 Buzzsaw
 Loopde
-
+netcoreapp
