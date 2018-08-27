@@ -48,4 +48,4 @@ navigationdrawerbase
 syncfusionessentialphp
 splitbutton
 waitingpopup
-
+textandimage

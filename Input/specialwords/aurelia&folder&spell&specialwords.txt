@@ -71,3 +71,4 @@ pivotchart
 pivotgauge
 pivotgrid
 pivottreemap
+textandimage

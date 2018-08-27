@@ -49,3 +49,6 @@ nach
 Ja
 Machen
 Dotnet
+startswith
+endswith
+webfont
