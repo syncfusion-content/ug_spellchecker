@@ -53,3 +53,4 @@ varbinary
 rsd
 celltype
 clickable
+vimeo
