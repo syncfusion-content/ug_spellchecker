@@ -52,3 +52,5 @@ Dotnet
 startswith
 endswith
 webfont
+dropdownedit
+booleanedit
