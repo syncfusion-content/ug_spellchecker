@@ -54,3 +54,4 @@ rsd
 celltype
 clickable
 vimeo
+nginx
