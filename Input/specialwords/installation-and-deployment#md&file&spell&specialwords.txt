@@ -12,3 +12,8 @@ zlib
 CentOS
 syncfusionbigdataclustermanagercore
 scriptable
+pidkey
+isdesktopdhortcut
+isstartmenushortcut
+portno
+servertype
