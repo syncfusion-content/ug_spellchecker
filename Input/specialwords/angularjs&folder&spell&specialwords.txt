@@ -282,3 +282,7 @@ selectionunit
 selectiontype
 undoredostep
 serviceurl
+appointmentsettings
+majorslottemplateid
+minorslottemplateid
+daysinagenda
