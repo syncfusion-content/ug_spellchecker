@@ -9,7 +9,6 @@ var reposistoryPath=MakeAbsolute(Directory("../"));
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
-var repo="";
 var buildStatus = true;
 var exitcode=0;
 var imageValidation=0;
@@ -41,16 +40,15 @@ Task("build")
     {
 	 if(!repository.ToString().Contains("ug_spellchecker")&&!repository.ToString().Contains("cireports"))
 	 {
-	   repo=repository.ToString();
 	  sourcefolder=repository.ToString();
 	 }
 	}
     try {
-             exitcode=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
-
-			 repositoryName =repo.Split('/')[4];
+            exitcode=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
+	    
+			repositoryName =reposistoryPath.ToString().Split('/')[3];
 			 
-			 imageValidation=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			imageValidation=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
 		}
 	catch(Exception ex)
 	{        
@@ -94,7 +92,6 @@ Task("CopyFile")
 	{
 		MoveFileToDirectory("./ImageSizeValidation.html", cireports+"/imagevalidation/");
 	}
-
 });
 
 //////////////////////////////////////////////////////////////////////
