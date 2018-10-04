@@ -10,8 +10,8 @@ var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
 var buildStatus = true;
-var exitcode=0;
-var imageValidation=0;
+var isSpellingError=0;
+var isImagevalidationError=0;
 var sourcefolder="";
 var repositoryName="";
 
@@ -44,17 +44,17 @@ Task("build")
 	 }
 	}
     try {
-            exitcode=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
+            isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3];
 			 
-			imageValidation=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
 		}
 	catch(Exception ex)
 	{        
 		buildStatus = false;
 	}
-	if(exitcode==0 && imageValidation==0 && buildStatus) {    
+	if(isSpellingError==0 && isImagevalidationError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 	} 
@@ -66,7 +66,7 @@ Task("build")
 Task("CopyFile")
 .Does(() =>
 {
-	if (!DirectoryExists(cireports))
+		if (!DirectoryExists(cireports))
 		{			
 			CreateDirectory(cireports);
 		}
@@ -80,18 +80,8 @@ Task("CopyFile")
 		
 		EnsureDirectoryExists(cireports+"/imagevalidation/");
 		
-	if(FileExists("./AltTextValidation.html"))
-	{
-		MoveFileToDirectory("./AltTextValidation.html", cireports+"/imagevalidation/");
-	}
-	if(FileExists("./ImageNameValidation.html"))
-	{
-		MoveFileToDirectory("./ImageNameValidation.html", cireports+"/imagevalidation/");
-	}
-	if(FileExists("./ImageSizeValidation.html"))
-	{
-		MoveFileToDirectory("./ImageSizeValidation.html", cireports+"/imagevalidation/");
-	}
+		var files = GetFiles("./*.html");
+		CopyFiles(files,cireports+"/imagevalidation/");
 });
 
 //////////////////////////////////////////////////////////////////////
