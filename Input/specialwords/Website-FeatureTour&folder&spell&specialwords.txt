@@ -45,3 +45,9 @@ reactance
 ebook
 ebooks
 performant
+sfcellgrid
+sfmulticolumndropdown
+qtp
+recordnavigationcontrol
+tabbarsplittercontrol
+sfmulticolumndropdown
