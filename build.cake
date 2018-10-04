@@ -46,7 +46,7 @@ Task("build")
     try {
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
-			repositoryName =reposistoryPath.ToString().Split('/')[3];
+			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
 			 
 			isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
 		}
