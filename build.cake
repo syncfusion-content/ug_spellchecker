@@ -49,10 +49,18 @@ Task("build")
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
 			 
-			if((repositoryName.ToLower() == "website-whatsnew" || repositoryName.ToLower() == "website-featuretour") && Targetbranch.ToLower() == "master")
+			if(repositoryName.ToLower() == "website-whatsnew" || repositoryName.ToLower() == "website-featuretour")
 			{
-			 isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});   
+			    if(Targetbranch.ToLower() != "master")
+			    {
+			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			    }
 			}
+			else
+			{
+			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});   
+			}
+
 
 		}
 	catch(Exception ex)
