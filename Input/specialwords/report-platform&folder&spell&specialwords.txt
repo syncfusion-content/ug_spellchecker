@@ -36,3 +36,6 @@ userid
 pc
 reportdesigner
 querydesigner
+johnmichael
+gmail
+johnhael
