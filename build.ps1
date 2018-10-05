@@ -46,6 +46,7 @@ Param(
     [string]$Configuration,
 	[string]$Platform,
 	[string]$Branch,
+	[string]$Targetbranch,
     [ValidateSet("Quiet", "Minimal", "Normal", "Verbose", "Diagnostic")]
     [string]$Verbosity,
     [switch]$ShowDescription,
@@ -225,6 +226,7 @@ if ($Target) { $cakeArguments += "-target=$Target" }
 if ($Configuration) { $cakeArguments += "-configuration=$Configuration" }
 if ($Platform) { $cakeArguments += "-platform=$Platform" }
 if ($Branch) { $cakeArguments += "-branch=$Branch" }
+if ($Targetbranch) { $cakeArguments += "-targetbranch=$Targetbranch" }
 if ($Verbosity) { $cakeArguments += "-verbosity=$Verbosity" }
 if ($ShowDescription) { $cakeArguments += "-showdescription" }
 if ($DryRun) { $cakeArguments += "-dryrun" }
