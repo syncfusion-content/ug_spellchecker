@@ -9,6 +9,7 @@ var reposistoryPath=MakeAbsolute(Directory("../"));
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
+var targetBranch=Argument<string>("targetbranch","");
 var buildStatus = true;
 var isSpellingError=0;
 var isImagevalidationError=0;
@@ -48,7 +49,10 @@ Task("build")
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
 			 
-			isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			if(!((repositoryName.ToLower()=="website-whatsnew" || repositoryName.ToLower()=="website-featuretour") && targetBranch.ToLower() != "master"))
+			{
+			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			}
 		}
 	catch(Exception ex)
 	{        
