@@ -48,7 +48,7 @@ Task("build")
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-			if (!((repositoryName.ToLower() == "website-whatsnew" || repositoryName.ToLower() == "website-featuretour") && (targetBranch.ToLower() != "master" && targetBranch.ToLower() != "development")))
+			if(!((repositoryName.ToLower()=="website-whatsnew" || repositoryName.ToLower()=="website-featuretour") && targetBranch.ToLower() != "master"))
             {
 			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
             }
