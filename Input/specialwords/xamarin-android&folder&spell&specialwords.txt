@@ -54,3 +54,4 @@ sfmaskededit
 maskededit
 Ortho
 Sublayers
+Explodable
