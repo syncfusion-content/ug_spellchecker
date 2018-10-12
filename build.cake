@@ -50,6 +50,7 @@ Task("build")
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
 			if(!((repositoryName.ToLower()=="website-whatsnew" || repositoryName.ToLower()=="website-featuretour") && targetBranch.ToLower() != "master"))
             {
+                Information("Image Validation Running");
 			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
             }
 		}
