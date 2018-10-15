@@ -72,3 +72,13 @@ pivotgauge
 pivotgrid
 pivottreemap
 textandimage
+esnext
+ico
+frontend
+Webpack
+webpack
+tsconfig
+aspnetcore
+backend
+transpiler
+dev
