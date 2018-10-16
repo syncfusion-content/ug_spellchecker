@@ -51,3 +51,4 @@ qtp
 recordnavigationcontrol
 tabbarsplittercontrol
 sfmulticolumndropdown
+databinding
