@@ -171,3 +171,4 @@ zusammenfassen
 zwischen
 Rangée
 localetexts
+Fermer
