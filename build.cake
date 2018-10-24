@@ -82,10 +82,7 @@ Task("CopyFile")
 			MoveFileToDirectory(cireports+"/spellcheckreport.htm", cireports+"/spellcheck/");
 		}
 		
-		EnsureDirectoryExists(cireports+"/imagevalidation/");
 		
-		var files = GetFiles("./*.html");
-		CopyFiles(files,cireports+"/imagevalidation/");
 });
 
 //////////////////////////////////////////////////////////////////////
