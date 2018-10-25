@@ -172,3 +172,5 @@ zwischen
 Rangée
 localetexts
 Fermer
+Fritems
+frmax
