@@ -55,3 +55,4 @@ celltype
 clickable
 vimeo
 nginx
+marshalled
