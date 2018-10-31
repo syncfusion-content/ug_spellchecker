@@ -52,3 +52,7 @@ recordnavigationcontrol
 tabbarsplittercontrol
 sfmulticolumndropdown
 databinding
+Farsi
+Codemirror
+Multirow
+Themeable
