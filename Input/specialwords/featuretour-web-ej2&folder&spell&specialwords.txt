@@ -46,3 +46,7 @@ accessor
 polyfills
 performant
 databinding
+Farsi
+Codemirror
+Multirow
+Themeable
