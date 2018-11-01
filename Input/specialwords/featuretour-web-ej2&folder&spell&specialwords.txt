@@ -50,3 +50,6 @@ Farsi
 Codemirror
 Multirow
 Themeable
+Pinterest
+subheaders
+clickable
