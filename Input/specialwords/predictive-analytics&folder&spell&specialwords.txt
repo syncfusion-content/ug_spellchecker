@@ -10,3 +10,13 @@ barplot
 Stowers
 topo
 paletteb
+multinom
+logit
+cloglog
+probit
+coxph
+rpart
+ksvm
+nnet
+kmeans
+arules
