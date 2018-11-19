@@ -5,7 +5,7 @@
 #tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
-#tool nuget:?package=Syncfusion.Content.ImageValidation.CI
+#tool nuget:?package=Syncfusion.Content.ImageValidation.CI&version=1.0.0
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -48,13 +48,18 @@ Task("build")
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-			
+			    
                 Information("Image Validation Running");
-			    isImagevalidationError=StartProcess("./ImageValidator.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+				var sourceLocation=reposistoryPath+"/Spell-Checker/";
+				Information(repositoryName);
+				Information(sourceLocation);
+				Information(sourceLocation+" "+repositoryName+" "+targetBranch);
+			    isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = sourceLocation+" "+repositoryName+" "+targetBranch});
             
 		}
 	catch(Exception ex)
 	{        
+		Information(ex);
 		buildStatus = false;
 	}
 	if(isSpellingError==0 && isImagevalidationError==0 && buildStatus) {    
