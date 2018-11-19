@@ -5,7 +5,7 @@
 #tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
-#tool nuget:?package=Syncfusion.Content.ImageValidation.CI&version=1.0.0
+#tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -30,10 +30,10 @@ Task("build")
 {   
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
- CopyFiles("./tools/syncfusion.content.imagevalidation.ci/Syncfusion.Content.imagevalidation.CI/content/*", "./");
- CopyFiles("./tools/syncfusion.content.imagevalidation.ci/Syncfusion.Content.imagevalidation.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
  EnsureDirectoryExists("./Templates");
- CopyFiles("./tools/syncfusion.content.imagevalidation.ci/Syncfusion.Content.imagevalidation.CI/Templates/*", "./Templates");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
   
   
   var directories = GetSubDirectories(reposistoryPath);
@@ -42,6 +42,7 @@ Task("build")
 	 if(!repository.ToString().Contains("ug_spellchecker")&&!repository.ToString().Contains("cireports"))
 	 {
 	  sourcefolder=repository.ToString();
+	  
 	 }
 	}
     try {
@@ -49,13 +50,13 @@ Task("build")
 	    
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
 			    
-                Information("Image Validation Running");
-				var sourceLocation=reposistoryPath+"/Spell-Checker/";
-				Information(repositoryName);
-				Information(sourceLocation);
-				Information(sourceLocation+" "+repositoryName+" "+targetBranch);
-			    isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = sourceLocation+" "+repositoryName+" "+targetBranch});
-            
+            Information("Document Validation Running");
+			var sourceLocation=reposistoryPath+"/Spell-Checker/";
+			Information(repositoryName);
+			Information(sourceLocation);
+			Information(targetBranch);
+			Information(sourceLocation+" "+repositoryName+" "+targetBranch);
+			isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = sourceLocation+" "+repositoryName+" "+targetBranch});
 		}
 	catch(Exception ex)
 	{        
