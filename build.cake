@@ -46,11 +46,11 @@ Task("build")
 	 }
 	}
     try {
+            //Code to run spellchecker tool
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
 			//Code to run the Document validation tool
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-			Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch);
 			isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		}
 	catch(Exception ex)
