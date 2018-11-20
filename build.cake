@@ -48,15 +48,10 @@ Task("build")
     try {
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
+			//Code to run the Document validation tool
 			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-			    
-            Information("Document Validation Running");
-			var sourceLocation=reposistoryPath+"/Spell-Checker/";
-			Information(repositoryName);
-			Information(sourceLocation);
-			Information(targetBranch);
-			Information(sourceLocation+" "+repositoryName+" "+targetBranch);
-			isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = sourceLocation+" "+repositoryName+" "+targetBranch});
+			Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch);
+			isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		}
 	catch(Exception ex)
 	{        
