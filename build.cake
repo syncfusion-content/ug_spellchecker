@@ -48,13 +48,12 @@ Task("build")
             //Code to run spellchecker tool
             isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
 	    
-			//Code to run the Document validation tool
-			repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-			isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
-		}
+		//Code to run the Document validation tool
+		repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
+		isImagevalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
+	}
 	catch(Exception ex)
 	{        
-		Information(ex);
 		buildStatus = false;
 	}
 	if(isSpellingError==0 && isImagevalidationError==0 && buildStatus) {    
