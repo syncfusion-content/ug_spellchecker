@@ -42,7 +42,6 @@ Task("build")
 	 if(!repository.ToString().Contains("ug_spellchecker")&&!repository.ToString().Contains("cireports"))
 	 {
 	  sourcefolder=repository.ToString();
-	  
 	 }
 	}
     try {
