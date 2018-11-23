@@ -1121,3 +1121,4 @@ pivotgauge
 pivotgrid
 pivottreemap
 pivotclient
+fakepath
