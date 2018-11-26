@@ -9,3 +9,4 @@ Getlinked
 Autogenerate
 whatsnew
 Uploader
+stdev
