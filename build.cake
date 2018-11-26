@@ -50,6 +50,7 @@ Task("build")
         
         //Code to run the Document validation tool
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
+        Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch);
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 	}
 	catch(Exception ex)
