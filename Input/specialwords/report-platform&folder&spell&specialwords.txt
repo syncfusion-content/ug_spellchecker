@@ -39,3 +39,4 @@ querydesigner
 johnmichael
 gmail
 johnhael
+Dsn
