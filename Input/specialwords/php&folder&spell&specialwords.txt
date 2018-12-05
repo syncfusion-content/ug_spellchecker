@@ -49,3 +49,14 @@ syncfusionessentialphp
 splitbutton
 waitingpopup
 textandimage
+tbody
+startswith
+endswith
+notcontains
+notin
+Owin
+Auth
+emp
+Davolio
+sqldata
+sqladapter
