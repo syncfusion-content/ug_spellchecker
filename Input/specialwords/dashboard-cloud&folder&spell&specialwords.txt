@@ -1,3 +1,7 @@
 Bitly
 Mem
 Sendible
+pinboards
+Pinboards
+Pinboard
+pinboard
