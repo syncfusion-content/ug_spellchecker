@@ -58,3 +58,5 @@ nginx
 marshalled
 Garamond
 Horizotal
+sfskinmanager
+skinmanager
