@@ -11,10 +11,10 @@ Nvidia
 Jetson
 Instagram
 Airbnb
-Biohazard 
+Biohazard
 Bitbucket
 Xen
-Citrix 	
+Citrix
 Mimecast
 Nutanix
 Sophos
