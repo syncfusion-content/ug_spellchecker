@@ -6,6 +6,7 @@
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
+#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -13,6 +14,7 @@ var targetBranch=Argument<string>("targetbranch","");
 var buildStatus = true;
 var isSpellingError=0;
 var isDocumentvalidationError=0;
+var isHtmlConversionError=0;
 var sourcefolder="";
 var repositoryName="";
 
@@ -32,8 +34,12 @@ Task("build")
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
+ EnsureDirectoryExists("./HtmlConvertionTemplates");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/Templates/*", "./Templates");
   
   
   var directories = GetSubDirectories(reposistoryPath);
@@ -51,12 +57,18 @@ Task("build")
         //Code to run the Document validation tool
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
+		
+		//Code to run the Html conversion tool for feature tour repositories
+		if (!((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+		{
+			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch+" "+reposistoryPath+"/featuretour-docautomation/"});
+		}
 	}
 	catch(Exception ex)
 	{        
 		buildStatus = false;
 	}
-	if(isSpellingError==0 && isDocumentvalidationError==0 && buildStatus) {    
+	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 	} 
