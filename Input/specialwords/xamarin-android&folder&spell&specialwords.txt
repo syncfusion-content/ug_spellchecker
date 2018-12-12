@@ -55,3 +55,6 @@ maskededit
 Ortho
 Sublayers
 Explodable
+fdf
+xfdf
+Fdf
