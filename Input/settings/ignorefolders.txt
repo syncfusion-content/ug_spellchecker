@@ -54,3 +54,4 @@ ReleaseNotes\MobileJS
 <li>dashboard-cloud/api/v1.0.md</li>
 <li>dashboard-cloud/api/v2.0.md</li>
 <li>dashboard-cloud/api/v3.0.md</li>
+<li>file-formats/presentation/create-edit-connectors-in-powerpoint-slides-cs-vb-net.md</li>
