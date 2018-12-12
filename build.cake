@@ -39,7 +39,7 @@ Task("build")
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/Templates/*", "./Templates");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/Templates/*", "./HtmlConvertionTemplates");
   
   
   var directories = GetSubDirectories(reposistoryPath);
@@ -63,7 +63,7 @@ Task("build")
 		{
 		    Information("Document Automation Running");
 		    Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch+" "+reposistoryPath+"/FTdocautomation/");
-			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch+" "+reposistoryPath+"/FTdocautomation/"});
+			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+repositoryName+" "+targetBranch+" "+reposistoryPath+"/FTdocautomation/"});
 		}
 	}
 	catch(Exception ex)
