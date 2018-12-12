@@ -59,7 +59,7 @@ Task("build")
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		
 		//Code to run the Html conversion tool for feature tour repositories
-		if (!((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
 		{
 			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch+" "+reposistoryPath+"/featuretour-docautomation/"});
 		}
