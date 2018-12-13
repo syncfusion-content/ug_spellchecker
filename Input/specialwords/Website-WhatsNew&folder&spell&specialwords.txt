@@ -10,3 +10,4 @@ Autogenerate
 whatsnew
 Uploader
 stdev
+Auth
