@@ -62,7 +62,6 @@ Task("build")
 		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
 		{
 		    Information("Document Automation Running");
-		    Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTdocautomation/Automation");
 			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
 		}
 	}
