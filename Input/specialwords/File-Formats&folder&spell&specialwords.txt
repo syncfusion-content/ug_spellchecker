@@ -114,3 +114,5 @@ netcoreapp
 Ltv
 otf
 whitelisted
+dic
+Hyphenator
