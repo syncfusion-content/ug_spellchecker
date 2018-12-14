@@ -128,3 +128,4 @@ gitkeep
 rightindex
 tls
 PhantomJS
+postgres
