@@ -5,3 +5,13 @@ pinboards
 Pinboards
 Pinboard
 pinboard
+adddays
+Addhours
+addminutes
+addhours
+addweeks
+addmonths
+addyears
+addquarters
+settimezone
+Setdaystart
