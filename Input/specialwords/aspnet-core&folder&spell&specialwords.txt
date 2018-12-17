@@ -193,3 +193,7 @@ hkp
 Excelversion
 Dsn
 cd
+msie
+insertunordered
+insertordered
+antialiased

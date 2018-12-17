@@ -62,3 +62,5 @@ navigationdrawer
 timepicker
 emptytd
 blockout
+msie
+antialiased
