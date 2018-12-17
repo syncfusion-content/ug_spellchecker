@@ -56,3 +56,7 @@ ReleaseNotes\MobileJS
 <li>dashboard-cloud/api/v3.0.md</li>
 <li>file-formats/presentation/create-edit-connectors-in-powerpoint-slides-cs-vb-net.md</li>
 <li>dashboard-platform/dashboard-server/api/v4.0.md</li>
+<li>user-management-server/azure-app-service-deployment/migration.md</li>
+<li>user-management-server/azure-deployment/prerequisites.md</li>
+<li>user-management-server/azure-deployment/app-service/migration-to-2-2-0-31.md</li>
+<li>user-management-server/azure-deployment/vm.md</li>
