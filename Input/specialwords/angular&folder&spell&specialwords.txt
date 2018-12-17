@@ -289,3 +289,11 @@ userprofile
 Saraiva
 Cambell
 Reiter
+ar-AE
+antialiased
+msie
+-moz-osx-font-smoothing
+insertordered
+Insertunordered
+topright
+innerbottom
