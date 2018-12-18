@@ -72,7 +72,7 @@ Task("build")
 		buildStatus = false;
 		Information(ex);
 	}
-	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
+	if(isSpellingError==0 && isDocumentvalidationError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 	} 
