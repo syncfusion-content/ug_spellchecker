@@ -64,7 +64,7 @@ Task("build")
 		    Information("Document Automation Running");
 		    Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation");
 			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
-			Infomation(isHtmlConversionError);
+			Information(isHtmlConversionError);
 		}
 	}
 	catch(Exception ex)
