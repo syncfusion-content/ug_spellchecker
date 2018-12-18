@@ -69,6 +69,7 @@ Task("build")
 	catch(Exception ex)
 	{        
 		buildStatus = false;
+		Information(ex);
 	}
 	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
