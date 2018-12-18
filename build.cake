@@ -5,8 +5,8 @@
 #tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
-#tool nuget:?package=Syncfusion.Content.DocumentValidation.CI&version=1.0.0
-#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
+#tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
+#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI&version=1.0.0
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
