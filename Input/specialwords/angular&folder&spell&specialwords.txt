@@ -297,3 +297,4 @@ insertordered
 Insertunordered
 topright
 innerbottom
+spellcheck

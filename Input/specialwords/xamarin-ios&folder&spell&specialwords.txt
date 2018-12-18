@@ -84,3 +84,4 @@ Explodable
 fdf
 xfdf
 Fdf
+sfmaskededit
