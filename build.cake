@@ -5,7 +5,7 @@
 #tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
-#tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
+#tool nuget:?package=Syncfusion.Content.DocumentValidation.CI&version=1.0.0
 #tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
@@ -72,7 +72,7 @@ Task("build")
 		buildStatus = false;
 		Information(ex);
 	}
-	if(isSpellingError==0 && isDocumentvalidationError==0 && buildStatus) {    
+	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 	} 
