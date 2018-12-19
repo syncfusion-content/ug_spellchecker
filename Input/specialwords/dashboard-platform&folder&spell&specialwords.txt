@@ -129,3 +129,7 @@ rightindex
 tls
 PhantomJS
 postgres
+scriptable
+sitename
+syncfusiondscontainer
+syncfusionumscontainer
