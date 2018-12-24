@@ -133,3 +133,6 @@ scriptable
 sitename
 syncfusiondscontainer
 syncfusionumscontainer
+isstartmenushortcut
+issetfirewallrule
+isdesktopshortcut
