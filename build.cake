@@ -21,7 +21,7 @@ var repositoryName="";
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
 //////////////////////////////////////////////////////////////////////
-
+using System.IO;
 //////////////////////////////////////////////////////////////////////
 // TASKS
 //////////////////////////////////////////////////////////////////////
@@ -58,14 +58,41 @@ Task("build")
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		
-		//Code to run the Html conversion tool for feature tour repositories
-		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
-		{
-		    Information("Document Automation Running");
-		    Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation");
-			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
-			Information(isHtmlConversionError);
-		}
+			bool isWithoutError = true;
+
+            var errorfiles = GetFiles("../cireports/errorlogs/*.txt");
+			
+            if(!(errorfiles.Count() > 0))
+            {
+                var reportFiles = GetFiles(@"../cireports/**/*.(htm||html)");
+				
+                foreach (var reportFile in reportFiles)
+                {
+                    string fileContent = System.IO.File.ReadAllText(reportFile.ToString());
+										
+                    if ((fileContent.Contains("</td>")))
+                    {
+                        if ((!reportFile.ToString().Contains("spellcheckreport")) || (fileContent.Contains("<td>Technical Error</td>") || fileContent.Contains("<td>Spell Error</td>")))
+                        {
+                            isWithoutError = false;
+                            break;
+                        }
+                    }
+                }
+                if (isWithoutError == true)
+                {
+					Information("Enter into Document Automation Running Tool");
+					//Code to run the Html conversion tool for feature tour repositories
+					if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+					{
+						Information("Document Automation Running");
+						Information(reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation");
+						isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+						Information(isHtmlConversionError);
+					}
+                }
+			}
+		
 	}
 	catch(Exception ex)
 	{        
