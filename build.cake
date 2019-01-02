@@ -49,8 +49,9 @@ Task("build")
 	 {
 	  sourcefolder=repository.ToString();
 	 }
-	}
-    try {
+    }
+    try
+    {
         //Code to run spellchecker tool
         isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
         
@@ -58,11 +59,11 @@ Task("build")
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		
-		bool isWithoutError = true;
+	bool isWithoutError = true;
 
         var errorfiles = GetFiles("../cireports/errorlogs/*.txt");
 		
-		if(!(errorfiles.Count() > 0))
+	if(!(errorfiles.Count() > 0))
         {
             var reportFiles = GetFiles(@"../cireports/**/*.(htm||html)");
 				
@@ -81,13 +82,13 @@ Task("build")
             }
             if (isWithoutError == true)
             {
-				//Code to run the Html conversion tool for feature tour repositories
-				if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
-				{
-						isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
-				}
-            }
+		//Code to run the Html conversion tool for feature tour repositories
+		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+		{
+			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
 		}
+            }
+	  }
 	}
 	catch(Exception ex)
 	{        
