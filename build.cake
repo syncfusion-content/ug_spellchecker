@@ -6,7 +6,7 @@
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
-#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI&version=1.0.0
+#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -34,12 +34,12 @@ Task("build")
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
   
   
   var directories = GetSubDirectories(reposistoryPath);
