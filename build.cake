@@ -6,7 +6,7 @@
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
-#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
+#tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI&version=1.0.0
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -21,7 +21,7 @@ var repositoryName="";
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
 //////////////////////////////////////////////////////////////////////
-
+using System.IO;
 //////////////////////////////////////////////////////////////////////
 // TASKS
 //////////////////////////////////////////////////////////////////////
@@ -34,12 +34,12 @@ Task("build")
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
- CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
+ CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI.1.0.0/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
   
   
   var directories = GetSubDirectories(reposistoryPath);
@@ -58,16 +58,41 @@ Task("build")
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 		
-		//Code to run the Html conversion tool for feature tour repositories
-		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
-		{
-		    Information("Document Automation Running");
-			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+		bool isWithoutError = true;
+
+        var errorfiles = GetFiles("../cireports/errorlogs/*.txt");
+		
+		if(!(errorfiles.Count() > 0))
+        {
+            var reportFiles = GetFiles(@"../cireports/**/*.(htm||html)");
+				
+            foreach (var reportFile in reportFiles)
+            {
+                string fileContent = System.IO.File.ReadAllText(reportFile.ToString());
+										
+                if ((fileContent.Contains("</td>")))
+                {
+                    if ((!reportFile.ToString().Contains("spellcheckreport")) || (fileContent.Contains("<td>Technical Error</td>") || fileContent.Contains("<td>Spell Error</td>")))
+                    {
+                        isWithoutError = false;
+                        break;
+                    }
+                }
+            }
+            if (isWithoutError == true)
+            {
+				//Code to run the Html conversion tool for feature tour repositories
+				if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+				{
+						isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+				}
+            }
 		}
 	}
 	catch(Exception ex)
 	{        
 		buildStatus = false;
+		Information(ex);
 	}
 	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
