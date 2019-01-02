@@ -60,3 +60,4 @@ xfdf
 Fdf
 Entersoft
 sfmaskededit
+textinputlayout
