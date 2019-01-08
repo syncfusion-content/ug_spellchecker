@@ -64,5 +64,3 @@ ReleaseNotes\MobileJS
 <li>report-platform/report-server/api/v2.0.md</li>
 <li>report-platform/report-server/api/v3.0.md</li>
 <li>report-platform/report-server/api/v4.0.md</li>
-<li>report-platform/report-server/administration/synchronize-azure-active-directory-groups .md</li>
-<li>report-platform/report-server/administration/manage-reports/create-reports.md</li>
