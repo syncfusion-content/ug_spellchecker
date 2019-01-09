@@ -9,3 +9,4 @@ Autogenerate
 Autointerval
 Preload
 preload
+Blazor
