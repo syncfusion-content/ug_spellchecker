@@ -136,3 +136,4 @@ syncfusionumscontainer
 isstartmenushortcut
 issetfirewallrule
 isdesktopshortcut
+Argb
