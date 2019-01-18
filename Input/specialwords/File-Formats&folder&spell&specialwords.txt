@@ -120,3 +120,14 @@ str
 Cond
 Fmt
 Pos
+XlLineStyle
+xlContinuous
+XlChartType
+xlPie
+XlAutoFilterOperator
+xlOr
+XlSheetVisibility
+xlSheetHidden
+xlSheetVisible
+XlRgbColor
+BackgoundImage
