@@ -131,3 +131,6 @@ xlSheetHidden
 xlSheetVisible
 XlRgbColor
 BackgoundImage
+Xl
+xl
+Backgound

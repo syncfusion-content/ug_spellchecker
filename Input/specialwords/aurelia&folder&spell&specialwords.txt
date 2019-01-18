@@ -82,3 +82,14 @@ aspnetcore
 backend
 transpiler
 dev
+rimraf
+plugins
+mimetype
+eval
+devtool
+const
+dirname
+postcss
+eslint
+polyfill
+otf
