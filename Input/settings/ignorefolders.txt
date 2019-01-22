@@ -51,6 +51,7 @@ ReleaseNotes\MobileJS
 <li>file-formats/xlsio/supported-features-by-platforms.md</li>
 <li>file-formats/xlsio/improving-performance.md</li>
 <li>file-formats/xlsio/faq.md</li>
+<li>file-formats/xlsio/asp-net-core.md</li>
 <li>dashboard-cloud/api/v1.0.md</li>
 <li>dashboard-cloud/api/v2.0.md</li>
 <li>dashboard-cloud/api/v3.0.md</li>
