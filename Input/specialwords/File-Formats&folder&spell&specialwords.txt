@@ -134,3 +134,8 @@ BackgoundImage
 Xl
 xl
 Backgound
+backcolor
+Steyn
+greatlakes
+Cabrales
+Chocos
