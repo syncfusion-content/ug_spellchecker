@@ -286,3 +286,4 @@ appointmentsettings
 majorslottemplateid
 minorslottemplateid
 daysinagenda
+processingmode
