@@ -298,3 +298,4 @@ Insertunordered
 topright
 innerbottom
 spellcheck
+charset
