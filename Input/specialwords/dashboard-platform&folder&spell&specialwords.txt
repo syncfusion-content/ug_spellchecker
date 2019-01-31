@@ -137,3 +137,4 @@ isstartmenushortcut
 issetfirewallrule
 isdesktopshortcut
 Argb
+kudu
