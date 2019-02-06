@@ -95,3 +95,6 @@ polyfill
 otf
 userprofile
 reportviewer
+Minification
+amd
+sourcemaps
