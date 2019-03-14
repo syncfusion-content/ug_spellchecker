@@ -61,4 +61,5 @@ Fdf
 Entersoft
 sfmaskededit
 textinputlayout
-GeoPointToViewPoint 
+GeoPointToViewPoint
+GeoPoint
