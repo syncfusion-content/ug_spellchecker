@@ -85,3 +85,5 @@ fdf
 xfdf
 Fdf
 sfmaskededit
+GeoPointToViewPoint
+GeoPoint
