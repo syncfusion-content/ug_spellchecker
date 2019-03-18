@@ -7,3 +7,4 @@ libxcb
 libxfixes
 libxrandr
 libxrender
+Zugferd
