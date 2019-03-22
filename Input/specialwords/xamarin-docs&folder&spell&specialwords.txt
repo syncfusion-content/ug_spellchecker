@@ -63,3 +63,7 @@ sfmaskededit
 textinputlayout
 GeoPointToViewPoint
 GeoPoint
+Mvx
+Compat
+Creatable
+Tabbar
