@@ -56,3 +56,4 @@ clickable
 Nav
 Identicons
 stdev
+Blazor
