@@ -12,3 +12,4 @@ Uploader
 stdev
 Auth
 Zu
+dismissible
