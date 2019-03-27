@@ -66,3 +66,6 @@ Univers
 Scoll
 orderid
 wordwrap
+Rg.Plugings.Popup
+Rg
+Plugings
