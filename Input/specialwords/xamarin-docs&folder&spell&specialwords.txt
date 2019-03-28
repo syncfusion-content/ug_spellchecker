@@ -67,3 +67,4 @@ Mvx
 Compat
 Creatable
 Tabbar
+dismissible
