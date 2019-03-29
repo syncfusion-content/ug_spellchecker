@@ -56,3 +56,4 @@ Farsi
 Codemirror
 Multirow
 Themeable
+codeless
