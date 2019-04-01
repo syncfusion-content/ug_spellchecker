@@ -68,3 +68,5 @@ Compat
 Creatable
 Tabbar
 dismissible
+customfontfamily
+radialmenu
