@@ -70,3 +70,4 @@ Tabbar
 dismissible
 customfontfamily
 radialmenu
+fontfamily
