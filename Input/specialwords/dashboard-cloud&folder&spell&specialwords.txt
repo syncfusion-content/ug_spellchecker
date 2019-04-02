@@ -19,3 +19,4 @@ io
 dbo
 inbetween
 notbetween
+freemium
