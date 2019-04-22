@@ -57,3 +57,4 @@ Nav
 Identicons
 stdev
 Blazor
+navbar
