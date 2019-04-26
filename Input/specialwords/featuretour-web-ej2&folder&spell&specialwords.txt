@@ -58,3 +58,4 @@ Identicons
 stdev
 Blazor
 navbar
+Zoomable
