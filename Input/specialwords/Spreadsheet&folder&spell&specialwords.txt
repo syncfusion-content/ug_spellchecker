@@ -48,3 +48,5 @@ Devling
 Sel
 undoredo
 refersto
+Pivotanalysis
+Pivotschemadesigner
