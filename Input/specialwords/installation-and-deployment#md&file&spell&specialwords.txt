@@ -19,3 +19,4 @@ portno
 servertype
 isdesktopshortcut
 sitename
+localappdata
