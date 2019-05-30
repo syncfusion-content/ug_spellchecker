@@ -27,3 +27,5 @@ bitlinks
 Auth
 Bitlinks
 Zoho
+Wistia
+Smartsheet
