@@ -151424,3 +151424,6 @@ Danmarkshavn
 Noronha
 Ulaanbaatar
 Moresby
+startswith
+endswith
+notequal
