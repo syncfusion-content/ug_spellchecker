@@ -156,3 +156,6 @@ Freshservice
 Toggl
 Mem
 localappdata
+multitab
+primaryxaxisfont
+primartyyaxixfont

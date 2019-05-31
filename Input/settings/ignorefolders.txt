@@ -87,3 +87,6 @@ ReleaseNotes\MobileJS
 <li>file-formats/xlsio/migration-from-office-automation-to-syncfusion-xlsio/wrap-text-in-excel.md</li>
 <li>file-formats/xlsio/new.md</li>
 <li>report-platform/report-server/api/v5.0.md</li>
+<li>bold-bi/api/v1.0.md</li>
+<li>bold-bi/api/v2.0.md</li>
+<li>bold-bi/api/v3.0.md</li>
