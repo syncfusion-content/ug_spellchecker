@@ -29,3 +29,16 @@ Bitlinks
 Zoho
 Wistia
 Smartsheet
+Instagram
+Dropbox
+Autorefresh
+dcount
+distinctcount
+daymonthyear
+monthdayyear
+monthname
+quarteryear
+monthyear
+datehour
+dayofweek
+weekofyear
