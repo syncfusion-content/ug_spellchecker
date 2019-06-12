@@ -42,3 +42,10 @@ monthyear
 datehour
 dayofweek
 weekofyear
+Chargify
+tsv
+Fusebill
+Gitlab
+Insightly
+Mixpanel
+Nicereply
