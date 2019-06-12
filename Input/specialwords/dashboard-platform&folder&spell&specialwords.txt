@@ -155,3 +155,6 @@ Freshsales
 Freshservice
 Toggl
 Mem
+multitab
+primaryxaxisfont
+primartyyaxixfont
