@@ -69,3 +69,4 @@ wordwrap
 Rg.Plugins.Popup
 Rg
 Plugins
+xlsm
