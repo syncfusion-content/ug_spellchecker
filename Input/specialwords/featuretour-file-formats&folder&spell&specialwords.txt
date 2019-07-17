@@ -45,3 +45,5 @@ reactance
 Downsampling
 preformatted
 Blazor
+ZXing
+Xing
