@@ -11,3 +11,5 @@ Preload
 preload
 Blazor
 geolocation
+toolstrip
+toolstripitem
