@@ -90,3 +90,10 @@ ReleaseNotes\MobileJS
 <li>bold-bi/api/v1.0.md</li>
 <li>bold-bi/api/v2.0.md</li>
 <li>bold-bi/api/v3.0.md</li>
+<li>predictive-analytics/pmml-execution-engine/overview.md</li>
+<li>predictive-analytics/pmml-execution-engine/installation-and-deployment.md</li>
+<li>predictive-analytics/pmml-execution-engine/system-requirements.md</li>
+<li>predictive-analytics/pmml-execution-engine/deploying-pmml-execution-engine.md</li>
+<li>predictive-analytics/pmml-execution-engine/getting-started.md</li>
+<li>predictive-analytics/pmml-execution-engine/working-with-pmml-execution-engine.md</li>
+<li>predictive-analytics/pmml-execution-engine/supported-and-unsupported-features.md</li>
