@@ -97,3 +97,4 @@ ReleaseNotes\MobileJS
 <li>predictive-analytics/pmml-execution-engine/getting-started.md</li>
 <li>predictive-analytics/pmml-execution-engine/working-with-pmml-execution-engine.md</li>
 <li>predictive-analytics/pmml-execution-engine/supported-and-unsupported-features.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/charts-library.html.md</li>
