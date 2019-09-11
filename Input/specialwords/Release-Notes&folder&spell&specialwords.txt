@@ -70,3 +70,4 @@ Rg.Plugins.Popup
 Rg
 Plugins
 xlsm
+geolocation
