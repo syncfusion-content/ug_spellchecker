@@ -21,3 +21,4 @@ Realtime
 realtime
 Aws
 Filebase
+Multiregion
