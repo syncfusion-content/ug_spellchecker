@@ -158,3 +158,4 @@ Mem
 multitab
 primaryxaxisfont
 primartyyaxixfont
+Uninstaller
