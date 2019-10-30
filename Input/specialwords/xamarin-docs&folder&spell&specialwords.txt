@@ -74,3 +74,4 @@ fontfamily
 Sri
 Lanka
 growable
+deselecting

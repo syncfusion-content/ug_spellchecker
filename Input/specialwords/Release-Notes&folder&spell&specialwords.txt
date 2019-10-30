@@ -72,3 +72,4 @@ Plugins
 xlsm
 geolocation
 Cancelled
+deselecting
