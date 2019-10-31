@@ -129,3 +129,4 @@ ReleaseNotes\MobileJS
 <li>windowsforms/calculate/supported-formulas/web-formulas.md</li>
 <li>windowsforms/calculate/supported-formulas/financial-formulas.md</li>
 <li>windowsforms/calculate/supported-formulas/database-functions.md</li>
+<li>windowsforms/calculate/performance.md</li>
