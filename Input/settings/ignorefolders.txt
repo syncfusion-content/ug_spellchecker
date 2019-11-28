@@ -130,3 +130,4 @@ ReleaseNotes\MobileJS
 <li>windowsforms/calculate/supported-formulas/financial-formulas.md</li>
 <li>windowsforms/calculate/supported-formulas/database-functions.md</li>
 <li>windowsforms/calculate/performance.md</li>
+<li>bold-bi/api/v4.0.md</li>
