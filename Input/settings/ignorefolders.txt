@@ -131,3 +131,12 @@ ReleaseNotes\MobileJS
 <li>windowsforms/calculate/supported-formulas/database-functions.md</li>
 <li>windowsforms/calculate/performance.md</li>
 <li>bold-bi/api/v4.0.md</li>
+<li>uwp/report-viewer/overview.md</li>
+<li>uwp/report-viewer/getting-started.md</li>
+<li>uwp/report-viewer/limitations.md</li>
+<li>uwp/spell-checker/overview.md</li>
+<li>uwp/spell-checker/getting-started.md</li>
+<li>uwp/spell-checker/spell-checking-options.md</li>
+<li>uwp/spell-checker/context-menu-suggestion.md</li>
+<li>uwp/spell-checker/custom-dictionary-support.md</li>
+<li>uwp/spell-checker/localization.md</li>
