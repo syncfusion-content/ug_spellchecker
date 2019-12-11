@@ -73,3 +73,6 @@ xlsm
 geolocation
 Cancelled
 deselecting
+forecolor
+Nunit
+Checkmarx
