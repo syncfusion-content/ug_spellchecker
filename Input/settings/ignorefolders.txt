@@ -172,3 +172,6 @@ ReleaseNotes\MobileJS
 <li>windowsforms/spell-checker/context-menu-suggestion.md</li>
 <li>windowsforms/spell-checker/custom-dictionary-support.md</li>
 <li>windowsforms/spell-checker/localization.md</li>
+<li>windowsforms/spell-checker/custom-dictionary.md</li>
+<li>windowsforms/spell-checker/customization.md</li>
+<li>windowsforms/spell-checker/visualstyle.md</li>
