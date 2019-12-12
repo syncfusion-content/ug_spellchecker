@@ -76,3 +76,9 @@ deselecting
 forecolor
 Nunit
 Checkmarx
+Vba
+VbaModuleType
+IVbaModule
+IVbaModules
+IVbaProject
+VbaProject
