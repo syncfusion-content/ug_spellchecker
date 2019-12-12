@@ -75,7 +75,6 @@ Cancelled
 deselecting
 forecolor
 Nunit
-Checkmarx
 Vba
 VbaModuleType
 IVbaModule
