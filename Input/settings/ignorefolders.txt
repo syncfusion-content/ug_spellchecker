@@ -166,3 +166,9 @@ ReleaseNotes\MobileJS
 <li>wpf/navigation-drawer/concepts-and-features.md</li>
 <li>wpf/navigation-drawer/events-and-methods.md</li>
 <li>wpf/timespan-editor/custom-format-string.md</li>
+<li>windowsforms/spell-checker/overview.md</li>
+<li>windowsforms/spell-checker/getting-started.md</li>
+<li>windowsforms/spell-checker/spell-checking-options.md</li>
+<li>windowsforms/spell-checker/context-menu-suggestion.md</li>
+<li>windowsforms/spell-checker/custom-dictionary-support.md</li>
+<li>windowsforms/spell-checker/localization.md</li>
