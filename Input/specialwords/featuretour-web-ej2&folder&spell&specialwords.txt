@@ -60,3 +60,5 @@ Blazor
 navbar
 Zoomable
 autosuggest
+Firebase
+Realtime
