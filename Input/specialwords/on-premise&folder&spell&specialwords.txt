@@ -3,4 +3,4 @@ databasename
 iswindowsauthentication
 sslenabled
 isembed
-
+SaaS
