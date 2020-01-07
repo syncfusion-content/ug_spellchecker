@@ -13,3 +13,4 @@ Blazor
 geolocation
 toolstrip
 toolstripitem
+geo
