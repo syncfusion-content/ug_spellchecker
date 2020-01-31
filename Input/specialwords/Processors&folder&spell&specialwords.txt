@@ -43,3 +43,6 @@ bq
 maxima
 querysolr
 exeption
+jane
+Kibana
+aggs
