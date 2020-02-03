@@ -53,3 +53,5 @@ Idp
 ums
 cd
 Exasol
+dir
+sybak
