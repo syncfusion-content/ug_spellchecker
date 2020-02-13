@@ -13,3 +13,4 @@ netstandard
 cancelled
 msiexec
 Auth
+netcoreapp
