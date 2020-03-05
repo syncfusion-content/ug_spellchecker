@@ -81,3 +81,10 @@ IVbaModule
 IVbaModules
 IVbaProject
 VbaProject
+Pallete
+Selectall
+Annotaiton
+Costura
+Revu
+Shinhala
+rowlayout
