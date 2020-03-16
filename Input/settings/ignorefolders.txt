@@ -177,3 +177,11 @@ ReleaseNotes\MobileJS
 <li>windowsforms/spell-checker/visualstyle.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/calendar-library.html.md</li>
 <li>data-integration/api/v2.5.0.36.md</li>
+<li>bold-bi/api/v1.0.md</li>
+<li>bold-bi/api/v2.0.md</li>
+<li>bold-bi/api/v3.0.md</li>
+<li>bold-bi/api/v4.0.md</li>
+<li>bold-bi/api/v1.0.md</li>
+<li>bold-bi/api/v2.0.md</li>
+<li>bold-bi/api/v3.0.md</li>
+<li>bold-bi/api/v4.0.md</li>
