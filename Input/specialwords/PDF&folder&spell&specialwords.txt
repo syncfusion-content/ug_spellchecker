@@ -9,3 +9,6 @@ libxrandr
 libxrender
 Zugferd
 Layouter
+tessdata
+Tessdata
+libgdiplus
