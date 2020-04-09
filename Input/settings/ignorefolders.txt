@@ -187,7 +187,7 @@ ReleaseNotes\MobileJS
 <li>bold-bi/api/v4.0.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_datepicker/latest/datepicker/datepicker-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_pdf/latest/pdf/pdf-library.html.md</li>
-<li>bold-bi/cloud-bi/<li>bold-bi-walk-through.md</li>
+<li>bold-bi/cloud-bi/bold-bi-walk-through.md</li>
 <li>bold-bi/cloud-bi/creating-a-new-data-source.md</li>
 <li>bold-bi/cloud-bi/data-connectivity/42matters.md</li>
 <li>bold-bi/cloud-bi/data-connectivity/activecampaign.md</li>
@@ -370,7 +370,7 @@ ReleaseNotes\MobileJS
 <li>bold-bi/cloud-bi/api/v2.0.md</li>
 <li>bold-bi/cloud-bi/api/v3.0.md</li>
 <li>bold-bi/cloud-bi/api/v4.0.md</li>
-<li>bold-bi/enterprise-bi/<li>bold-bi-walk-through.md</li>
+<li>bold-bi/enterprise-bi/bold-bi-walk-through.md</li>
 <li>bold-bi/enterprise-bi/creating-a-new-data-source.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/42matters.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/activecampaign.md</li>
