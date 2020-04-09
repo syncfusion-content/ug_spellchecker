@@ -553,3 +553,4 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/api/v2.0.md</li>
 <li>bold-bi/enterprise-bi/api/v3.0.md</li>
 <li>bold-bi/enterprise-bi/api/v4.0.md</li>
+<li>https://help.syncfusion.com/flutter/pdf/getting-started.md</li>
