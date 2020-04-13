@@ -554,3 +554,6 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/api/v3.0.md</li>
 <li>bold-bi/enterprise-bi/api/v4.0.md</li>
 <li>https://help.syncfusion.com/flutter/pdf/getting-started.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_barcodes/latest/barcodes/barcodes-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
