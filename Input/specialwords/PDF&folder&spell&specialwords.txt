@@ -12,3 +12,6 @@ Layouter
 tessdata
 Tessdata
 libgdiplus
+syncfusionocrprocessor
+Tesseractbinaries
+xxx
