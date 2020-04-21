@@ -557,3 +557,9 @@ ReleaseNotes\MobileJS
 <li>https://pub.dev/documentation/syncfusion_flutter_barcodes/latest/barcodes/barcodes-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/configure-widgets/custom-widget.md</li>
+<li>bold-bi/enterprise-bi/import-widgets.md</li>
+<li>bold-bi/enterprise-bi/dashboard-theme.md</li>
+<li>bold-bi/enterprise-bi/site-settings/dashboard-settings.md</li>
+<li>bold-bi/enterprise-bi/site-settings/auto-save-filter.md</li>
+<li>bold-bi/enterprise-bi/site-settings/default-views.md</li>
