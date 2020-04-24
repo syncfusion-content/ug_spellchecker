@@ -576,3 +576,5 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/manage-pinboards/navigate-another-pinboard.md</li>
 <li>bold-bi/enterprise-bi/manage-dashboards/manage-multi-tabbed-dashboards.md</li>
 <li>bold-bi/enterprise-bi/configuring-dashboard-parameters.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/configure-widgets/map.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/configure-widgets/bing-maps.md</li>
