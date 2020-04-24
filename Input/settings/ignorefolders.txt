@@ -579,3 +579,7 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/map.md</li>
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/bing-maps.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/google-ads.md</li>
+<li>bold-bi/enterprise-bi/data/dynamic-connection-string.md</li>
+<li>bold-bi/enterprise-bi/data/user-filter/user-filter-overview.md</li>
+<li>bold-bi/enterprise-bi/data/user-filter/user-filter-manual.md</li>
+<li>bold-bi/enterprise-bi/data/user-filter/user-filter-advanced.md</li>
