@@ -585,3 +585,6 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/data/user-filter/user-filter-advanced.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/excel.md</li>
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/period-over-period.md</li>
+<li>bold-bi/enterprise-bi/responsiveness/overview.md</li>
+<li>bold-bi/enterprise-bi/responsiveness/responsive-design-bold-bi-dashboard.md</li>
+<li>bold-bi/enterprise-bi/responsiveness/responsive-design-bold-bi-server.md</li>
