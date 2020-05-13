@@ -588,3 +588,7 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/responsiveness/overview.md</li>
 <li>bold-bi/enterprise-bi/responsiveness/responsive-design-bold-bi-dashboard.md</li>
 <li>bold-bi/enterprise-bi/responsiveness/responsive-design-bold-bi-server.md</li>
+<li>bold-bi/manage-groups/import-oauth-groups.md</li>
+<li>bold-bi/manage-groups/import-openid-groups.md</li>
+<li>bold-bi/enterprise-bi/manage-groups/import-oauth-groups.md</li>
+<li>bold-bi/enterprise-bi/manage-groups/import-openid-groups.md</li>
