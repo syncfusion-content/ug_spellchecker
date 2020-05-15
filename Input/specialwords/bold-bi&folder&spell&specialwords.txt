@@ -73,3 +73,5 @@ Freshdesk
 Freshservice
 Gizmo
 Todoist
+Cognito
+Okta
