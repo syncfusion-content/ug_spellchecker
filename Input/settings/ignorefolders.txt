@@ -602,3 +602,4 @@ ReleaseNotes\MobileJS
 <li>bold-bi/enterprise-bi/api/try-it-now/v3.0.md</li>
 <li>bold-bi/enterprise-bi/api/try-it-now/v4.0.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/clubready.md</li>
+wpf\Classic\Chart
