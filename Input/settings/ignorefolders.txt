@@ -613,3 +613,12 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/api/try-it-now/v3.0/.md</li>
 <li>bold-bi/enterprise-bi/api/try-it-now/v4.0/.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/slack.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/facebook.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/forecasting.md</li>
+<li>bold-bi/enterprise-bi/manage-users/add-users.md</li>
+<li>bold-bi/enterprise-bi/manage-users/import-database-users.md</li>
+<li>bold-bi/enterprise-bi/manage-users/synchronization-imported-users-from-exisiting-database.md</li>
+<li>bold-bi/on-premise/manage-users/synchronization-active-directory-users.md</li>
+<li>bold-bi/enterprise-bi/manage-users/import-azure-active-directory-users.md</li>
+<li>bold-bi/enterprise-bi/manage-users/synchronize-azure-active-directory-users.md</li>
+<li>bold-bi/enterprise-bi/dashboard-mobile/dashboard.md</li>
