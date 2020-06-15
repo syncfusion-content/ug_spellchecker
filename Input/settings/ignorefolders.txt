@@ -622,3 +622,5 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/manage-users/import-azure-active-directory-users.md</li>
 <li>bold-bi/enterprise-bi/manage-users/synchronize-azure-active-directory-users.md</li>
 <li>bold-bi/enterprise-bi/dashboard-mobile/dashboard.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/facebook-ads.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/commvault.md</li>
