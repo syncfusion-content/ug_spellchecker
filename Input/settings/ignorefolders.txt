@@ -625,3 +625,4 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/data-connectivity/facebook-ads.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/commvault.md</li>
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/text.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/surveymonkey.md</li>
