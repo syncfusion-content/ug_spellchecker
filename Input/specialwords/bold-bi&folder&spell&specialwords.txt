@@ -76,3 +76,5 @@ Todoist
 Cognito
 Okta
 Xero
+Lessonly
+Subdomain
