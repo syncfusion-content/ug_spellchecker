@@ -633,3 +633,8 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/data-connectivity/prometheus.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/sendible.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/amazon-mws.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/zendesk-sunshine.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/google-sheets.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/proofhub.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/ravendb.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/configure-widgets/spline-area-chart.md</li>
