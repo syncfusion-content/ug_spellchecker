@@ -638,3 +638,5 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/data-connectivity/proofhub.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/ravendb.md</li>
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/spline-area-chart.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/zoho-invoice.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/azure-search.md</li>
