@@ -234,3 +234,4 @@ uk
 po
 msgid
 msgstr
+msgtr
