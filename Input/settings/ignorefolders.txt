@@ -651,3 +651,5 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/data-connectivity/mariadb.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/memsql.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/postgresql.md</li>
+<li>bold-bi/visualize-data/widget-action.md</li>
+<li>bold-bi/enterprise-bi/visualize-data/widget-action.md</li>
