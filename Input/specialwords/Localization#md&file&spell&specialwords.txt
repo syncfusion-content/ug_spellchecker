@@ -231,3 +231,6 @@ uz
 zh
 zu
 uk
+po
+msgid
+msgstr
