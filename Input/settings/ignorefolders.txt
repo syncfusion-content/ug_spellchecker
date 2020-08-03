@@ -656,3 +656,6 @@ wpf\Classic\Chart
 <li>bold-bi/localization.md</li>
 <li>bold-bi/enterprise-bi/localization.md</li>
 <li>bold-bi/data/dynamic-connection-string-configuration.md</li>
+<li>bold-bi/dashboard-theme.md</li>
+<li>bold-bi/enterprise-bi/manage-dashboards/publish-dashboards.md</li>
+<li>bold-bi/enterprise-bi/data-alerts.md</li>
