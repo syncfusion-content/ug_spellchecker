@@ -655,3 +655,4 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/visualize-data/widget-action.md</li>
 <li>bold-bi/localization.md</li>
 <li>bold-bi/enterprise-bi/localization.md</li>
+<li>bold-bi/data/dynamic-connection-string-configuration.md</li>
