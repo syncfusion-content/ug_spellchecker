@@ -659,3 +659,5 @@ wpf\Classic\Chart
 <li>bold-bi/dashboard-theme.md</li>
 <li>bold-bi/enterprise-bi/manage-dashboards/publish-dashboards.md</li>
 <li>bold-bi/enterprise-bi/data-alerts.md</li>
+<li>bold-bi/enterprise-bi/configuring-isolation-code.md</li>
+<li>bold-bi/enterprise-bi/configuring-custom-attribute.md</li>
