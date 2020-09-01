@@ -663,3 +663,5 @@ wpf\Classic\Chart
 <li>bold-bi/enterprise-bi/configuring-custom-attribute.md</li>
 <li>bold-bi/manage-dashboards/publish-dashboards.md</li>
 <li>bold-bi/data-alerts.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/quickbooks-online.md</li>
+<li>bold-bi/enterprise-bi/data-connectivity/quickbooks-payments.md</li>
