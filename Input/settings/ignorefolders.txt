@@ -665,3 +665,4 @@ wpf\Classic\Chart
 <li>bold-bi/data-alerts.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/quickbooks-online.md</li>
 <li>bold-bi/enterprise-bi/data-connectivity/quickbooks-payments.md</li>
+<li>bold-bi/visualize-data/configure-widgets/bing-maps.md</li>
