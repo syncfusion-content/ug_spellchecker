@@ -81,3 +81,5 @@ Subdomain
 Shopify
 Podio
 proofhub
+boldbi
+onpremise
