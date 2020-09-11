@@ -668,3 +668,7 @@ wpf\Classic\Chart
 <li>bold-bi/visualize-data/configure-widgets/bing-maps.md</li>
 <li>bold-bi/enterprise-bi/combine-data-sources.md</li>
 <li>bold-bi/enterprise-bi/visualize-data/configure-widgets/combine-widget.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/datagrid-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/maps-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_sliders/latest/sliders/sliders-library.html.md</li>
