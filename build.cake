@@ -7,6 +7,7 @@ var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
 #tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
+#tool nuget:?package=Syncfusion.GitlabToGithub
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -15,6 +16,7 @@ var buildStatus = true;
 var isSpellingError=0;
 var isDocumentvalidationError=0;
 var isHtmlConversionError=0;
+var isGithubMoveStatus=0;
 var sourcefolder="";
 var repositoryName="";
 
@@ -36,6 +38,7 @@ Task("build")
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.GitlabToGithub/Syncfusion.GitlabToGithub/tools/*", "./tools");
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
@@ -98,6 +101,10 @@ Task("build")
 	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
+		if(targetBranch.Contains("master"))
+		{
+		  RunTarget("MoveGitlabToGithub");
+		}
 	} 
 	else {   
 		throw new Exception(String.Format("Please fix the project compilation failures"));  
@@ -119,6 +126,25 @@ Task("CopyFile")
 			MoveFileToDirectory(cireports+"/spellcheckreport.htm", cireports+"/spellcheck/");
 		}
 		
+		
+});
+
+Task("MoveGitlabToGithub")
+.Does(() =>
+{
+	try {
+            
+			    repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
+                Information("Moving Files from Gitlab to Github");
+				Information("Cloning repository.."+repositoryName);
+				Information("Cloning repository.."+reposistoryPath);
+			    isGithubMoveStatus=StartProcess("./tools/GitlabtoGithub.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+            
+		}
+	catch(Exception ex)
+	{        
+		buildStatus = false;
+	}	
 		
 });
 
