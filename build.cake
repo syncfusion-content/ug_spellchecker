@@ -7,7 +7,7 @@ var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
 #tool nuget:?package=Syncfusion.Content.FTHtmlConversion.CI
-#tool nuget:?package=Syncfusion.GitlabToGithub
+#tool nuget:?package=Syncfusion.PushGitLabToGithub
 var cireports = Argument("cireports", "../cireports");
 var platform=Argument<string>("platform","");
 var sourcebranch=Argument<string>("branch","");
@@ -38,7 +38,7 @@ Task("build")
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
- CopyFiles("./tools/Syncfusion.GitlabToGithub/Syncfusion.GitlabToGithub/tools/*", "./tools");
+ CopyFiles("./tools/Syncfusion.PushGitLabToGithub/Syncfusion.PushGitLabToGithub/tools/*", "./tools");
  EnsureDirectoryExists("./Templates");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
@@ -138,7 +138,7 @@ Task("MoveGitlabToGithub")
                 Information("Moving Files from Gitlab to Github");
 				Information("Cloning repository.."+repositoryName);
 				Information("Cloning repository.."+reposistoryPath);
-			    isGithubMoveStatus=StartProcess("./tools/GitlabtoGithub.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
+			    isGithubMoveStatus=StartProcess("./tools/PushGitLabToGithub.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+" "+repositoryName});
             
 		}
 	catch(Exception ex)
