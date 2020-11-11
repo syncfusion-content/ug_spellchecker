@@ -101,7 +101,7 @@ Task("build")
 	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
-		if(targetBranch.Contains("master"))
+		if(targetBranch.Contains("master")&&sourcebranch.Contains("master"))
 		{
 		  RunTarget("MoveGitlabToGithub");
 		}
