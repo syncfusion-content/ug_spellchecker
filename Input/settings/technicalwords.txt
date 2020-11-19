@@ -304,4 +304,3 @@ linux = Linux
 Angular = AngularJS
 nuget = NuGet
 active directory = Active Directory
-JSRender = JsRender
