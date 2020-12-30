@@ -19,6 +19,7 @@ var isHtmlConversionError=0;
 var isGithubMoveStatus=0;
 var sourcefolder="";
 var repositoryName="";
+var documentationToolsStatus = true;
 
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
@@ -92,13 +93,18 @@ Task("build")
 		}
             }
 	  }
+	  else
+	  {
+	  	documentationToolsStatus = false;
+		Information("Document validation tool failed with exception");
+	  }
 	}
 	catch(Exception ex)
 	{        
 		buildStatus = false;
 		Information(ex);
 	}
-	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus) {    
+	if(isSpellingError==0 && isDocumentvalidationError==0 && isHtmlConversionError==0 && buildStatus && documentationToolsStatus) {    
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 		repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
@@ -108,6 +114,7 @@ Task("build")
 		}
 	} 
 	else {   
+	    Information("Job was failed due to changed documents have spelling error or document validation errors");
 		throw new Exception(String.Format("Please fix the project compilation failures"));  
 	}
 });
