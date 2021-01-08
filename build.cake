@@ -19,6 +19,7 @@ var isHtmlConversionError=0;
 var isGithubMoveStatus=0;
 var sourcefolder="";
 var repositoryName="";
+var isJobSuccess = true;
 
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
@@ -145,6 +146,58 @@ Task("MoveGitlabToGithub")
 	catch(Exception ex)
 	{        
 		buildStatus = false;
+	}	
+		
+});
+
+
+Task("GithubErrorValidation")
+.Does(() =>
+{
+	try 
+	{
+            var errorfiles = GetFiles("../cireports/errorlogs/*.txt");
+		
+			if(!(errorfiles.Count() > 0))
+			{
+            var reportFiles = GetFiles(@"../cireports/**/*.(htm||html)");
+				
+				foreach (var reportFile in reportFiles)
+				{
+					string fileContent = System.IO.File.ReadAllText(reportFile.ToString());
+											
+					if ((fileContent.Contains("</td>")))
+					{
+						if (reportFile.ToString().Contains("spellcheckreport")) 		
+						{
+							if (fileContent.Contains("<td>Technical Error</td>") || fileContent.Contains("<td>Spell Error</td>"))
+							{
+								isJobSuccess = false;
+								break;
+							}
+							
+						}
+						else
+						{
+							isJobSuccess = false;
+							break;
+						}
+					}
+				}
+            
+			}
+			else
+			{
+				isJobSuccess = false;
+			}
+			if (isJobSuccess == false)
+			{
+				throw new Exception(String.Format("Please fix the documentation errors"));  
+			}
+	}
+	catch(Exception ex)
+	{        
+		throw new Exception(String.Format("Please fix the documentation errors"));
 	}	
 		
 });
