@@ -102,7 +102,7 @@ Task("build")
 		Information("Compilation successfull");
 		RunTarget("CopyFile");
 		repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-		if(targetBranch.Contains("master")&&sourcebranch.Contains("master")&& !repositoryName.ToLower().Contains("featuretour"))
+		if(targetBranch.Contains("master")&&sourcebranch.Contains("master")&& !repositoryName.ToLower().Contains("featuretour")&& !repositoryName.ToLower().Contains("whatsnew"))
 		{
 		  RunTarget("MoveGitlabToGithub");
 		}
