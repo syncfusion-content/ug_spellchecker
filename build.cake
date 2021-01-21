@@ -106,6 +106,10 @@ Task("build")
 		{
 		  RunTarget("MoveGitlabToGithub");
 		}
+		if(isGithubMoveStatus!=0 || buildStatus == false)
+		{
+		  throw new Exception(String.Format("Please fix the issues in moving source from GitLab to GitHub"));
+		}
 	} 
 	else {   
 		throw new Exception(String.Format("Please fix the project compilation failures"));  
