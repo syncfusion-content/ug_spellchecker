@@ -677,3 +677,5 @@ wpf\Classic\Chart
 <li>https://pub.dev/documentation/syncfusion_flutter_pdfviewer/latest/pdfviewer/pdfviewer-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_signaturepad/latest/signaturepad/sfsignaturepad-class.html.md</li>
 <li>wpf/classic/skin-storage/xaml-path-changes.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_charts/latest/sparkcharts/sparkcharts-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_signaturepad/latest/signaturepad/signaturepad-library.html.md</li>
