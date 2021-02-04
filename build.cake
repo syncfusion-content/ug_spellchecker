@@ -60,8 +60,12 @@ Task("build")
         
         //Code to run the Document validation tool
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
+			Information(reposistoryPath);
+				Information(repositoryName);
+					Information(targetBranch);
+					
         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
-		
+		Information("DocumentationValidation.exe is completed");
 	bool isWithoutError = true;
 
         var errorfiles = GetFiles("../cireports/errorlogs/*.txt");
@@ -83,12 +87,18 @@ Task("build")
                     }
                 }
             }
+			Information(repositoryName);
             if (isWithoutError == true)
-            {
+            { 
+			Information(repositoryName);
 		//Code to run the Html conversion tool for feature tour repositories
 		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
-		{
-			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+		{ 
+		     Information("MDToHtmlConverter.exe is started");
+			 Information(reposistoryPath);
+			 Information(repositoryName);
+			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/"+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+			Information("MDToHtmlConverter.exe is ended");
 		}
             }
 	  }
