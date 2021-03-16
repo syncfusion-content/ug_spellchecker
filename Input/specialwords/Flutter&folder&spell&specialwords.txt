@@ -6,3 +6,6 @@ Pashto
 sublayers
 vsync
 dev
+easeInCirc
+Sparkarea
+Sparkbar
