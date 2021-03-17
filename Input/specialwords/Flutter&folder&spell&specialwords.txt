@@ -9,3 +9,5 @@ dev
 easeInCirc
 Sparkarea
 Sparkbar
+pdfviewer
+signaturepad
