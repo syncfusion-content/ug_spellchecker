@@ -63,3 +63,4 @@ autosuggest
 Firebase
 Realtime
 Sidenav
+controlcount
