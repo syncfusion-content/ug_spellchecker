@@ -11,3 +11,4 @@ Sparkarea
 Sparkbar
 pdfviewer
 signaturepad
+intl
