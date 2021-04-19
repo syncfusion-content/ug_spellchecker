@@ -679,3 +679,5 @@ wpf\Classic\Chart
 <li>wpf/classic/skin-storage/xaml-path-changes.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_charts/latest/sparkcharts/sparkcharts-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_signaturepad/latest/signaturepad/signaturepad-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/gauges-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/treemap-library.html.md</li>
