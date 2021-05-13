@@ -64,3 +64,4 @@ Firebase
 Realtime
 Sidenav
 controlcount
+plugins
