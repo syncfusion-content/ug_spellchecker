@@ -12,3 +12,4 @@ Sparkbar
 pdfviewer
 signaturepad
 intl
+tappable
