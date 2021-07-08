@@ -25,3 +25,4 @@ timepicker
 radiobutton
 excelfilter 
 onload
+macos
