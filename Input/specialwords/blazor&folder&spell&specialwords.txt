@@ -8,3 +8,10 @@ hms
 Atr
 Rsi
 Sma
+datalabel
+Datalabel
+keyup
+onkeydown
+onkeyup
+userhandle
+userhandles
