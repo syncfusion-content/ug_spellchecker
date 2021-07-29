@@ -8,3 +8,4 @@ hms
 Atr
 Rsi
 Sma
+datalabel
