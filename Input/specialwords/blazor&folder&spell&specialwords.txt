@@ -9,3 +9,4 @@ Atr
 Rsi
 Sma
 datalabel
+Datalabel
