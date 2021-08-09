@@ -18,3 +18,11 @@ userhandles
 blazor
 webassembly
 Diffing
+dotnet
+blazorwasm
+Salessupport
+Clientrelations
+Appsettings
+syncfusionessentialblazor
+Scaffolder
+Auth
