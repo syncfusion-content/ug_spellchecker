@@ -26,3 +26,5 @@ Appsettings
 syncfusionessentialblazor
 Scaffolder
 Auth
+Cldr
+cldr
