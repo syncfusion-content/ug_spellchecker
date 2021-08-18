@@ -90,3 +90,6 @@ aspnet
 aspnetmvc
 Compat
 xlsb
+gridcolumn
+alpahnumeric
+wasm
