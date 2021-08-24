@@ -31,3 +31,5 @@ cldr
 Caros
 caros
 Accessor
+controlanchorlink
+controlcategory
