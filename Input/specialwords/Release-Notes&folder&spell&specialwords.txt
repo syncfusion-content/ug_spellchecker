@@ -93,3 +93,4 @@ xlsb
 gridcolumn
 alpahnumeric
 wasm
+Appium
