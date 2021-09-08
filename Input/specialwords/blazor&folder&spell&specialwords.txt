@@ -56,3 +56,9 @@ prerendering
 Prerendered
 prerelease
 multiselectable
+Haspopup
+Flipkart
+Snapdeal
+Firebase
+aws
+Realtime
