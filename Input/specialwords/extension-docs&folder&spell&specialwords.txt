@@ -4,3 +4,4 @@ Scaffolder
 appsettings
 Scaffolder
 Auth
+ejs
