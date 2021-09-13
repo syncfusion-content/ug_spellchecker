@@ -62,3 +62,10 @@ Snapdeal
 Firebase
 aws
 Realtime
+Archa
+Archb
+Archc
+Archd
+Arche
+Flsa
+Pid
