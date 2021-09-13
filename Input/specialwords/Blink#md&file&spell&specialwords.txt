@@ -1,1 +1,7 @@
 setuid
+libdbus
+libgconf
+libgdk
+libgtk
+libpango
+libpangocairo
