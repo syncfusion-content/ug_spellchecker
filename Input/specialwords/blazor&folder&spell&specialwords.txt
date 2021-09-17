@@ -69,3 +69,9 @@ Archd
 Arche
 Flsa
 Pid
+Pdfexport
+Excelexport
+Wordexport
+Csvexport
+Matchs
+Farsi
