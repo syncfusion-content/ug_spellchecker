@@ -30,3 +30,4 @@ Multitaskbar
 flyout
 Qura
 UmAlQuraCalendar
+ejs
