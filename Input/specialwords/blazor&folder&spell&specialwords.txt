@@ -75,3 +75,4 @@ Wordexport
 Csvexport
 Matchs
 Farsi
+Ltr
