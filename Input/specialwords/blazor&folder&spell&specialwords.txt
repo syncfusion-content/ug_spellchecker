@@ -76,3 +76,7 @@ Csvexport
 Matchs
 Farsi
 Ltr
+Mc
+Laren
+Chiron
+concat
