@@ -80,3 +80,7 @@ Mc
 Laren
 Chiron
 concat
+Failured
+valuemin
+valuemax
+valuenow
