@@ -84,3 +84,7 @@ Failured
 valuemin
 valuemax
 valuenow
+rowcell
+headercell
+Activedescendant
+Lifecycle
