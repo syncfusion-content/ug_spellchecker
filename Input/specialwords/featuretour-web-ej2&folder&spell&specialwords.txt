@@ -65,3 +65,5 @@ Realtime
 Sidenav
 controlcount
 plugins
+Mapbox
+Esri
