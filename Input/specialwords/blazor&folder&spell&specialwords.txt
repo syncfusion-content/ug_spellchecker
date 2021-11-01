@@ -90,3 +90,7 @@ Activedescendant
 Lifecycle
 activedescendent
 Tma
+Populationsdev
+Samplestdev
+Populationvar
+Samplevar
