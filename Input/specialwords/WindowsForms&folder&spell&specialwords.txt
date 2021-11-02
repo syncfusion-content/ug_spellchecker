@@ -288,3 +288,4 @@ Integertextbox
 Annot
 statusbaradvpanel
 Caros
+controlcount
