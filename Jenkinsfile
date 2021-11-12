@@ -16,7 +16,7 @@ String platform='';
 			 
 			 //get the changelog by using git difference command
 			 
-			 String ChangeDetails = bat returnStdout: true, script: 'git diff --name-only '+env.gitlabSourceBranch+'..origin/'+env.gitlabTargetBranch
+			 String ChangeDetails = bat returnStdout: true, script: 'git diff --name-only '+env.githubSourceBranch+'..origin/'+env.githubTargetBranch
 			 
 			 def ChangeFiles=ChangeDetails.split('\n')
 			 
@@ -35,7 +35,7 @@ String platform='';
 		    }
 			 
 		   //Checkout the ug_spellchecker from development Source
-	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.gitlabCredentialId, url: 'https://gitlab.syncfusion.com/content/ug_spellchecker.git']]])
+	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.githubCredentialId, url: 'https://gitlab.syncfusion.com/content/ug_spellchecker.git']]])
 		 
 	  }
 	 
@@ -53,7 +53,7 @@ if(currentBuild.result != 'FAILURE')
 	{
 	    gitlabCommitStatus("Build")
 		{
-		bat 'powershell.exe -ExecutionPolicy ByPass -File '+env.WORKSPACE+"/ug_spellchecker/build.ps1 -Script "+env.WORKSPACE+"/ug_spellchecker/build.cake -Target build -Platform \""+platform+"\" -Branch "+'"'+env.gitlabSourceBranch+'"'
+		bat 'powershell.exe -ExecutionPolicy ByPass -File '+env.WORKSPACE+"/ug_spellchecker/build.ps1 -Script "+env.WORKSPACE+"/ug_spellchecker/build.cake -Target build -Platform \""+platform+"\" -Branch "+'"'+env.githubSourceBranch+'"'
 	 	}
     }
 	 catch(Exception e) 
