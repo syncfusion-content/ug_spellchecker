@@ -44,3 +44,4 @@ impendence
 reactance
 emojis
 dismissible
+controlcount
