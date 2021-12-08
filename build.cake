@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
 //////////////////////////////////////////////////////////////////////
-#addin nuget:?package=Cake.FileHelpers
+#addin nuget:?package=Cake.FileHelpers&version=4.0.1
 #tool nuget:?package=Syncfusion.Spellcheck.CI
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
