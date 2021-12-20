@@ -681,3 +681,4 @@ wpf\Classic\Chart
 <li>https://pub.dev/documentation/syncfusion_flutter_signaturepad/latest/signaturepad/signaturepad-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/gauges-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/treemap-library.html.md</li>
+<li>file-formats/docio/working-with-sections.md</li>
