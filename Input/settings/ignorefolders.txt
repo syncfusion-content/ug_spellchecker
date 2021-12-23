@@ -682,3 +682,6 @@ wpf\Classic\Chart
 <li>https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/gauges-library.html.md</li>
 <li>https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/treemap-library.html.md</li>
 <li>file-formats/docio/working-with-sections.md</li>
+<li>file-formats/xlsio/create-read-edit-excel-files-in-maui-c-sharp.md</li>
+<li>file-formats/xlsio/create-read-edit-excel-files-in-winui-c-sharp.md</li>
+<li>file-formats/xlsio/nuget-packages-required.md</li>
