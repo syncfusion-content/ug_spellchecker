@@ -685,3 +685,7 @@ wpf\Classic\Chart
 <li>file-formats/xlsio/create-read-edit-excel-files-in-maui-c-sharp.md</li>
 <li>file-formats/xlsio/create-read-edit-excel-files-in-winui-c-sharp.md</li>
 <li>file-formats/xlsio/nuget-packages-required.md</li>
+<li>file-formats/presentation/create-read-edit-powerpoint-files-in-asp-net-core-c-sharp.md</li>
+<li>file-formats/presentation/create-read-edit-powerpoint-files-in-blazor.md</li>
+<li>file-formats/presentation/create-read-edit-powerpoint-files-in-uwp.md</li>
+<li>file-formats/presentation/create-read-edit-powerpoint-files-in-xamarin.md</li>
