@@ -5,7 +5,7 @@ Celcius
 userid
 reportdesigner
 ejservices
-currencytextbox
+currency textbox
 fileexplorer
 maskedit
 numerictextbox
@@ -23,6 +23,7 @@ ReactJS
 datetimepicker
 timepicker
 radiobutton
-excelfilter 
+excelfilter
 onload
 macos
+Emoticons
