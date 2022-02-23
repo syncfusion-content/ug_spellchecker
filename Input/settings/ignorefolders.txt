@@ -690,3 +690,4 @@ wpf\Classic\Chart
 <li>file-formats/presentation/create-read-edit-powerpoint-files-in-uwp.md</li>
 <li>file-formats/presentation/create-read-edit-powerpoint-files-in-xamarin.md</li>
 <li>file-formats/docio/working-with-word-document.md</li>
+<li>file-formats/docio/working-with-content-controls.md</li>
