@@ -691,3 +691,4 @@ wpf\Classic\Chart
 <li>file-formats/presentation/create-read-edit-powerpoint-files-in-xamarin.md</li>
 <li>file-formats/docio/working-with-word-document.md</li>
 <li>file-formats/docio/working-with-content-controls.md</li>
+<li>file-formats/docio/working-with-footnotes-and-endnotes.md</li>
