@@ -98,3 +98,4 @@ blazorserver
 Reactance
 menubar
 middleware
+typeparam
