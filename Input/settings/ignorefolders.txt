@@ -695,3 +695,7 @@ wpf\Classic\Chart
 <li>file-formats/pdf/working-with-pdf-conformance.md</li>
 <li>file-formats/pdf/working-with-document.md</li>
 <li>file-formats/docio/html.md</li>
+<li>file-formats/docio/working-with-comments.md</li>
+<li>file-formats/docio/faq.md</li>
+<li>file-formats/docio/nuget-packages-required.md</li>
+<li>file-formats/docio/word-to-pdf.md</li>
