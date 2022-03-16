@@ -55,6 +55,7 @@ Task("build")
     }
     try
     {
+	EnsureDirectoryExists(cireports+"/errorlogs/");
         //Code to run spellchecker tool
         isSpellingError=StartProcess("./tools/DocumentSpellChecker.exe",new ProcessSettings{ Arguments = "/IsCIOperation:true /platform:"+platform+" /branch:"+sourcebranch+" /sourcefolder:"+sourcefolder});
         
