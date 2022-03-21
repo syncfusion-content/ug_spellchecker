@@ -699,6 +699,6 @@ wpf\Classic\Chart
 <li>file-formats/docio/faq.md</li>
 <li>file-formats/docio/nuget-packages-required.md</li>
 <li>file-formats/docio/word-to-pdf.md</li>
-<li>File-Formats/DocIO/Silverlight.md</li>
-<li>File-Formats/DocIO/WinRT.md</li>
-<li>File-Formats/DocIO/Windows-Phone.md</li>
+<li>file-formats/docio/silverlight.md</li>
+<li>file-formats/docio/winrt.md</li>
+<li>file-formats/docio/windows-phone.md</li>
