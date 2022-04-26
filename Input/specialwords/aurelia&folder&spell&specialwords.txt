@@ -15,10 +15,10 @@ CLI
 requirejs
 ejTemplate
 aurelia.json
-cd
-nav
 app.js
 main.js
+cd
+nav
 stackingcolumn
 steparea 
 stackingbar 

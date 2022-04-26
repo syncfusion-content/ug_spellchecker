@@ -702,3 +702,10 @@ wpf\Classic\Chart
 <li>file-formats/docio/silverlight.md</li>
 <li>file-formats/docio/winrt.md</li>
 <li>file-formats/docio/windows-phone.md</li>
+<li>ej2-asp-core-mvc/common/ej2_asp.mvc/deployment.md</li>
+<li>ej2-asp-core-mvc/common/ej2_asp.mvc/input-validation.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/appearance/size-modes.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/appearance/theme.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/getting-started/yeoman.md</li>
+<li>ej2-asp-core/chart/chart-series.md</li>
+

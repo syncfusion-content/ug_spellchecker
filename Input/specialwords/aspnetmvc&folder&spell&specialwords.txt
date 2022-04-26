@@ -1116,11 +1116,6 @@ notin
 xl
 WinLoss
 Connectorline
-pivotchart
-pivotgauge
-pivotgrid
-pivottreemap
-pivotclient
 fakepath
 ejpivotgrid
 enablecollapsebydefault

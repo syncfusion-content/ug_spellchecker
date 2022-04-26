@@ -102,7 +102,6 @@ portno
 servertype
 Machinekey
 currentdomain
-Dbms
 dom
 commonjs
 ncu 
@@ -129,10 +128,6 @@ rightindex
 tls
 PhantomJS
 postgres
-scriptable
-sitename
-syncfusiondscontainer
-syncfusionumscontainer
 isstartmenushortcut
 issetfirewallrule
 isdesktopshortcut

@@ -6,5 +6,3 @@ Angular JS
 Knockout JS
 inbuilt
 Mail Merge
-mail merge
-Mail Merge

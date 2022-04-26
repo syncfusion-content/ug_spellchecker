@@ -50,14 +50,11 @@ lproj
 resw
 ja
 Pacifico
-sfmaskededit
-maskededit
 Ortho
 Sublayers
 Explodable
 fdf
 xfdf
 Fdf
-sfmaskededit
 GeoPointToViewPoint
 GeoPoint

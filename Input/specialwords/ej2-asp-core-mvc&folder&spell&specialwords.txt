@@ -7684,3 +7684,5 @@ TopRightBottomLeft
 BottomRightTopLeft
 BottomLeftTopRight
 syncfusionessentialaspnetcore
+Firebase
+Auth

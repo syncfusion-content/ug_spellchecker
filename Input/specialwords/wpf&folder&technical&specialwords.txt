@@ -17,4 +17,3 @@ RRule
 winrt
 .Net
 framework
-ViewModelLocator 

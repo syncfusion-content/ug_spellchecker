@@ -74,8 +74,6 @@ ja
 Ciruclar
 Chalkduster
 Pacifico
-sfmaskededit
-maskededit
 plist
 Cancelled
 Ortho
@@ -84,6 +82,5 @@ Explodable
 fdf
 xfdf
 Fdf
-sfmaskededit
 GeoPointToViewPoint
 GeoPoint
