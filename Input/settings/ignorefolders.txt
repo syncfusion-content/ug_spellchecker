@@ -708,4 +708,5 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/ej2_asp.netcore/appearance/theme.md</li>
 <li>ej2-asp-core-mvc/ej2_asp.netcore/getting-started/yeoman.md</li>
 <li>ej2-asp-core/chart/chart-series.md</li>
+<li>ej2-asp-core-mvc/common/ej2_asp.mvc/state-persistence.md</li>
 
