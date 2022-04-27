@@ -709,4 +709,16 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/ej2_asp.netcore/getting-started/yeoman.md</li>
 <li>ej2-asp-core/chart/chart-series.md</li>
 <li>ej2-asp-core-mvc/common/ej2_asp.mvc/state-persistence.md</li>
-
+<li>ej2-asp-core-mvc/ej2_asp.mvc/installation/download.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/installation/installation-using-off-line-installer.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/installation/installation-using-web-installer.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/licensing/licensing-troubleshoot.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/licensing/overview.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/upgrade/upgrading.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/installation/asp-net-core-mac-installer-ej2.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/installation/download.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/installation/installation-using-off-line-installer.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/installation/installation-using-web-installer.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/licensing/licensing-troubleshoot.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/licensing/overview.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/upgrade/upgrading.md</li>
