@@ -733,7 +733,10 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/common/ej2_asp.netcore/adding-script-references.md</li>
 <li>ej2-asp-core-mvc/chart/ej2_asp.mvc/data-labels.md</li>
 <li>ej2-asp-core-mvc/chart/ej2_asp.netcore/data-labels.md</li>
-
+<li>flutter/upgrade/upgrade-from-major-version-to-service-pack-version.md</li>
+<li>flutter/upgrade/upgrade-from-one-version-to-another-version.md</li>
+<li>flutter/upgrade/upgrade-from-trial-version-to-license-version.md</li>
+<li>flutter/installation/installation-faq.md</li>
 
 
 
