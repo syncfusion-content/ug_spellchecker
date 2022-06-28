@@ -737,6 +737,12 @@ wpf\Classic\Chart
 <li>flutter/upgrade/upgrade-from-one-version-to-another-version.md</li>
 <li>flutter/upgrade/upgrade-from-trial-version-to-license-version.md</li>
 <li>flutter/installation/installation-faq.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/data-binding.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/icons.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/navigation.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/overflow.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/templates.md</li>
+<li>ej2-asp-core-mvc/breadcrumb/accessibility.md</li>
 
 
 
