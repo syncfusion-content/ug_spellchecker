@@ -743,6 +743,17 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/overflow.md</li>
 <li>ej2-asp-core-mvc/breadcrumb/ej2_asp.netcore/templates.md</li>
 <li>ej2-asp-core-mvc/breadcrumb/accessibility.md</li>
+<li>ej2-asp-core-mvc/gantt/criticalpath.md</li>
+<li>ej2-asp-core-mvc/gantt/state-persistence.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-activity.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-connectors.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-data-object.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-data-source.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-event.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-gateway.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-group.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-shapes.md</li>
+<li>blazor/diagram-component/bpmn-shapes/bpmn-text-annotation.md</li>
 
 
 
