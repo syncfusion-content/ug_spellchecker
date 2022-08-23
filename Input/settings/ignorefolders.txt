@@ -755,7 +755,6 @@ wpf\Classic\Chart
 <li>blazor/diagram-component/bpmn-shapes/bpmn-shapes.md</li>
 <li>blazor/diagram-component/bpmn-shapes/bpmn-text-annotation.md</li>
 <li>ej2-asp-core-mvc/gantt/scrolling.md</li>
-
-
+<li>ej2-asp-core-mvc/gantt/task-dependency.md</li>
 
 
