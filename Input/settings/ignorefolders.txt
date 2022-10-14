@@ -758,5 +758,6 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/gantt/task-dependency.md</li>
 <li>ej2-asp-core-mvc/skeleton/ej2_asp.mvc/getting-started.md</li>
 <li>ej2-asp-core-mvc/skeleton/ej2_asp.netcore/getting-started.md</li>
-
+<li>ej2-asp-core-mvc/gantt/filtering/filter-menu.md</li>
+<li>ej2-asp-core-mvc/gantt/tool-bar.md</li>
 
