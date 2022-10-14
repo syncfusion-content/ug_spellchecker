@@ -179,6 +179,16 @@ if(-Not $SkipToolPackageRestore.IsPresent) {
     Pop-Location
 }
 
+#Nexus Server Configuration
+Write-Host "Configuring Nexus server..."
+try
+{
+Invoke-Expression "& `"$NUGET_EXE`" sources add -Name NexusServer -Source http://nexus.syncfusion.com/repository/nuget-hosted/"
+}
+catch{
+	throw new Exception("Nexus server configuration failed ");
+}
+
 # Restore addins from NuGet
 if (Test-Path $ADDINS_PACKAGES_CONFIG) {
     Push-Location
