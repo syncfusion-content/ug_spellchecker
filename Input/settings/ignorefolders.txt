@@ -765,7 +765,18 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/skeleton/ej2_asp.mvc/shapes.md</li>
 <li>ej2-asp-core-mvc/floating-action-button/ej2_asp.mvc/positions.md</li>
 <li>ej2-asp-core-mvc/floating-action-button/ej2_asp.netcore/positions.md</li>
-
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.mvc/form-designer/create-fillable-pdf-forms/create-programmatically.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.netcore/form-designer/create-fillable-pdf-forms/create-programmatically.md</li>
+<li>ej2-asp-core-mvc/gantt/loading-animation.md</li>
+<li>ej2-asp-core/release-notes/20.3.60.md</li>
+<li>ej2-asp-core/release-notes/20.3.59.md</li>
+<li>ej2-asp-mvc/release-notes/20.3.60.md</li>
+<li>ej2-asp-mvc/release-notes/20.3.59.md</li>
+<li>ej2-asp-core-mvc/tree-grid/ej2_asp.mvc/data-binding/remote-data.md</li>
+<li>ej2-asp-core-mvc/tree-grid/ej2_asp.mvc/loading-animation.md</li>
+<li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/data-binding/data-binding-core.md</li>
+<li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/data-binding/remote-data.md</li>
+<li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/loading-animation.md</li>
 
 
 
