@@ -68,3 +68,4 @@ plugins
 Mapbox
 Esri
 prioritization
+bolding
