@@ -777,7 +777,24 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/data-binding/data-binding-core.md</li>
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/data-binding/remote-data.md</li>
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/loading-animation.md</li>
-
+<li>ej2-asp-core-mvc/diagram/<li>ej2_asp.mvc/getting-started.md</li>
+<li>ej2-asp-core-mvc/diagram/<li>ej2_asp.netcore/getting-started.md</li>
+<li>ej2-asp-core-mvc/diagram/automatic-layout.md</li>
+<li>ej2-asp-core-mvc/diagram/bpmn-shapes.md</li>
+<li>ej2-asp-core-mvc/diagram/connectors.md</li>
+<li>ej2-asp-core-mvc/diagram/context-menu.md</li>
+<li>ej2-asp-core-mvc/diagram/data-binding.md</li>
+<li>ej2-asp-core-mvc/diagram/export.md</li>
+<li>ej2-asp-core-mvc/diagram/group.md</li>
+<li>ej2-asp-core-mvc/diagram/how-to/organization-chart.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/appearance.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/bezier-segment.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/drag-resize-rotate.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/endpoint-handles.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/keyboard.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/orthogonal-segment.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/selection.md</li>
+<li>ej2-asp-core-mvc/diagram/interaction/straight-segment.md</li>
 
 
 
