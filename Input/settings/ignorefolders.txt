@@ -795,6 +795,5 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/diagram/interaction/orthogonal-segment.md</li>
 <li>ej2-asp-core-mvc/diagram/interaction/selection.md</li>
 <li>ej2-asp-core-mvc/diagram/interaction/straight-segment.md</li>
-
-
-
+<li>ej2-asp-core-mvc/diagram/ej2_asp.mvc/getting-started.md</li>
+<li>ej2-asp-core-mvc/diagram/ej2_asp.netcore/getting-started.md</li>
