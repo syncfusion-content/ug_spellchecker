@@ -50,3 +50,5 @@ undoredo
 refersto
 pivotanalysis
 pivotschemadesigner
+replaceby
+replaceall
