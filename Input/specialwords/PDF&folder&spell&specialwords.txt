@@ -15,3 +15,5 @@ libgdiplus
 syncfusionocrprocessor
 Tesseractbinaries
 Isblank
+Osd
+Textract
