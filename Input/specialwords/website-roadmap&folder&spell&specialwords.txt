@@ -16,3 +16,4 @@ toolstripitem
 geo
 Mapbox
 sublayers
+Nuxt
