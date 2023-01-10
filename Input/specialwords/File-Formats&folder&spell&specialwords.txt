@@ -148,3 +148,4 @@ Blazor
 Harf
 Debian
 Bidimensional
+wasm
