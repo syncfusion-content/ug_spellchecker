@@ -17,3 +17,5 @@ Tesseractbinaries
 Isblank
 Osd
 Textract
+Aws
+AWS
