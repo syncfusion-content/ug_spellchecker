@@ -10,3 +10,5 @@ onmouseup
 ondblclick
 ondrop
 onmousedown
+nodegroup
+nodegroups
