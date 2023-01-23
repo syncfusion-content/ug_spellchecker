@@ -7697,3 +7697,5 @@ ngcc
 ngcc
 ngcc
 ngcc
+controlanchorlink
+controlcategory
