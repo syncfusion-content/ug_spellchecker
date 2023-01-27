@@ -2,3 +2,5 @@ Ubuntu
 libdl
 usr
 wsl
+ubuntu
+Ubuntu
