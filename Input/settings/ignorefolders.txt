@@ -851,3 +851,5 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/spreadsheet/undo-redo.md</li>
 <li>ej2-asp-core-mvc/spreadsheet/worksheet.md</li>
 <li>ej2-angular/document-editor/import.md</li>
+<li>ej2-react/gantt/module.md</li>
+<li>ej2-react/gantt/resources.md</li>
