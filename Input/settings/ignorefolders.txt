@@ -853,3 +853,4 @@ wpf\Classic\Chart
 <li>ej2-angular/document-editor/import.md</li>
 <li>ej2-react/gantt/module.md</li>
 <li>ej2-react/gantt/resources.md</li>
+<li>ej2-react/treegrid/columns/columns.md</li>
