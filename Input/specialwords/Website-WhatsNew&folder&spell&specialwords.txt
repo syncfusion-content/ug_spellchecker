@@ -31,3 +31,5 @@ flyout
 Qura
 UmAlQuraCalendar
 ejs
+Nuxt
+pnpm
