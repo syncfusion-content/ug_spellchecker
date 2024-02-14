@@ -183,7 +183,7 @@ if(-Not $SkipToolPackageRestore.IsPresent) {
 Write-Host "Configuring Nexus server..."
 try
 {
-Invoke-Expression "& `"$NUGET_EXE`" sources add -Name NexusServer -Source https://nexus.syncfusion.com/repository/nuget-hosted/"
+Invoke-Expression "& `"$NUGET_EXE`" sources add -Name NexusServer -Source https://nexus.syncfusioninternal.com/repository/nuget-hosted/"
 }
 catch{
 	throw new Exception("Nexus server configuration failed ");
