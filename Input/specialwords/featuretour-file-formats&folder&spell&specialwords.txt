@@ -48,3 +48,6 @@ Blazor
 ZXing
 Xing
 Hussle
+Digi
+timestamping
+Timestamping
