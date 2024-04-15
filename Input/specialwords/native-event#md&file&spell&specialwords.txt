@@ -1,0 +1,7 @@
+Onchange
+oninput
+onblur
+onfocusout
+onfocusin
+onfocus
+onkeypress
