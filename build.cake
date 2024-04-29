@@ -3,6 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 #addin nuget:?package=Cake.FileHelpers&version=4.0.1
 #tool nuget:?package=Syncfusion.Spellcheck.CI
+#tool nuget:?package=Syncfusion.NugetPackageVersion
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
@@ -31,7 +32,8 @@ using System.IO;
 
 Task("build")
     .Does(() =>
-{   
+{
+ CopyFiles("./tools/syncfusion.nugetpackageversion/Syncfusion.NugetPackageVersion/lib/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
@@ -43,6 +45,20 @@ Task("build")
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
+ Information("Installed Packages are:");
+ List<string> packages = new List<string>
+ {
+    "./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/Syncfusion.Spellcheck.CI.nupkg",
+    "./tools/syncfusion.content.documentvalidation.ci/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI.nupkg",
+    "./tools/syncfusion.content.fthtmlconversion.ci/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI.nupkg",
+    "./tools/syncfusion.pushgitlabtogithub/Syncfusion.PushGitLabToGithub/Syncfusion.PushGitLabToGithub.nupkg"
+ };
+
+ foreach (var package in packages)
+ {
+    StartProcess("./tools/NugetPackageVersion.exe", new ProcessSettings { Arguments = $"{package}" });
+ }
+
   
   var directories = GetSubDirectories(reposistoryPath);
   foreach(var repository in directories)
