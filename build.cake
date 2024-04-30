@@ -3,6 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 #addin nuget:?package=Cake.FileHelpers&version=4.0.1
 #tool nuget:?package=Syncfusion.Spellcheck.CI
+#tool nuget:?package=Syncfusion.NugetPackageVersion
 var target = Argument("target", "Default");
 var reposistoryPath=MakeAbsolute(Directory("../"));
 #tool nuget:?package=Syncfusion.Content.DocumentValidation.CI
@@ -31,7 +32,7 @@ using System.IO;
 
 Task("build")
     .Does(() =>
-{   
+{
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
@@ -43,7 +44,18 @@ Task("build")
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
-  
+ Information("Installed Syncfusion Packages are:");
+ var packageFiles = GetFiles("./tools/**/*.nupkg");
+ var syncfusionPackagesPath = packageFiles.Where(file => file.FullPath.Contains("Syncfusion"));
+ var syncfusionPackages = new List<string>();
+ foreach (var file in syncfusionPackagesPath)
+ {
+     syncfusionPackages.Add(file.FullPath);
+ }
+ foreach (var syncfusionpackage in syncfusionPackages)
+ {
+    StartProcess("./tools/syncfusion.nugetpackageversion/Syncfusion.NugetPackageVersion/lib/NugetPackageVersion.exe", new ProcessSettings { Arguments = $"{syncfusionpackage}" });
+ }
   var directories = GetSubDirectories(reposistoryPath);
   foreach(var repository in directories)
     {
