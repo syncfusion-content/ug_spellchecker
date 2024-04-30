@@ -33,7 +33,6 @@ using System.IO;
 Task("build")
     .Does(() =>
 {
- CopyFiles("./tools/syncfusion.nugetpackageversion/Syncfusion.NugetPackageVersion/lib/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
@@ -45,21 +44,18 @@ Task("build")
  CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
- Information("Installed Packages are:");
- List<string> packages = new List<string>
+ Information("Installed Syncfusion Packages are:");
+ var packageFiles = GetFiles("./tools/**/*.nupkg");
+ var syncfusionPackagesPath = packageFiles.Where(file => file.FullPath.Contains("Syncfusion"));
+ var syncfusionPackages = new List<string>();
+ foreach (var file in syncfusionPackagesPath)
  {
-    "./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/Syncfusion.Spellcheck.CI.nupkg",
-    "./tools/syncfusion.content.documentvalidation.ci/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI.nupkg",
-    "./tools/syncfusion.content.fthtmlconversion.ci/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI.nupkg",
-    "./tools/syncfusion.pushgitlabtogithub/Syncfusion.PushGitLabToGithub/Syncfusion.PushGitLabToGithub.nupkg"
- };
-
- foreach (var package in packages)
- {
-    StartProcess("./tools/NugetPackageVersion.exe", new ProcessSettings { Arguments = $"{package}" });
+     syncfusionPackages.Add(file.FullPath);
  }
-
-  
+ foreach (var syncfusionpackage in syncfusionPackages)
+ {
+    StartProcess("./tools/syncfusion.nugetpackageversion/Syncfusion.NugetPackageVersion/lib/NugetPackageVersion.exe", new ProcessSettings { Arguments = $"{syncfusionpackage}" });
+ }
   var directories = GetSubDirectories(reposistoryPath);
   foreach(var repository in directories)
     {
