@@ -27,3 +27,4 @@ excelfilter
 onload
 macos
 Emoticons
+wasm
