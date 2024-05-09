@@ -39,3 +39,4 @@ getColumnByUid
 orientationcss
 customcss
 ngx
+Uid
