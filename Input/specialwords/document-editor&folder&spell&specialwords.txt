@@ -2,3 +2,5 @@ toolbarclick
 npmjs
 tsx
 Sfdt
+kubernetes
+Kubernetes
