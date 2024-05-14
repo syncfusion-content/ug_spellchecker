@@ -77,3 +77,4 @@ Immersive
 Eckert
 Winkel
 Aitoff
+smartphones
