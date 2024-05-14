@@ -4,3 +4,5 @@ tsx
 Sfdt
 kubernetes
 Kubernetes
+Kubectl
+Kubectl
