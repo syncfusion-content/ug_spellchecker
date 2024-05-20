@@ -3,4 +3,10 @@ Esri
 sublayers
 Hussle
 Dismissible
-overallcontrolcount 
+overallcontrolcount
+multirange
+Multirange
+UmAlQura
+Qura
+GIFs
+Fs
