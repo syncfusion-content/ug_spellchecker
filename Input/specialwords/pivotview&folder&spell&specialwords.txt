@@ -20,3 +20,5 @@ Zapf
 Fieldlist
 Polyfills
 systemjs-plugin-json
+Pivotview
+pivotview
