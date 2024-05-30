@@ -7,3 +7,4 @@ Kubernetes
 Kubectl
 Kubectl
 Dockerize
+Redis
