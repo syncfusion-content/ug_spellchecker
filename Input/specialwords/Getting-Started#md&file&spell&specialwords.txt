@@ -29,3 +29,5 @@ macos
 Emoticons
 wasm
 SCSS
+npx
+tsx
