@@ -31,3 +31,4 @@ wasm
 SCSS
 npx
 tsx
+Emoticons
