@@ -238,3 +238,6 @@ msgtr
 Accessor
 Unescaped
 unescaped
+Cldr
+cldr
+systemjs
