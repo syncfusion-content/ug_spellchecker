@@ -3,3 +3,4 @@ ejs
 Ejs
 Vitest
 vue
+npx
