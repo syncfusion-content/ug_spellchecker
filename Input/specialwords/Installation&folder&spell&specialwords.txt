@@ -1,3 +1,4 @@
 syncfusionessentialwinui
 msiexec
 dotnet
+dmg
