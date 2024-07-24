@@ -1,3 +1,4 @@
 syncfusionessentialwinui
 syncfusionessentialxamarin
 Suse
+dmg
