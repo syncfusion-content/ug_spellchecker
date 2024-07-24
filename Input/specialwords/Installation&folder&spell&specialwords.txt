@@ -2,3 +2,7 @@ syncfusionessentialwinui
 msiexec
 dotnet
 dmg
+syncfusionessentialxamarin
+Suse
+Nuxt
+npx
