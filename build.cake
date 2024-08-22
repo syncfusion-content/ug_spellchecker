@@ -98,9 +98,9 @@ Task("build")
             if (isWithoutError == true)
             {
 		//Code to run the Html conversion tool for feature tour repositories
-		if (((repositoryName.ToLower().Contains("featuretour")) && targetBranch.ToLower() == "development"))
+		if (repositoryName.ToLower().Contains("featuretour") && (targetBranch.ToLower() == "development" || targetBranch.ToLower() == "master"))
 		{
-			// isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/FTautomation/Automation"});
+			isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/markdown-preview"});
 		}
             }
 	  }
