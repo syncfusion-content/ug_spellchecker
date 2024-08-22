@@ -79,3 +79,4 @@ Winkel
 Aitoff
 smartphones
 overallcontrolcount
+Figma
