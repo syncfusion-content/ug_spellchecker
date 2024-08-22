@@ -97,9 +97,12 @@ Task("build")
             }
             if (isWithoutError == true)
             {
+			Information("Repository Name:", repositoryName);
 		//Code to run the Html conversion tool for feature tour repositories
 		if (repositoryName.ToLower().Contains("featuretour") && (targetBranch.ToLower() == "development" || targetBranch.ToLower() == "master"))
 		{
+		Information("Entered into the condition");
+		  Information("Target Branch:", targetBranch);
 		  isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/markdown-preview"});
 		}
             }
