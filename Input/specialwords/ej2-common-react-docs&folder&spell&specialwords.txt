@@ -10,3 +10,8 @@ containe
 tsx
 vite
 transpiled
+webparts
+webpart
+Webparts
+WebParts
+WebPart
