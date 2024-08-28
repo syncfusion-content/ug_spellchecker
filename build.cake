@@ -38,14 +38,14 @@ Task("build")
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
  //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
  //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
- CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/content/*", "./");
- CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.PushGitLabToGithub/Syncfusion.PushGitLabToGithub/tools/*", "./tools");
  EnsureDirectoryExists("./Templates");
  //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
-CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/Templates/*", "./Templates");
+CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
  Information("Installed Syncfusion Packages are:");
