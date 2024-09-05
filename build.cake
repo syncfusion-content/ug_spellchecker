@@ -36,15 +36,15 @@ Task("build")
 {
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/content/*", "./tools");
  CopyFiles("./tools/syncfusion.spellcheck.ci/Syncfusion.Spellcheck.CI/lib/*", "./tools");
- //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
- //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/content/*", "./");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/content/*", "./");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/lib/*", "./");
  CopyFiles("./tools/Syncfusion.PushGitLabToGithub/Syncfusion.PushGitLabToGithub/tools/*", "./tools");
  EnsureDirectoryExists("./Templates");
- //CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
+ CopyFiles("./tools/Syncfusion.Content.DocumentValidation.CI/Syncfusion.Content.DocumentValidation.CI/Templates/*", "./Templates");
 CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Content.FeatureTourValidation.CI/Templates/*", "./Templates");
  EnsureDirectoryExists("./HtmlConvertionTemplates");
  CopyFiles("./tools/Syncfusion.Content.FTHtmlConversion.CI/Syncfusion.Content.FTHtmlConversion.CI/HtmlConvertionTemplates/*", "./HtmlConvertionTemplates");
@@ -76,8 +76,14 @@ CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Conten
         
         //Code to run the Document validation tool
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-        //isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
-         isDocumentvalidationError=StartProcess("./FeatureTourValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
+        if(repositoryName == "featuretour-web-ej2")
+        {
+          isDocumentvalidationError=StartProcess("./FeatureTourValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
+	}
+        else
+        {
+         isDocumentvalidationError=StartProcess("./DocumentationValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
+         }
 		
 	bool isWithoutError = true;
 
