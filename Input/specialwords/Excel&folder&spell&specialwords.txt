@@ -6,3 +6,4 @@ Yu
 Mincho
 Batang
 Malgun
+Excel
