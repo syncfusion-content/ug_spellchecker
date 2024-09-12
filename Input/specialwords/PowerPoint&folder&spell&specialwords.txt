@@ -8,3 +8,4 @@ Yu
 Mincho
 Malgun
 Batang
+netcoreapp
