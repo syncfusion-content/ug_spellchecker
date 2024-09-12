@@ -13,3 +13,9 @@ pdfviewer
 signaturepad
 intl
 tappable
+libswift
+dylib
+FFI
+usr
+Runpath
+rpath
