@@ -1,5 +1,3 @@
 Tomoto
 Topand
 bordermodel
-HiloOpenClose
-Hilo
