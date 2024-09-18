@@ -104,3 +104,5 @@ eval
 wss
 labelledby
 rendermode
+smartpaste
+gpt
