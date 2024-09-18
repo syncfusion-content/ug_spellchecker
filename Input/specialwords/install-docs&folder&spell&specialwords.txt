@@ -14,3 +14,4 @@ cancelled
 msiexec
 Auth
 netcoreapp
+WindowsForms
