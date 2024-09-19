@@ -76,7 +76,7 @@ CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Conten
         
         //Code to run the Document validation tool
         repositoryName =reposistoryPath.ToString().Split('/')[3].Split('@')[0];
-       	repositoryName.Contains("featuretour")
+       	if(repositoryName.Contains("featuretour"))
         {
           isDocumentvalidationError=StartProcess("./FeatureTourValidation.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+targetBranch});
 	}
