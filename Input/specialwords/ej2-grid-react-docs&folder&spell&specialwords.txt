@@ -20,3 +20,7 @@ Cldr
 Farsi
 ar
 axios
+datetimepickeredit
+datepickeredit
+booleanedit
+dropdownedit

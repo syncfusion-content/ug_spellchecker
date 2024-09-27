@@ -29,3 +29,7 @@ uid
 excelexport
 csvexport
 recordcount
+datetimepickeredit
+datepickeredit
+booleanedit
+dropdownedit
