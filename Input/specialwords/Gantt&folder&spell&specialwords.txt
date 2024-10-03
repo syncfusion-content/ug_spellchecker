@@ -41,3 +41,9 @@ customcss
 ngx
 Uid
 Commandbehavior
+numericedit
+defaultedit
+dropdownedit
+booleanedit
+datepickeredit
+datetimepickeredit
