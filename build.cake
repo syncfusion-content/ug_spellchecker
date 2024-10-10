@@ -114,7 +114,7 @@ CopyFiles("./tools/Syncfusion.Content.FeatureTourValidation.CI/Syncfusion.Conten
 		{
 		Information("Entered into the condition");
 		  Information("Target Branch:", targetBranch);
-		  isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/markdown-preview"});
+		  isHtmlConversionError=StartProcess("./MDToHtmlConverter.exe",new ProcessSettings{ Arguments = reposistoryPath+"/Spell-Checker/ "+repositoryName+" "+reposistoryPath+"/markdown-preview//FeatureTour"});
 		}
             //}
 	  }
