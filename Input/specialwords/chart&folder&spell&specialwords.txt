@@ -5,3 +5,4 @@ datalabel
 Mousewheel
 zoomin
 zoomout
+customise
