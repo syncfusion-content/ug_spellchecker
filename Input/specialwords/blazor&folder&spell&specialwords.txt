@@ -107,3 +107,4 @@ rendermode
 smartpaste
 gpt
 jsinterop
+jsintrob
