@@ -224,6 +224,12 @@
     <value>MAUI</value>
     <value>maui</value>
  </repository>
+<repository>
+    <name>MAUI Toolkit</name>
+    <value>maui toolkit</value>
+    <value>maui-toolkit</value>
+	 <value>Maui-toolkit</value>
+</repository>
  <repository>
   <name>Website-WhatsNew</name>
   <value>essential-js2</value>
