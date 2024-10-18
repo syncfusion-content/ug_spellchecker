@@ -9,3 +9,4 @@ Kubectl
 Dockerize
 Redis
 resetcontentcontroldata
+documenteditor
