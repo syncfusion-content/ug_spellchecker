@@ -95,3 +95,4 @@ alpahnumeric
 wasm
 Appium
 Uid
+ICustomOptr
