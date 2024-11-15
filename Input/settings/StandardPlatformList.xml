@@ -226,7 +226,6 @@
  </repository>
 <repository>
     <name>MAUI Toolkit</name>
-    <value>maui toolkit</value>
     <value>maui-toolkit</value>
 	 <value>Maui-toolkit</value>
 </repository>
