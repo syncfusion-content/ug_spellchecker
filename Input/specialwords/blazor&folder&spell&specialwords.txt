@@ -108,3 +108,4 @@ smartpaste
 gpt
 jsinterop
 jsintrob
+Autowrap
