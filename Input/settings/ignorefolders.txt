@@ -855,3 +855,5 @@ wpf\Classic\Chart
 <li>ej2-react/gantt/resources.md</li>
 <li>ej2-react/treegrid/columns/columns.md</li>
 <li>licensing/licensing-troubleshoot.md</li>
+<li>ej2-asp-core-mvc/grid/ej2_asp.mvc/global-local.md</li>
+<li>ej2-asp-core-mvc/grid/ej2_asp.netcore/global-local.md</li>
