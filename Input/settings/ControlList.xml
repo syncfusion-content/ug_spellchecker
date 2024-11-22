@@ -106,5 +106,6 @@
 		<Control Name ="File Manager"/>
 		<Control Name ="MultiColumn ComboBox"/>
 		<Control Name ="MultiColumnComboBox"/>
+		<Control Name ="AI AssistView"/>
 	</platform>
 </Platforms>
