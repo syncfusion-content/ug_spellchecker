@@ -109,3 +109,5 @@ gpt
 jsinterop
 jsintrob
 Autowrap
+libpdfium
+dylib
