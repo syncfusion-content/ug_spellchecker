@@ -3,3 +3,4 @@ isstartmenushortcut
 portno
 servertype
 isdesktopshortcut
+mpack
