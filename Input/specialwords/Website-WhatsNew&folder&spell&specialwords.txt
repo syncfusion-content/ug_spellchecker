@@ -33,3 +33,5 @@ UmAlQuraCalendar
 ejs
 Nuxt
 pnpm
+Debounce
+debounce
