@@ -35,3 +35,4 @@ Nuxt
 pnpm
 Debounce
 debounce
+Sankey
