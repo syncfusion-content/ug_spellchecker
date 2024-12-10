@@ -111,3 +111,5 @@ jsintrob
 Autowrap
 libpdfium
 dylib
+Sankey
+sankey
