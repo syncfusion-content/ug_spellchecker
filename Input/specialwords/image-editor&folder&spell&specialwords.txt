@@ -1,3 +1,4 @@
 pixelate
 webp
 oversized
+uploader
