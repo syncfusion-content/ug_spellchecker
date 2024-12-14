@@ -335,5 +335,10 @@
 	<value>react</value>
 	<value>ej2-vue</value>
   </repository>
+  <repository>
+    <name>document-processing-docs</name>
+	<value>document-processing</value>
+	<value>file-formats</value>
+  </repository>
 </repositories>
 
