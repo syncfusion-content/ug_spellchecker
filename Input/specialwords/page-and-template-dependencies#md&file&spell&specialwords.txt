@@ -12,3 +12,10 @@ Skia
 Viewmodel
 deliverytracking
 rendereres
+facebook
+businessregistrationbackground
+aboutusicon
+waterconsumed
+sleepduration
+heartrate
+calorieseaten
