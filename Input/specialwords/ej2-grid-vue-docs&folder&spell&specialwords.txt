@@ -20,3 +20,4 @@ Cldr
 Farsi
 ar
 axios
+Rowspan
