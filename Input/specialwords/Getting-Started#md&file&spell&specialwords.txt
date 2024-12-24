@@ -32,3 +32,4 @@ SCSS
 npx
 tsx
 Emoticons
+tsv
