@@ -21,3 +21,4 @@ Farsi
 ar
 axios
 Rowspan
+keyup

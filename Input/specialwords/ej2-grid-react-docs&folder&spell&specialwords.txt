@@ -25,3 +25,4 @@ datepickeredit
 booleanedit
 dropdownedit
 Rowspan
+keyup

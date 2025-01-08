@@ -26,3 +26,4 @@ booleanedit
 dropdownedit
 dropdownedit
 Rowspan
+keyup
