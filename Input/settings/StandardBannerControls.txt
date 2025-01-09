@@ -1,2 +1,0 @@
-calculate.md
-datasource.md
