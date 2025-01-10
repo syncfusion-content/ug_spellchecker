@@ -107,5 +107,6 @@
 		<Control Name ="MultiColumn ComboBox"/>
 		<Control Name ="MultiColumnComboBox"/>
 		<Control Name ="AI AssistView"/>
+		<Control Name ="Chat UI"/>
 	</platform>
 </Platforms>
