@@ -22,3 +22,4 @@ ar
 axios
 Rowspan
 keyup
+firebase
