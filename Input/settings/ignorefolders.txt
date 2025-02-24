@@ -856,4 +856,10 @@ wpf\Classic\Chart
 <li>ej2-react/treegrid/columns/columns.md</li>
 <li>licensing/licensing-troubleshoot.md</li>
 <li>ej2-asp-core-mvc/grid/ej2_asp.mvc/global-local.md</li>
-<li>ej2-asp-core-mvc/grid/ej2_asp.netcore/global-local.md</li>
+<li><li>ej2-asp-core-mvc/grid/ej2_asp.netcore/global-local.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/nuget-packages.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.mvc/how-to/resolve-pdfium-issue.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.netcore/getting-started-with-server-backed.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.netcore/how-to/extract-text-using-text-collections.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.netcore/how-to/extract-text.md</li>
+<li>ej2-asp-core-mvc/pdfviewer/ej2_asp.netcore/how-to/install-packages.md</li>
