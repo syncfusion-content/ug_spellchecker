@@ -900,3 +900,7 @@ wpf\Classic\Chart
 <li>document-processing/powerpoint/powerpoint-library/net/faqs/multithreading-powerpoint-reading-faqs.md</li>
 <li>document-processing/powerpoint/conversions/powerpoint-to-pdf/net/faqs.md</li>
 <li>document-processing/powerpoint/conversions/powerpoint-to-pdf/net/faqs/multithreading-powerpoint-to-pdf-faqs.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.mvc/appearance/figma.md</li>
+<li>ej2-asp-core-mvc/ej2_asp.netcore/appearance/figma.md</li>
+<li>ej2-asp-core-mvc/common/ej2_asp.mvc/accessibility.md</li>
+<li>ej2-asp-core-mvc/common/ej2_asp.netcore/accessibility.md</li>
