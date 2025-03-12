@@ -43,3 +43,5 @@ keyup
 firebase
 deselecting
 columnchoosersettings
+Persistselection
+persistselection
