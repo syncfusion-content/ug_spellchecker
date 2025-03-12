@@ -111,3 +111,6 @@ kotlin
 Kotlin
 Otp
 OTP
+data-rowindex
+aria-rowindex
+xlws
