@@ -109,5 +109,6 @@
 		<Control Name ="AI AssistView"/>
 		<Control Name ="Chat UI"/>
 		<Control Name ="Ribbon"/>
+    <Control Name ="SpeechToText"/>
 	</platform>
 </Platforms>
