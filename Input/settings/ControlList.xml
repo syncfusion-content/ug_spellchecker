@@ -108,5 +108,6 @@
 		<Control Name ="MultiColumnComboBox"/>
 		<Control Name ="AI AssistView"/>
 		<Control Name ="Chat UI"/>
+		<Control Name ="Ribbon"/>
 	</platform>
 </Platforms>
