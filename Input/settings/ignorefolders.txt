@@ -906,3 +906,6 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/common/ej2_asp.netcore/accessibility.md</li>
 <li>ej2_asp.mvc/appearance/figma.md</li>
 <li>ej2_asp.netcore/appearance/figma.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_chat/latest/assist_view/assist_view-library.html.md</li>
+<li>https://pub.dev/documentation/syncfusion_flutter_chat/latest/chat/chat-library.html.md</li>
+

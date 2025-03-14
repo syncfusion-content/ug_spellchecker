@@ -21,3 +21,4 @@ Runpath
 rpath
 kotlin
 Kotlin
+macos
