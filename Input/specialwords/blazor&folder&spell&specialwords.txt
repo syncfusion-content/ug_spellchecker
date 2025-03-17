@@ -116,3 +116,5 @@ sankey
 Debounce
 debounce
 Overscan
+data-rowindex
+aria-rowindex
