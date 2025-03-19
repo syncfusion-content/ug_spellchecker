@@ -116,3 +116,4 @@ aria-rowindex
 xlws
 _xlws
 overscan
+rowindex
