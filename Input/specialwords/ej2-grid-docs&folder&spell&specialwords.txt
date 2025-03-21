@@ -31,3 +31,5 @@ deselecting
 columnchoosersettings
 Persistselection
 persistselection
+filterafteropen
+filterafteropen
