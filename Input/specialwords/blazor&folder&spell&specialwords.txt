@@ -119,3 +119,5 @@ Overscan
 data-rowindex
 aria-rowindex
 selectall
+Zapf
+graphql
