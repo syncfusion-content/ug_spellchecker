@@ -1,0 +1,5 @@
+NumPages
+Num
+Ansi
+Ds
+Emoji

@@ -1,0 +1,4 @@
+pixelate
+webp
+oversized
+uploader

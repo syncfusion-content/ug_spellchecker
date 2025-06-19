@@ -1,0 +1,6 @@
+kubectl
+az
+aks
+uk
+acr
+Kubernetes
