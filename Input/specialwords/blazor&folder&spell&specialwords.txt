@@ -122,3 +122,9 @@ selectall
 Zapf
 graphql
 backend
+Uml
+deepseek
+DeepSeek
+Deepseek
+Groq
+groq
