@@ -2,3 +2,5 @@ Javahelper
 instanceof
 wordprocessor
 sfdt
+Kanji
+kanji

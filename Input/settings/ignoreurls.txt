@@ -1,1 +1,7 @@
 https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key
+https://console.anthropic.com
+https://console.anthropic.com/settings/keys
+https://docs.anthropic.com/claude/docs/models-overview
+https://platform.deepseek.com
+https://platform.deepseek.com/api_keys
+https://console.groq.com

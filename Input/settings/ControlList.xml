@@ -110,5 +110,6 @@
 		<Control Name ="Chat UI"/>
 		<Control Name ="Ribbon"/>
     <Control Name ="SpeechToText"/>
+	<Control Name ="TextArea"/>
 	</platform>
 </Platforms>
