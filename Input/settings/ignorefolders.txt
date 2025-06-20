@@ -940,5 +940,6 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/chart/ej2_asp.netcore/chart-types/stacked-step-area.md</li>
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.mvc/scrolling.md</li>
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/scrolling.md</li>
+<li>ej2-asp-core-mvc/diagram/container.md</li>
 
  
