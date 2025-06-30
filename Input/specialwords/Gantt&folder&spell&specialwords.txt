@@ -47,3 +47,4 @@ dropdownedit
 booleanedit
 datepickeredit
 datetimepickeredit
+Wbs

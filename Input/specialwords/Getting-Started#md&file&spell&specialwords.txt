@@ -33,3 +33,4 @@ npx
 tsx
 Emoticons
 tsv
+vite
