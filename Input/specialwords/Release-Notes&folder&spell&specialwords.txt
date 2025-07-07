@@ -125,3 +125,4 @@ mc
 Acc
 Ollama
 subsetting
+Ollama

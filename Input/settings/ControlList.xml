@@ -111,5 +111,7 @@
 		<Control Name ="Ribbon"/>
     <Control Name ="SpeechToText"/>
 	<Control Name ="TextArea"/>
+	<Control Name ="Sankey"/>
+	<Control Name ="sankey"/>
 	</platform>
 </Platforms>
