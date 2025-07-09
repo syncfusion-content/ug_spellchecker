@@ -19,3 +19,4 @@ sublayers
 Nuxt
 debounce
 Subsetting
+vsdx
