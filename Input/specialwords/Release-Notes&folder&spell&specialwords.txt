@@ -127,3 +127,4 @@ Ollama
 subsetting
 Ollama
 Cysharp
+ai

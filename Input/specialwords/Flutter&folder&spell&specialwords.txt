@@ -22,3 +22,4 @@ rpath
 kotlin
 Kotlin
 macos
+ai
