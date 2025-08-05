@@ -20,3 +20,5 @@ Nuxt
 debounce
 Subsetting
 vsdx
+reusability
+diffing
