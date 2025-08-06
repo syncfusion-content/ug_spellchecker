@@ -113,5 +113,6 @@
 	<Control Name ="TextArea"/>
 	<Control Name ="Sankey"/>
 	<Control Name ="sankey"/>
+	<control Name ="Spreadsheet"/>
 	</platform>
 </Platforms>
