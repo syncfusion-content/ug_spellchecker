@@ -128,3 +128,4 @@ subsetting
 Ollama
 Cysharp
 ai
+Osmanya
