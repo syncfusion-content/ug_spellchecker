@@ -7702,3 +7702,16 @@ controlcategory
 Accessor
 ValueAccesssor
 tsx
+IOS
+Figma
+modals
+Redux
+lifecycle
+eval
+sanitization
+nextjs
+Preact
+jsx
+esbuild
+dev
+dom
