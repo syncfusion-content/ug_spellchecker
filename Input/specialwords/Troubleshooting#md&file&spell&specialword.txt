@@ -6,3 +6,4 @@ pubxml
 crashpad
 interactable
 DLL
+dylib

@@ -229,7 +229,7 @@
     <value>maui-toolkit</value>
 	 <value>Maui-toolkit</value>
 </repository>
- <repository>
+<repository>
   <name>Website-WhatsNew</name>
   <value>essential-js2</value>
   <value>angular</value>
@@ -256,7 +256,11 @@
   <value>xamarin.forms</value>
   <value>xamarin</value>
   <value>xamarin.ios</value>
-  </repository>
+  <value>pdf-viewer-sdk</value>
+  <value>spreadsheet-editor-sdk</value>
+  <value>document-sdk</value>
+  <value>word-editor-sdk</value>
+ </repository>
   <repository>
   <name>ej2-asp-core-mvc</name>
   <value>ej2-asp-core-mvc</value>

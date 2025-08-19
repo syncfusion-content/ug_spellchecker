@@ -109,6 +109,7 @@
 		<Control Name ="AI AssistView"/>
 		<Control Name ="Chat UI"/>
 		<Control Name ="Ribbon"/>
+		<Control Name ="Spreadsheet"/>
     <Control Name ="SpeechToText"/>
 	<Control Name ="TextArea"/>
 	<Control Name ="Sankey"/>
