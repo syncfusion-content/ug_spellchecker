@@ -7715,3 +7715,6 @@ jsx
 esbuild
 dev
 dom
+directline
+axios
+directline

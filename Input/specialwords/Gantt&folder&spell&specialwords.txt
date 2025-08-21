@@ -48,3 +48,6 @@ booleanedit
 datepickeredit
 datetimepickeredit
 Wbs
+colindex
+prioritization
+lifecycle
