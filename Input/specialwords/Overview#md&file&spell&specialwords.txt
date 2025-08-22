@@ -10,3 +10,5 @@ Okta
 Brotli
 tsv
 Modals
+npmjs
+pdfviewer
