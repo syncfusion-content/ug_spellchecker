@@ -110,10 +110,16 @@
 		<Control Name ="Chat UI"/>
 		<Control Name ="Ribbon"/>
 		<Control Name ="Spreadsheet"/>
-    <Control Name ="SpeechToText"/>
-	<Control Name ="TextArea"/>
-	<Control Name ="Sankey"/>
-	<Control Name ="sankey"/>
-	<control Name ="Spreadsheet"/>
+		<Control Name ="Blazor Word Editor"/>
+		<Control Name ="Blazor Spreadsheet Editor"/>
+		<Control Name ="Blazor PDF Viewer"/>
+		<Control Name ="Angular Word Editor"/>
+		<Control Name ="Angular Spreadsheet Editor"/>
+		<Control Name ="Angular  PDF Viewer"/>		
+		<Control Name ="SpeechToText"/>
+		<Control Name ="TextArea"/>
+		<Control Name ="Sankey"/>
+		<Control Name ="sankey"/>
+		<control Name ="Spreadsheet"/>
 	</platform>
 </Platforms>
