@@ -13,3 +13,7 @@ Harf
 netcoreapp
 Num
 Microsystems
+Redis
+appsettings
+sfdt
+prefilled
