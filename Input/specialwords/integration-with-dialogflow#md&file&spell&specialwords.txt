@@ -9,3 +9,6 @@ kanji
 Harf
 Ocr
 Dialogflow
+backend
+directline
+axios
