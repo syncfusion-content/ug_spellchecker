@@ -8,3 +8,5 @@ Kanji
 kanji
 Harf
 Ocr
+subsetting
+Ubuntu
