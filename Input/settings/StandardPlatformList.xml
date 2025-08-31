@@ -260,6 +260,7 @@
   <value>spreadsheet-editor-sdk</value>
   <value>document-sdk</value>
   <value>word-editor-sdk</value>
+  <value>docx-editor-sdk</value>
  </repository>
   <repository>
   <name>ej2-asp-core-mvc</name>
@@ -297,6 +298,7 @@
 	<value>xamarin</value>
 	<value>xamarin-android</value>
 	<value>xamarin-ios</value>
+  <value>docx-editor-sdk</value>
   </repository>
   <repository>
 	<name>featuretour</name>
@@ -343,6 +345,7 @@
     <name>document-processing-docs</name>
 	<value>document-processing</value>
 	<value>file-formats</value>
+  <value>docx-editor-sdk</value>
   </repository>
 </repositories>
 
