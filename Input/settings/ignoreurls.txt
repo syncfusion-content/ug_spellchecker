@@ -5,3 +5,4 @@ https://docs.anthropic.com/claude/docs/models-overview
 https://platform.deepseek.com
 https://platform.deepseek.com/api_keys
 https://console.groq.com
+https://ej2.syncfusion.com/home/
