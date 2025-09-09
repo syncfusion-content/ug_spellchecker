@@ -7702,3 +7702,5 @@ blockactionmenusettings
 colindex
 prioritization
 lifecycle
+Controlanchorlink
+controlcategory
