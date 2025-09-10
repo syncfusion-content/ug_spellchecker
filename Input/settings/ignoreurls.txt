@@ -6,3 +6,5 @@ https://platform.deepseek.com
 https://platform.deepseek.com/api_keys
 https://console.groq.com
 https://ej2.syncfusion.com/home/
+https://platform.openai.com/
+https://platform.openai.com/docs/overview
