@@ -290,6 +290,7 @@
 	<value>flutter</value>
 	<value>maui</value>
 	<value>react</value>
+	<value>uwp</value>
 	<value>report-platform</value>
 	<value>ej2-vue</value>
 	<value>winui</value>
