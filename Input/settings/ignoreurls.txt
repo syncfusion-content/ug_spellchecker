@@ -8,3 +8,5 @@ https://console.groq.com
 https://ej2.syncfusion.com/home/
 https://platform.openai.com/
 https://platform.openai.com/docs/overview
+https://support.syncfusion.com/support/tickets/create
+https://modelcontextprotocol.io/introduction
