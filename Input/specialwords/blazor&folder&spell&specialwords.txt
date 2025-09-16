@@ -130,3 +130,5 @@ Groq
 groq
 Ollama
 outdented
+Markdig
+Brotli
