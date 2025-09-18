@@ -1,2 +1,4 @@
 Ollama
 dmg
+fs
+deepseek
