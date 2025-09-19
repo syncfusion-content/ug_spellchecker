@@ -262,11 +262,11 @@
   <value>word-editor-sdk</value>
   <value>docx-editor-sdk</value>
  </repository>
-  <repository>
+<repository>
   <name>ej2-asp-core-mvc</name>
   <value>ej2-asp-core-mvc</value>
   </repository>
-  <repository>
+<repository>
   <name>ej2-asp-core-mvc</name>
   <value>ej2-asp-core-mvc</value>
   <value>ej2-asp-mvc</value>
@@ -277,76 +277,80 @@
   <value>ej2-javascript</value>
   <value>ej2-angular</value>
   </repository>
-   <repository>
-	<name>website-roadmap</name>
-	<value>angular</value>
-	<value>aspnet-core</value>
-	<value>ejmvc</value>
-	<value>bigdata</value>
-	<value>blazor</value>
-	<value>dashboard-platform</value>
-	<value>data-integration</value>
-	<value>essential-js2</value>
-	<value>flutter</value>
-	<value>maui</value>
-	<value>react</value>
-	<value>uwp</value>
-	<value>report-platform</value>
-	<value>ej2-vue</value>
-	<value>winui</value>
-	<value>windowsforms</value>
-	<value>wpf</value>
-	<value>xamarin</value>
-	<value>xamarin-android</value>
-	<value>xamarin-ios</value>
-  <value>docx-editor-sdk</value>
+  <repository>
+	  <name>website-roadmap</name>
+	  <value>angular</value>
+	  <value>aspnet-core</value>
+	  <value>ejmvc</value>
+	  <value>bigdata</value>
+	  <value>blazor</value>
+	  <value>dashboard-platform</value>
+	  <value>data-integration</value>
+	  <value>essential-js2</value>
+	  <value>flutter</value>
+	  <value>maui</value>
+	  <value>react</value>
+	  <value>uwp</value>
+	  <value>report-platform</value>
+	  <value>ej2-vue</value>
+	  <value>winui</value>
+	  <value>windowsforms</value>
+	  <value>wpf</value>
+	  <value>xamarin</value>
+	  <value>xamarin-android</value>
+	  <value>xamarin-ios</value>
+	  <value>docx-editor-sdk</value>
+    <value>document-sdk</value>
+    <value>pdf-viewer-sdk</value>
+    <value>spreadsheet-editor-sdk</value>
+    <value>word-editor-sdk</value>
   </repository>
   <repository>
-	<name>featuretour</name>
-	<value>uwp</value>
-	<value>aspnet</value>
-	<value>essential-js2</value>
-	<value>asp.net</value>
-	<value>aspnet-core</value>
-	<value>asp.net core</value>
-	<value>aspnetcore</value>
-	<value>ejmvc</value>
-	<value>asp.net mvc</value>
-	<value>aspnetmvc</value>
-	<value>js</value>
-	<value>javascript</value>
-	<value>jsp</value>
-	<value>php</value>
-	<value>reactjs</value>
-	<value>maui</value>
-	<value>.net maui</value>
-	<value>report-platform</value>
-	<value>vue</value>
-	<value>windowsforms</value>
-	<value>winforms</value>
-	<value>winui</value>
-	<value>wpf</value>
-	<value>xamarin</value>
-	<value>xamarin.forms</value>
-	<value>xamarin.android</value>
-	<value>xamarin.ios</value>
-	<value>flutter</value>
-	<value>file-formats</value>
-	<value>document-processing</value>
-	<value>angular</value>
-	<value>blazor-components</value>
-	<value>blazor</value>
-	<value>aspnet-mvc</value>
-	<value>ej2-asp-mvc</value>
-	<value>typescript</value>
-	<value>react</value>
-	<value>ej2-vue</value>
+	  <name>featuretour</name>
+	  <value>uwp</value>
+	  <value>aspnet</value>
+	  <value>essential-js2</value>
+	  <value>asp.net</value>
+	  <value>aspnet-core</value>
+	  <value>asp.net core</value>
+	  <value>aspnetcore</value>
+	  <value>ejmvc</value>
+	  <value>asp.net mvc</value>
+	  <value>aspnetmvc</value>
+	  <value>js</value>
+	  <value>javascript</value>
+	  <value>jsp</value>
+	  <value>php</value>
+	  <value>reactjs</value>
+	  <value>maui</value>
+	  <value>.net maui</value>
+	  <value>report-platform</value>
+	  <value>vue</value>
+	  <value>windowsforms</value>
+	  <value>winforms</value>
+	  <value>winui</value>
+	  <value>wpf</value>
+	  <value>xamarin</value>
+	  <value>xamarin.forms</value>
+	  <value>xamarin.android</value>
+	  <value>xamarin.ios</value>
+	  <value>flutter</value>
+	  <value>file-formats</value>
+	  <value>document-processing</value>
+	  <value>angular</value>
+	  <value>blazor-components</value>
+	  <value>blazor</value>
+	  <value>aspnet-mvc</value>
+	  <value>ej2-asp-mvc</value>
+	  <value>typescript</value>
+	  <value>react</value>
+	  <value>ej2-vue</value>
   </repository>
   <repository>
     <name>document-processing-docs</name>
-	<value>document-processing</value>
-	<value>file-formats</value>
-  <value>docx-editor-sdk</value>
+	  <value>document-processing</value>
+	  <value>file-formats</value>
+    <value>docx-editor-sdk</value>
   </repository>
 </repositories>
 
