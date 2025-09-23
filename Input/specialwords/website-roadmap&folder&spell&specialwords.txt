@@ -22,3 +22,5 @@ Subsetting
 vsdx
 reusability
 diffing
+rowspan
+colspan

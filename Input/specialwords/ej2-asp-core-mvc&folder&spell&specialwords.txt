@@ -7704,3 +7704,6 @@ prioritization
 lifecycle
 Controlanchorlink
 controlcategory
+manualparenttaskbar
+manualtaskbar
+manualtask

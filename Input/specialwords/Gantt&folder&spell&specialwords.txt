@@ -51,3 +51,6 @@ Wbs
 colindex
 prioritization
 lifecycle
+manualparenttaskbar
+manualtaskbar
+manualtask

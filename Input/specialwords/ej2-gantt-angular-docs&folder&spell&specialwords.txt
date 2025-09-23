@@ -2,3 +2,6 @@ colindex
 prioritization
 lifecycle
 deselecting
+manualparenttaskbar
+manualtaskbar
+manualtask
