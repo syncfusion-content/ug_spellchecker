@@ -10,3 +10,8 @@ https://platform.openai.com/
 https://platform.openai.com/docs/overview
 https://support.syncfusion.com/support/tickets/create
 https://modelcontextprotocol.io/introduction
+https://www.npmjs.com/package/accessibility-checker 
+https://www.npmjs.com/package/axe-core 
+https://www.npmjs.com/search?q=%40syncfusion%2Fej2-angular- 
+https://www.npmjs.com/package/@syncfusion/ej2-angular-schedule/v/20.2.38 
+https://www.npmjs.com/package/@syncfusion/ej2-angular-schedule/v/20.2.38-ngcc
