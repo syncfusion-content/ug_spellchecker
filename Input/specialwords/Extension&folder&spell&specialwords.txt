@@ -6,3 +6,5 @@ xltm
 xltx
 xlsm
 Pdf
+jcef
+php
