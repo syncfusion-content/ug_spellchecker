@@ -129,3 +129,5 @@ Ollama
 Cysharp
 ai
 Osmanya
+Bidi
+BidiVisual
