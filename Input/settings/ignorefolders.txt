@@ -941,5 +941,8 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.mvc/scrolling.md</li>
 <li>ej2-asp-core-mvc/tree-grid/ej2_asp.netcore/scrolling.md</li>
 <li>ej2-asp-core-mvc/diagram/container.md</li>
+<li>extension/docx-editor-sdk-extension/visual-studio/add-references.md</li>
+<li>extension/docx-editor-sdk-extension/visual-studio/code-generator.md</li>
+<li>extension/docx-editor-sdk-extension/visual-studio/download-and-installation.md</li>
 
  
