@@ -944,5 +944,10 @@ wpf\Classic\Chart
 <li>extension/docx-editor-sdk-extension/visual-studio/add-references.md</li>
 <li>extension/docx-editor-sdk-extension/visual-studio/code-generator.md</li>
 <li>extension/docx-editor-sdk-extension/visual-studio/download-and-installation.md</li>
-
+<li>ai-assistview/ai-integrations/es5-gemini-integration.md</li>
+<li>ai-assistview/ai-integrations/es5-ollama-llm-integration.md</li>
+<li>ai-assistview/ai-integrations/es5-openai-integration.md</li>
+<li>ai-assistview/ai-integrations/gemini-integration.md</li>
+<li>ai-assistview/ai-integrations/ollama-llm-integration.md</li>
+<li>ai-assistview/ai-integrations/openai-integration.md</li>
  
