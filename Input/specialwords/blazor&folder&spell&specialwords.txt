@@ -133,3 +133,5 @@ outdented
 Markdig
 Brotli
 columnheader
+speechtotext
+texttospeech
