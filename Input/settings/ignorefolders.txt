@@ -950,4 +950,7 @@ wpf\Classic\Chart
 <li>ai-assistview/ai-integrations/gemini-integration.md</li>
 <li>ai-assistview/ai-integrations/ollama-llm-integration.md</li>
 <li>ai-assistview/ai-integrations/openai-integration.md</li>
- 
+<li>ai-assistview/speech/es5-speech-to-text.md</li>
+<li>ai-assistview/speech/es5-text-to-speech.md</li>
+<li>ai-assistview/speech/speech-to-text.md</li>
+<li>ai-assistview/speech/text-to-speech.md</li>
