@@ -25,3 +25,4 @@ https://www.npmjs.com/package/axe-core
 https://www.npmjs.com/package/@syncfusion/ej2-react-interactive-chat
 https://www.npmjs.com/package/@syncfusion/ej2-vue-interactive-chat
 https://www.npmjs.com/package/@syncfusion/ej2-interactive-chat
+https://www.npmjs.com/package/@syncfusion/blazor-assistant
