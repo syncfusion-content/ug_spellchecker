@@ -7707,3 +7707,4 @@ controlcategory
 manualparenttaskbar
 manualtaskbar
 manualtask
+onkeypress

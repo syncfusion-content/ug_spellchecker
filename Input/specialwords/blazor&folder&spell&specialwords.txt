@@ -139,3 +139,4 @@ Trimmable
 userprofile
 Plugins
 Colspan
+onkeypress

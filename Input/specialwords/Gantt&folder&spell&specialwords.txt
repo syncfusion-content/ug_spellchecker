@@ -54,3 +54,4 @@ lifecycle
 manualparenttaskbar
 manualtaskbar
 manualtask
+onkeypress
