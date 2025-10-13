@@ -954,3 +954,4 @@ wpf\Classic\Chart
 <li>ai-assistview/speech/es5-text-to-speech.md</li>
 <li>ai-assistview/speech/speech-to-text.md</li>
 <li>ai-assistview/speech/text-to-speech.md</li>
+<li>maui/chat/scrolling.md</li>

@@ -1,2 +1,5 @@
 Displaymode
 Qura
+timelineday
+timelineweek
+timelineworkweek
