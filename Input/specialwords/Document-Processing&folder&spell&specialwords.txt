@@ -10,3 +10,5 @@ Harf
 Ocr
 subsetting
 Ubuntu
+Auth
+npmjs
