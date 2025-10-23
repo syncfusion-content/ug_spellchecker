@@ -12,3 +12,9 @@ subsetting
 Ubuntu
 Auth
 npmjs
+enabletoolbaritem
+toolbarclick
+pdfviewer
+usr
+otf
+Dockerfile
