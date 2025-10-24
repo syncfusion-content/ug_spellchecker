@@ -28,3 +28,13 @@ https://www.npmjs.com/package/@syncfusion/ej2-interactive-chat
 https://www.npmjs.com/package/@syncfusion/blazor-assistant
 https://github.com/SyncfusionExamples/maui-scheduler-examples/tree/main/DragAndDropSample
 https://www.npmjs.com/package/@syncfusion/ej2-pdf-export
+https://www.npmjs.com/package/@syncfusion/ej2-icons
+https://www.npmjs.com/package/npm-check-updates
+https://www.npmjs.com/search?q=@syncfusion/ej2-angular
+https://www.npmjs.com/search?q=ej2-angular
+https://www.npmjs.com/search?q=%40syncfusion%2Fej2-angular-
+https://www.npmjs.com/search?q=%40syncfusion%2Fej2-angular
+https://angular.io/guide/angular-package-format#angular-package-format
+https://www.npmjs.com/package/@syncfusion/ej2-angular-grids/v/20.2.38
+https://www.npmjs.com/package/@syncfusion/ej2-angular-grids/v/20.2.38-ngcc
+https://www.npmjs.com/search?q=ej2-vue
