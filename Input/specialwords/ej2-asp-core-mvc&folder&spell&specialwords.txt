@@ -7711,3 +7711,8 @@ onkeypress
 Markdig
 responsetoolbarsettings
 openai
+smartpaste
+deepseek
+Ollama
+Groq
+gpt
