@@ -4,3 +4,9 @@ udskrivning
 Annot
 Overscan
 preload
+haspopup
+valuetext
+valuemax
+valuemin
+valuenow
+ejs
