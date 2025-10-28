@@ -38,3 +38,4 @@ https://angular.io/guide/angular-package-format#angular-package-format
 https://www.npmjs.com/package/@syncfusion/ej2-angular-grids/v/20.2.38
 https://www.npmjs.com/package/@syncfusion/ej2-angular-grids/v/20.2.38-ngcc
 https://www.npmjs.com/search?q=ej2-vue
+https://www.npmjs.com/package/@syncfusion/ej2
