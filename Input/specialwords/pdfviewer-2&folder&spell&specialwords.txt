@@ -10,3 +10,5 @@ valuemax
 valuemin
 valuenow
 ejs
+Redis
+onfigure
