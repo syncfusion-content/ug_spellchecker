@@ -9,3 +9,4 @@ Malgun
 Excel
 Crypto
 multithreaded
+msttcorefonts
