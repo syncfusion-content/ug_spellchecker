@@ -19,3 +19,4 @@ auth
 Xto
 PPTXtoPDF
 PPTXtoImage
+Hyphenator
