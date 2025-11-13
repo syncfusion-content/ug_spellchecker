@@ -133,7 +133,7 @@ popup
 alt
 groupBy
 iconCss
-DataManager�
+DataManager 
 MultiSelect
 noRecordsTemplate
 popupWidth
@@ -1339,7 +1339,7 @@ dasharray
 Accumulationchart
 rangenavigator
 divation
-api�s
+api s
 DataManager?
 navigatorStyleSettings
 selectedRegionColor
@@ -7718,3 +7718,4 @@ Groq
 gpt
 aspnetmvc
 eventsettings
+eval
