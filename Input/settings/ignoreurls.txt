@@ -53,3 +53,5 @@ https://www.npmjs.com/package/@syncfusion/aspnetmvc-assistant
 https://www.npmjs.com/package/@syncfusion/aspnetcore-assistant
 https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview
 https://ej2.syncfusion.com/aspnetmvc/documentation/ai-coding-assistant/overview
+https://platform.openai.com/login/
+https://platform.openai.com/settings/organization/api-keys
