@@ -23,3 +23,6 @@ kotlin
 Kotlin
 macos
 ai
+Etkinlik
+yok
+Olay
