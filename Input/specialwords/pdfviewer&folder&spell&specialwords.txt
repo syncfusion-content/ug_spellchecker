@@ -10,3 +10,4 @@ valuenow
 ejs
 Redis
 onfigure
+appsettings
