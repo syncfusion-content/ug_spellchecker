@@ -46,3 +46,4 @@ columnchoosersettings
 Persistselection
 persistselection
 onscroll
+selectall
