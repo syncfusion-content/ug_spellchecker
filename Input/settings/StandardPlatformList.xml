@@ -129,6 +129,7 @@
   <repository>
     <name>Windows Forms</name>
       <value>windowsforms</value>
+      <value>WindowsForms</value>
   </repository>
   <repository>
     <name>Windows Phone</name>
