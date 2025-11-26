@@ -14,3 +14,5 @@ Redistributables
 redistributables
 redist
 myapp
+Ryzen
+Radeon
