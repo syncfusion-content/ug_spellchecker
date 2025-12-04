@@ -45,3 +45,4 @@ Deskew
 Denoise
 Binarization
 ngcc
+vsdx

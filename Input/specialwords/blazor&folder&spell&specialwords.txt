@@ -141,3 +141,9 @@ Plugins
 Colspan
 onkeypress
 const
+Ondbclick
+Onmousedown
+Onmouseup
+Onmousemove
+Onmouseenter
+onmouseleave
