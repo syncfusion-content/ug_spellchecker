@@ -1,2 +1,6 @@
 binarization
 fra
+Deskew
+Denoise
+Constrast
+Binarize

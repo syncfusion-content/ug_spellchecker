@@ -25,3 +25,7 @@ quickstart
 Callouts
 callouts
 Fargate
+Deskew
+Denoise
+Constrast
+Binarize
