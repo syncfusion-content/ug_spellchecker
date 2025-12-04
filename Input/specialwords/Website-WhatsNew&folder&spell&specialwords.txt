@@ -44,3 +44,4 @@ diffing
 Deskew
 Denoise
 Binarization
+ngcc
