@@ -131,3 +131,6 @@ ai
 Osmanya
 Bidi
 BidiVisual
+mappingname
+mappingvalue
+Textwrap

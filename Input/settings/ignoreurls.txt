@@ -56,3 +56,8 @@ https://ej2.syncfusion.com/aspnetmvc/documentation/ai-coding-assistant/overview
 https://platform.openai.com/login/
 https://platform.openai.com/settings/organization/api-keys
 https://mauitoolkit.syncfusion.com/
+https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.DOCXEditorSDKVSExtension
+https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.DocumentSDKVSExtension
+https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.PDFViewerSDKVSExtension
+https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.SpreadsheetEditorSDKVSExtension
+
