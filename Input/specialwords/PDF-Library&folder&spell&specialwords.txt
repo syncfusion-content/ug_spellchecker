@@ -16,3 +16,4 @@ redist
 myapp
 Ryzen
 Radeon
+jsx
