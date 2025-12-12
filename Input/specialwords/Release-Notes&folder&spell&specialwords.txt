@@ -136,3 +136,5 @@ mappingvalue
 Textwrap
 rowspan
 colspan
+gfm
+vsdx
