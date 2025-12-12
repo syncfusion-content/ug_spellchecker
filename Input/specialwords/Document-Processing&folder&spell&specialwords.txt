@@ -29,3 +29,8 @@ Deskew
 Denoise
 Constrast
 Binarize
+sln
+msttcorefonts
+runtimes
+nuspec
+dylib
