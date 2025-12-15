@@ -17,3 +17,4 @@ myapp
 Ryzen
 Radeon
 jsx
+openjpeg
