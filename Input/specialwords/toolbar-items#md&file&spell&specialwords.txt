@@ -1,2 +1,3 @@
 responsetoolbarsettings
 prompttoolbarsettings          
+footertoolbarsettings
