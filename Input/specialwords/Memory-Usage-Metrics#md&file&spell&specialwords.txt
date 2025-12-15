@@ -1,3 +1,2 @@
-seekable
 Ryzen
 Radeon
