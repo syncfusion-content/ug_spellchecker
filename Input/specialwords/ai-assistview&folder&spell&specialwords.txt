@@ -1,3 +1,5 @@
 mcp
 mjs
 fs
+maxfile
+attachmentsettings
