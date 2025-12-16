@@ -2,3 +2,5 @@ avatarBgColor
 Bg
 Dialogflow
 dialogflow
+maxfile
+attachmentsettings
