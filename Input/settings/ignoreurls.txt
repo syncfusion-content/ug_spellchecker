@@ -60,4 +60,8 @@ https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.DOCXEditorSDKV
 https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.DocumentSDKVSExtension
 https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.PDFViewerSDKVSExtension
 https://marketplace.visualstudio.com/items?itemName=SyncfusionInc.SpreadsheetEditorSDKVSExtension
+https://blog.angular.dev/announcing-angular-v21-57946c34f14b
+https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/
+https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/
+
 
