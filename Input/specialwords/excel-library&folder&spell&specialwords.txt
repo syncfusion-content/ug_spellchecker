@@ -1,3 +1,4 @@
 seekable
 Ryzen
 Radeon
+Argb
