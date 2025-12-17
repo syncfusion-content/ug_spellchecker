@@ -955,3 +955,4 @@ wpf\Classic\Chart
 <li>ai-assistview/speech/speech-to-text.md</li>
 <li>ai-assistview/speech/text-to-speech.md</li>
 <li>maui/chat/scrolling.md</li>
+<li>ej2-asp-core/block-editor/editor-security/read-only-mode.md</li>
