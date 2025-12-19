@@ -34,3 +34,4 @@ msttcorefonts
 runtimes
 nuspec
 dylib
+libgconf
