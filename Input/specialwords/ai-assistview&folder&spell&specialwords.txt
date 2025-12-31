@@ -3,3 +3,4 @@ mjs
 fs
 maxfile
 attachmentsettings
+gpt
