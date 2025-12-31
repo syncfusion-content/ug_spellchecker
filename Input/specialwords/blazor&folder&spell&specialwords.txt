@@ -157,3 +157,4 @@ antialiased
 moz
 osx
 pivotable
+pivottable
