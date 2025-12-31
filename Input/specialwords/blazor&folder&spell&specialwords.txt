@@ -152,3 +152,8 @@ Davolio
 iterable
 BlockEditor
 onmouseover
+Charset
+antialiased
+moz
+osx
+pivotable
