@@ -6,3 +6,4 @@ manualparenttaskbar
 manualtaskbar
 manualtask
 onkeypress
+Bg
