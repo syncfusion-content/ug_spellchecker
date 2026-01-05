@@ -24,3 +24,5 @@ reusability
 diffing
 rowspan
 colspan
+Sankey
+sankey
