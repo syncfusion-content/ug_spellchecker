@@ -57,3 +57,4 @@ zu
 uk
 weekdata
 tslint
+Calendr
