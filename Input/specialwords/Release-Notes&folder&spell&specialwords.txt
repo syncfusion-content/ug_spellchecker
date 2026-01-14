@@ -138,3 +138,4 @@ rowspan
 colspan
 gfm
 vsdx
+geojson
