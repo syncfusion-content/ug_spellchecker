@@ -956,3 +956,8 @@ wpf\Classic\Chart
 <li>ai-assistview/speech/text-to-speech.md</li>
 <li>maui/chat/scrolling.md</li>
 <li>ej2-asp-core/block-editor/editor-security/read-only-mode.md</li>
+<li>ai-assistview/ai-integrations/es5-mcp-integration.md</li>
+<li>ai-assistview/ai-integrations/mcp-integration.md</li>
+<li>ai-assistview/ai-integrations/es5-lite-llm-integration.md</li>
+<li>ai-assistview/ai-integrations/lite-llm-integration.md</li>
+
