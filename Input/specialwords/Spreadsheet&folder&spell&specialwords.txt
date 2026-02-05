@@ -52,3 +52,4 @@ pivotanalysis
 pivotschemadesigner
 replaceby
 replaceall
+ngcc
