@@ -1,3 +1,4 @@
 hunspell
 spellcheck
 aff
+documenteditor
