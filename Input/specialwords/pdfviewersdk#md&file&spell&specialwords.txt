@@ -1,3 +1,2 @@
 pdfviewersdk
 mcp
-mcpServers
