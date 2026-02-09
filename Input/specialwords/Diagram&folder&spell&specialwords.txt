@@ -12,3 +12,4 @@ ondrop
 onmousedown
 nodegroup
 nodegroups
+vsdx
