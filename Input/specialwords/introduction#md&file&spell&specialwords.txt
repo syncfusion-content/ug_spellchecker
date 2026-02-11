@@ -45,3 +45,8 @@ markdowneditor
 chatui
 multicolumncombobox
 accumulationchart
+antialiased
+moz
+pivottable
+speechtotext
+sankey
