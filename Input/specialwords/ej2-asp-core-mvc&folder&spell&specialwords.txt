@@ -129,6 +129,7 @@ ExpandMode
 aria-haspopup
 readonly
 aria-activedescendent
+activedescendent
 popup
 alt
 groupBy
