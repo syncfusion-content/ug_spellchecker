@@ -1,2 +1,4 @@
 pdfviewersdk
 mcp
+mcpServers
+vscode
