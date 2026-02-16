@@ -18,3 +18,4 @@ Ryzen
 Radeon
 jsx
 openjpeg
+mshtml
