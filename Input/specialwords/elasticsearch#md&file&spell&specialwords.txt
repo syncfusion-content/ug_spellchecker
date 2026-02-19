@@ -7,3 +7,10 @@ Pwd
 mypassword
 myaccount
 myschema
+dm
+greaterthan
+lessthan
+greaterthanorequal
+lessthanorequal
+lte
+gte
