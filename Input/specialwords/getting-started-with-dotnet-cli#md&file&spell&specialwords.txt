@@ -4,4 +4,3 @@ nav
 aspcoresample
 classlist
 setx
-plist
