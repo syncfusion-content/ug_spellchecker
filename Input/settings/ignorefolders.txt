@@ -961,3 +961,6 @@ wpf\Classic\Chart
 <li>ai-assistview/ai-integrations/es5-lite-llm-integration.md</li>
 <li>ai-assistview/ai-integrations/lite-llm-integration.md</li>
 <li>grid/connecting-to-backends/laravel-server.md</li>
+<li>https://support.syncfusion.com/kb/web/category/70/.md</li>
+<li>https://support.syncfusion.com/kb/web/category/74/.md</li>
+
