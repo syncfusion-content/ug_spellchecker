@@ -121,5 +121,8 @@
 		<Control Name ="Sankey"/>
 		<Control Name ="sankey"/>
 		<control Name ="Spreadsheet"/>
+		<control Name ="Block Editor"/>
+		<control Name ="Markdown Converter (Preview)"/>
+		<control Name ="Smart Rich Text Editor (Preview)" />
 	</platform>
 </Platforms>
