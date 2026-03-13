@@ -963,4 +963,4 @@ wpf\Classic\Chart
 <li>grid/connecting-to-backends/laravel-server.md</li>
 <li>https://support.syncfusion.com/kb/web/category/70/.md</li>
 <li>https://support.syncfusion.com/kb/web/category/74/.md</li>
-.codestudio/agents-faq
+.codestudio/agents
