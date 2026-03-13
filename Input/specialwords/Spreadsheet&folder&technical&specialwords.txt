@@ -4,3 +4,4 @@ Xlsx
 Html
 MS Excel
 Csv
+Agentic
