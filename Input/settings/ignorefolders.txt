@@ -963,7 +963,7 @@ wpf\Classic\Chart
 <li>grid/connecting-to-backends/laravel-server.md</li>
 <li>https://support.syncfusion.com/kb/web/category/70/.md</li>
 <li>https://support.syncfusion.com/kb/web/category/74/.md</li>
-.codestudio/agents
+<li>.codestudio/agents/blazor-ug-reviewer.agent.md</li>
 <li>wpf/classic/chart/overview.md</li>
 <li>wpf/classic/chart/getting-started.md</li>
 <li>wpf/classic/chart/data-binding.md</li>
