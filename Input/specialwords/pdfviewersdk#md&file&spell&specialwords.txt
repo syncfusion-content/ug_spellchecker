@@ -2,4 +2,3 @@ pdfviewersdk
 mcp
 mcpServers
 vscode
-nginx
