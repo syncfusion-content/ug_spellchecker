@@ -964,5 +964,5 @@ wpf\Classic\Chart
 <li>https://support.syncfusion.com/kb/web/category/70/.md</li>
 <li>https://support.syncfusion.com/kb/web/category/74/.md</li>
 <li>.codestudio/agents/blazor-ug-reviewer.agent.md</li>
-<li>.codestudio/agents/pr-reviewer.agent.md</li>
 <li>.codestudio/agents/pr-housekeeping.agent.md</li>
+<li>.codestudio/agents/pr-reviewer.agent.md</li>
