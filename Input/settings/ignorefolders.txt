@@ -967,3 +967,9 @@ wpf\Classic\Chart
 <li>.codestudio/agents/pr-housekeeping.agent.md</li>
 <li>.codestudio/agents/pr-reviewer.agent.md</li>
 <li>document-processing/word/word-library/net/word-file-formats.md</li>
+<li>inline-ai-assist/ai-integrations/es5-gemini-integration.md</li>
+<li>inline-ai-assist/ai-integrations/es5-lite-llm-integration.md</li>
+<li>inline-ai-assist/ai-integrations/es5-ollama-llm-integration.md</li>
+<li>inline-ai-assist/ai-integrations/es5-openai-integration.md</li>
+<li>inline-ai-assist/ai-integrations/gemini-integration.md</li>
+<li>document-processing/word/conversions/word-file-formats-conversions.md</li>
