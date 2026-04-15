@@ -158,3 +158,5 @@ moz
 osx
 pivotable
 pivottable
+codestudio
+vscode
