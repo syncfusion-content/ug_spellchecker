@@ -17,3 +17,5 @@ appsettings
 Agentic
 Apryse
 jsx
+tsx
+eslint
