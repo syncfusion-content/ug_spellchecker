@@ -65,3 +65,4 @@ https://blog.angular.dev/meet-angular-v19-7b29dfd05b84/
 https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/
 https://openai.com
 https://wproofreader.com/sdk
+https://ej2.syncfusion.com/angular/essential-ui-kit/#/blocks
