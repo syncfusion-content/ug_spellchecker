@@ -19,3 +19,6 @@ Apryse
 jsx
 tsx
 eslint
+Nx
+repo
+scss
