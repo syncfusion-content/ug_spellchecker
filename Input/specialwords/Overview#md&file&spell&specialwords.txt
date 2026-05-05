@@ -12,3 +12,5 @@ tsv
 Modals
 npmjs
 pdfviewer
+lifecycle
+md
