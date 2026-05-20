@@ -4,3 +4,6 @@ wordprocessor
 sfdt
 Kanji
 kanji
+Xodo
+dic
+Simsun
