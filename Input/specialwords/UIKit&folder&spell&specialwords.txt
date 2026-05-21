@@ -4,4 +4,4 @@ keyframes
 bio
 playlist
 cashback
-immersive
+minmax
