@@ -160,3 +160,5 @@ pivotable
 pivottable
 codestudio
 vscode
+agentic
+Agentic
