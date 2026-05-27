@@ -2,3 +2,4 @@ dmg
 Orca
 orca
 mixtral
+aiquery
