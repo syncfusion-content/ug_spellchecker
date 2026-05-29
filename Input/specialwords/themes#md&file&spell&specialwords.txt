@@ -14,3 +14,7 @@ splitbuttons
 querybuilder
 richtexteditor
 timepicker
+Ns
+unpkg
+libman
+CDNs
