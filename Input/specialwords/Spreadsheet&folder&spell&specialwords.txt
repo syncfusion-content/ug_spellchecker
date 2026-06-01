@@ -54,3 +54,4 @@ replaceby
 replaceall
 ngcc
 Agentic
+winforms
