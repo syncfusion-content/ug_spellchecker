@@ -2,4 +2,3 @@ build-in
 Bidi
 Bitmiracle
 dic
-Textto
