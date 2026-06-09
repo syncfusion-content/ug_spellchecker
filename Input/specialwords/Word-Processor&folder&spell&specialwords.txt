@@ -2,3 +2,7 @@ hunspell
 spellcheck
 aff
 documenteditor
+Bidi
+Bitmiracle
+dic
+TexttoCheck
