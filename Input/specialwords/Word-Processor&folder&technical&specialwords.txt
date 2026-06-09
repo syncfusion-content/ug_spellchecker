@@ -1,1 +1,4 @@
-build-in
+Bidi
+Bitmiracle
+dic
+TexttoCheck
