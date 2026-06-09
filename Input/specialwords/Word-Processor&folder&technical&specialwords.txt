@@ -1,4 +1,0 @@
-Bidi
-Bitmiracle
-dic
-TexttoCheck
