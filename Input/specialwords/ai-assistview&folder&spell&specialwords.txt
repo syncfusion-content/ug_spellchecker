@@ -1,0 +1,6 @@
+mcp
+mjs
+fs
+maxfile
+attachmentsettings
+gpt

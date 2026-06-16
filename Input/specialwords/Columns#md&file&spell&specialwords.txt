@@ -1,0 +1,3 @@
+Calculationfor
+GridColumnSizer.ResetAutoCalculationforAllColumns
+nameof

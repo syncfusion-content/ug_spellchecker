@@ -1,0 +1,13 @@
+Forbereder
+til
+udskrivning
+Annot
+haspopup
+valuetext
+valuemax
+valuemin
+valuenow
+ejs
+Redis
+onfigure
+appsettings

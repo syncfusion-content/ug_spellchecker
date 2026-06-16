@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<repositories>
+  <repository>
+    <name>Android</name>
+    <value>android</value>
+  </repository>
+  <repository>
+    <name>AngularJS</name>
+       <value>angular js</value>
+  <value>angularjs</value>
+  </repository>
+  <repository>
+    <name>Angular</name>
+       <value>angular</value>
+    <value>angular-2</value>
+    <value>angular2</value>
+  </repository>
+  <repository>
+    <name>Angular API</name>
+      <value>angular-api</value>
+   <value>angular api</value>
+   <value>api/angular</value>
+  </repository>
+  <repository>
+    <name>ASP.NET</name>
+       <value>aspnet</value>
+   <value>aspnet web forms</value>
+   <value>aspnet webforms</value>
+  </repository>
+  <repository>
+    <name>ASP.NET Classic</name>
+       <value>aspnet-classic</value>
+  </repository>
+  <repository>
+    <name>ASP.NET-Core</name>
+       <value>aspnet-core</value>
+  </repository>
+  <repository>
+    <name>ASP.NET MVC</name>
+       <value>ejmvc</value>
+  </repository>
+  <repository>
+    <name>ASP.NET MVC Classic</name>
+       <value>aspnetmvc-classic</value>
+  </repository>
+  <repository>
+    <name>Mobile ASP.NET MVC</name>
+      <value>mobileaspnetmvc</value>
+  </repository>
+  <repository>
+    <name>Aurelia</name>
+      <value>aurelia</value>
+  </repository>
+  <repository>
+    <name>Extension</name>
+       <value>extension</value>
+  </repository>
+  <repository>
+    <name>File Formats</name>
+     <value>file-formats</value>
+  </repository>
+  <repository>
+    <name>Document Processing</name>
+     <value>document-processing</value>
+  </repository>
+  <repository>
+    <name>Java File Formats</name>
+     <value>java-file-formats</value>
+  </repository>
+  <repository>
+    <name>iOS</name>
+      <value>ios</value>
+  </repository>
+  <repository>
+    <name>JavaScript</name>
+       <value>js</value>
+	   <value>essential-js2</value>
+  </repository>
+  <repository>
+    <name>JSP</name>
+    <value>jsp</value>
+  </repository>
+  <repository>
+    <name>Js-API</name>
+      <value>js-api</value>
+  </repository>
+  <repository>
+    <name>LightSwitch</name>
+    <value>lightswitch</value>
+  </repository>
+  <repository>
+    <name>Mobile JavaScript</name>
+    <value>mobilejs</value>
+  </repository>
+  <repository>
+    <name>PHP</name>
+    <value>php</value>
+  </repository>
+  <repository>
+    <name>Predictive Analytics</name>
+     <value>predictive-analytics</value>
+  </repository>
+  <repository>
+    <name>Reactjs</name>
+    <value>reactjs</value>
+	<value>react</value>
+  </repository>
+  <repository>
+    <name>Silverlight</name>
+    <value>silverlight</value>
+  </repository>
+  <repository>
+    <name>TypeScript</name>
+    <value>typescript</value>
+  </repository>
+  <repository>
+    <name>Blazor</name>
+    <value>Blazor</value>
+    <value>blazor</value>
+  </repository>
+  <repository>
+    <name>Universal</name>
+    <value>universal-classic</value>
+  </repository>
+  <repository>
+    <name>UWP</name>
+    <value>uwp</value>
+  </repository>
+  <repository>
+    <name>Windows Forms</name>
+      <value>windowsforms</value>
+      <value>WindowsForms</value>
+  </repository>
+  <repository>
+    <name>Windows Phone</name>
+    <value>wp8</value>
+  </repository>
+  <repository>
+    <name>WinRT</name>
+    <value>winrt</value>
+  </repository>
+  <repository>
+    <name>WPF</name>
+    <value>wpf</value>
+  </repository>
+    <repository>
+    <name>Flutter</name>
+    <value>flutter</value>
+  </repository>
+  <repository>
+    <name>Xamarin</name>
+    <value>xamarin</value> 
+    <value>xamarin.forms</value>
+    <value>xamarin-forms</value>
+  </repository>
+  <repository>
+    <name>Xamarin.Android</name>
+    <value>xamarin.android</value>
+   <value>xamarin-android</value>
+  </repository>  
+  <repository>
+    <name>Xamarin.iOS</name>
+    <value>xamarin.ios</value>
+  <value>xamarin-ios</value>
+  </repository>
+   <repository>
+    <name>WinUI</name>
+    <value>winui</value>
+  <value>WinUI</value>
+  </repository>
+  <repository>
+    <name>Common</name>
+    <value>common</value>
+  </repository>
+ <repository>
+    <name>Big Data Platform</name>
+    <value>bigdata</value>
+  </repository>
+ <repository>
+    <name>Dashboard Platform</name>
+    <value>Dashboard-Platform</value>
+	<value>dashboard-platform</value>
+  </repository>
+  <repository>
+    <name>dashboard-cloud-docs</name>
+    <value>dashboard-cloud</value>
+	<value>bold-bi</value>
+  </repository>
+    <repository>
+    <name>bold-bi-docs</name>
+	<value>bold-bi</value>
+  </repository>
+    <repository>
+    <name>Dashboard-desktop</name>
+    <value>dashboard-desktop</value>
+  </repository>
+ <repository>
+    <name>Data Integration</name>
+    <value>data-integration</value>
+  </repository>
+ <repository>
+    <name>EmberJS</name>
+    <value>emberjs</value>
+   <value>ember js</value>
+    <value>ember</value>
+  </repository>
+ <repository>
+    <name>Metro Studio</name>
+    <value>metrostudio</value>
+  </repository>
+ <repository>
+    <name>Orubase</name>
+    <value>orubase</value>
+  </repository>
+ <repository>
+    <name>Report Platform</name>
+    <value>report-platform</value>
+  </repository>
+ <repository>
+    <name>User Management Server</name>
+    <value>user-management-server</value>
+  </repository>
+ <repository>
+    <name>MAUI</name>
+    <value>MAUI</value>
+    <value>maui</value>
+ </repository>
+<repository>
+    <name>MAUI Toolkit</name>
+    <value>maui-toolkit</value>
+	 <value>Maui-toolkit</value>
+</repository>
+<repository>
+  <name>Website-WhatsNew</name>
+  <value>essential-js2</value>
+  <value>angular</value>
+  <value>react</value>
+  <value>vue</value>
+  <value>aspnet-core</value>
+  <value>flutter</value>
+  <value>aspnet-mvc</value>
+  <value>aspnet-core-razor-components</value>
+  <value>blazor-components</value>
+  <value>winui-controls</value>
+  <value>maui-controls</value>
+  <value>bigdata</value>
+  <value>blazor</value>
+  <value>dashboard-platform</value>
+  <value>data-integration</value>
+  <value>metrostudio</value>
+  <value>report-platform</value>
+  <value>uwp</value>
+  <value>windowsforms</value>
+  <value>winui</value>
+  <value>wpf</value>
+  <value>xamarin.android</value>
+  <value>xamarin.forms</value>
+  <value>xamarin</value>
+  <value>xamarin.ios</value>
+  <value>pdf-viewer-sdk</value>
+  <value>spreadsheet-editor-sdk</value>
+  <value>document-sdk</value>
+  <value>word-editor-sdk</value>
+  <value>docx-editor-sdk</value>
+ </repository>
+<repository>
+  <name>ej2-asp-core-mvc</name>
+  <value>ej2-asp-core-mvc</value>
+  </repository>
+<repository>
+  <name>ej2-asp-core-mvc</name>
+  <value>ej2-asp-core-mvc</value>
+  <value>ej2-asp-mvc</value>
+  <value>ej2-asp-core</value>
+  <value>ej2-vue</value>
+  <value>ej2-react</value>
+  <value>ej2-typescript</value>
+  <value>ej2-javascript</value>
+  <value>ej2-angular</value>
+  </repository>
+  <repository>
+	  <name>website-roadmap</name>
+	  <value>angular</value>
+	  <value>aspnet-core</value>
+	  <value>ejmvc</value>
+	  <value>bigdata</value>
+	  <value>blazor</value>
+	  <value>dashboard-platform</value>
+	  <value>data-integration</value>
+	  <value>essential-js2</value>
+	  <value>flutter</value>
+	  <value>maui</value>
+	  <value>react</value>
+	  <value>uwp</value>
+	  <value>report-platform</value>
+	  <value>ej2-vue</value>
+	  <value>winui</value>
+	  <value>windowsforms</value>
+	  <value>wpf</value>
+	  <value>xamarin</value>
+	  <value>xamarin-android</value>
+	  <value>xamarin-ios</value>
+	  <value>docx-editor-sdk</value>
+    <value>document-sdk</value>
+    <value>pdf-viewer-sdk</value>
+    <value>spreadsheet-editor-sdk</value>
+    <value>word-editor-sdk</value>
+  </repository>
+  <repository>
+	  <name>featuretour</name>
+	  <value>uwp</value>
+	  <value>aspnet</value>
+	  <value>essential-js2</value>
+	  <value>asp.net</value>
+	  <value>aspnet-core</value>
+	  <value>asp.net core</value>
+	  <value>aspnetcore</value>
+	  <value>ejmvc</value>
+	  <value>asp.net mvc</value>
+	  <value>aspnetmvc</value>
+	  <value>js</value>
+	  <value>javascript</value>
+	  <value>jsp</value>
+	  <value>php</value>
+	  <value>reactjs</value>
+	  <value>maui</value>
+	  <value>.net maui</value>
+	  <value>report-platform</value>
+	  <value>vue</value>
+	  <value>windowsforms</value>
+	  <value>winforms</value>
+	  <value>winui</value>
+	  <value>wpf</value>
+	  <value>xamarin</value>
+	  <value>xamarin.forms</value>
+	  <value>xamarin.android</value>
+	  <value>xamarin.ios</value>
+	  <value>flutter</value>
+	  <value>file-formats</value>
+	  <value>document-processing</value>
+	  <value>angular</value>
+	  <value>blazor-components</value>
+	  <value>blazor</value>
+	  <value>aspnet-mvc</value>
+	  <value>ej2-asp-mvc</value>
+	  <value>typescript</value>
+	  <value>react</value>
+	  <value>ej2-vue</value>
+  </repository>
+  <repository>
+    <name>document-processing-docs</name>
+	  <value>document-processing</value>
+	  <value>file-formats</value>
+    <value>docx-editor-sdk</value>
+  </repository>
+</repositories>
+
