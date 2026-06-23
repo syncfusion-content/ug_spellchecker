@@ -4,3 +4,4 @@ portno
 servertype
 isdesktopshortcut
 mpack
+documentsdk
