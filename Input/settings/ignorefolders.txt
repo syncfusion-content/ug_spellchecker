@@ -973,4 +973,3 @@ wpf\Classic\Chart
 <li>inline-ai-assist/ai-integrations/es5-openai-integration.md</li>
 <li>inline-ai-assist/ai-integrations/gemini-integration.md</li>
 <li>document-processing/word/conversions/word-file-formats-conversions.md</li>
-
