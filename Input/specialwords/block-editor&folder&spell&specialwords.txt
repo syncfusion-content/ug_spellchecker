@@ -3,3 +3,5 @@ yjs
 websocket
 webrtc
 Diff
+Hocuspocus
+Liveblocks
