@@ -25,3 +25,6 @@ scss
 winforms
 img
 eval
+ngcc
+libpdfium
+bitness
