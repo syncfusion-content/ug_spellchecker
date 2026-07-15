@@ -6,3 +6,5 @@ Argb
 argb
 flyout
 plist
+Sublayers
+trackpad
