@@ -2,3 +2,4 @@ mcp
 vscode
 documentsdk
 winui
+codestudio
