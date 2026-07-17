@@ -27,3 +27,10 @@ Etkinlik
 yok
 Olay
 Stateful
+supabase
+firebase
+const
+Farsi
+ar
+ps
+ur
