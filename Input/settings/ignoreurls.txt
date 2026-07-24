@@ -66,3 +66,4 @@ https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe/
 https://openai.com
 https://wproofreader.com/sdk
 https://github.com/SyncfusionExamples/open-save-pdf-documents-in-one-drive
+https://code.visualstudio.com/download
