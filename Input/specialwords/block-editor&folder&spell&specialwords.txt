@@ -6,3 +6,4 @@ Diff
 Hocuspocus
 Liveblocks
 Bg
+esbuild
