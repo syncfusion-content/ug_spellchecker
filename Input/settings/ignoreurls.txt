@@ -67,3 +67,4 @@ https://openai.com
 https://wproofreader.com/sdk
 https://github.com/SyncfusionExamples/open-save-pdf-documents-in-one-drive
 https://code.visualstudio.com/download
+https://www.helpteaching.com/help/print/index.htm
