@@ -353,5 +353,33 @@
 	  <value>file-formats</value>
     <value>docx-editor-sdk</value>
   </repository>
+  <repository>
+  <name>chart-sdk-docs</name>
+  <value>chart-sdk</value>
+  </repository>
+  <repository>
+  <name>diagram-sdk-docs</name>
+  <value>diagram-sdk</value>
+  </repository>
+  <repository>
+  <name>file-manager-sdk-docs</name>
+  <value>file-manager-sdk</value>
+  </repository>
+  <repository>
+  <name>gantt-sdk-docs</name>
+  <value>gantt-sdk</value>
+  </repository>
+  <repository>
+  <name>grid-sdk-docs</name>
+  <value>grid-sdk</value>
+  </repository>
+  <repository>
+  <name>rich-text-editor-sdk-docs</name>
+  <value>rich-text-editor-sdk</value>
+  </repository>
+  <repository>
+  <name>scheduler-sdk-docs</name>
+  <value>scheduler-sdk</value>
+  </repository>
 </repositories>
 
