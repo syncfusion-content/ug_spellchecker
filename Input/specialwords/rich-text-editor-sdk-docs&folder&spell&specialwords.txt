@@ -11,3 +11,7 @@ customformatter
 Tableheader
 Fullscreen
 fullscreen
+plugins
+quicktoolbar
+iframes
+Emoticons
