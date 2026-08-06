@@ -3,7 +3,6 @@ Nextjs
 npmjs
 tsx
 Oxlint
-asterix
 backend
 valuetemplate
 Mail Merge
