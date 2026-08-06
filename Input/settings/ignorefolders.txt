@@ -974,3 +974,6 @@ wpf\Classic\Chart
 <li>inline-ai-assist/ai-integrations/gemini-integration.md</li>
 <li>document-processing/word/conversions/word-file-formats-conversions.md</li>
 <li>file-manager/overview.md</li>
+<li>rich-text-editor-sdk/react/rich-text-editor/validation.md</li>
+<li>rich-text-editor-sdk/blazor/rich-text-editor/image.md</li>
+<li>rich-text-editor-sdk/blazor/rich-text-editor/table.md</li>
