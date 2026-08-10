@@ -16,3 +16,4 @@ iframes
 Emoticons
 ly
 asterix
+dragstart
