@@ -28,3 +28,4 @@ eval
 ngcc
 libpdfium
 bitness
+dotnet
