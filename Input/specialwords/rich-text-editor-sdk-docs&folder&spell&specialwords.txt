@@ -17,3 +17,5 @@ Emoticons
 ly
 asterix
 dragstart
+operability
+overline
