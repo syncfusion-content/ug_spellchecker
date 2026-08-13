@@ -19,3 +19,5 @@ asterix
 dragstart
 operability
 overline
+contenteditable
+haspopup
