@@ -8,3 +8,4 @@ flyout
 plist
 Sublayers
 trackpad
+pwsh
