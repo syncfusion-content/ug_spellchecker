@@ -72,3 +72,4 @@ https://developer.salesforce.com/tools/salesforcecli
 https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm
 https://developer.salesforce.com/docs/platform/lwc/guide/get-started-introduction.html
 https://stackoverflow.com/questions/4761711/local-image-in-canvas-in-chrome
+https://github.com/SyncfusionExamples/filemanager-amazon-s3-nodejs-file-provider
