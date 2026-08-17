@@ -23,3 +23,5 @@ contenteditable
 haspopup
 ejs
 autosave
+commandmenusettings
+blockactionmenusettings
