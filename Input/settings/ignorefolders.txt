@@ -977,3 +977,9 @@ wpf\Classic\Chart
 <li>rich-text-editor-sdk/react/rich-text-editor/validation.md</li>
 <li>rich-text-editor-sdk/blazor/rich-text-editor/image.md</li>
 <li>rich-text-editor-sdk/blazor/rich-text-editor/table.md</li>
+<li>ej2-asp-core-mvc/datepicker/how-to/datepicker-for-mvc.md</li>
+<li>ej2-asp-core-mvc/datepicker/how-to/datepicker-for-core.md</li>
+<li>ej2-asp-core-mvc/daterangepicker/how-to/daterangepicker-for-core.md</li>
+<li>ej2-asp-core-mvc/daterangepicker/how-to/daterangepicker-for-mvc.md</li>
+<li>ej2-asp-core-mvc/datetimepicker/how-to/datetimepicker-for-mvc.md</li>
+<li>ej2-asp-core-mvc/datetimepicker/how-to/datetimepicker-for-core.md</li>
