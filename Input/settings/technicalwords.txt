@@ -305,3 +305,4 @@ Angular = AngularJS
 nuget = NuGet
 active directory = Active Directory
 Mail merge = Mail Merge
+gregorian = Gregorian
