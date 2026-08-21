@@ -983,5 +983,5 @@ wpf\Classic\Chart
 <li>ej2-asp-core-mvc/daterangepicker/how-to/daterangepicker-for-mvc.md</li>
 <li>ej2-asp-core-mvc/datetimepicker/how-to/datetimepicker-for-mvc.md</li>
 <li>ej2-asp-core-mvc/datetimepicker/how-to/datetimepicker-for-core.md</li>
-<li>ej2-asp-core/timepicker/how-to/timepicker-for-core.md</li>
-<li>ej2-asp-mvc/timepicker/how-to/timepicker-for-mvc.md</li>
+<li>ej2-asp-core-mvc/timepicker/how-to/timepicker-for-core.md</li>
+<li>ej2-asp-core-mvc/timepicker/how-to/timepicker-for-mvc.md</li>
