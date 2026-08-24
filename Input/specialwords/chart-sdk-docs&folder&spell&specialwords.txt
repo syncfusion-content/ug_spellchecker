@@ -1,0 +1,6 @@
+hm
+hms
+npmjs
+ngcc
+Bollingerbands
+backend
