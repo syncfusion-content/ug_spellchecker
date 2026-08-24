@@ -6,3 +6,10 @@ Bidi
 Bitmiracle
 dic
 TexttoCheck
+az
+documenteditorresourcegroup
+appservice
+documenteditorappservice
+sku
+webapp
+azurewebsites
