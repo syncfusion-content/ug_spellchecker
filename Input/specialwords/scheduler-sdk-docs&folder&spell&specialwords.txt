@@ -1,4 +1,5 @@
 gregorian
 Auth
+OAuth
 highcontrast
 eventsettings
