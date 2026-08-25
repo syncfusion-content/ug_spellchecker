@@ -28,6 +28,4 @@ blockactionmenusettings
 codemirror
 middleware
 Nginx
-Vercel
-Netlify
 img
