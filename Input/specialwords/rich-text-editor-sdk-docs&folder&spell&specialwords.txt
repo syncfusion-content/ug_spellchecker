@@ -26,3 +26,6 @@ autosave
 commandmenusettings
 blockactionmenusettings
 codemirror
+middleware
+Nginx
+img
