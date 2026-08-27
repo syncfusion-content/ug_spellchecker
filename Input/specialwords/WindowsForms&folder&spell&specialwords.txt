@@ -289,3 +289,7 @@ Annot
 statusbaradvpanel
 Caros
 controlcount
+Binet
+dBASE
+GaugeLableColor
+GaugeLableFont
