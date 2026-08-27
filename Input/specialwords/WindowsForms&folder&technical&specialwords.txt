@@ -19,3 +19,11 @@ Fmt
 dhc
 cpp
 dBASE
+Lable
+GaugeLableColor
+GaugeLableFont
+tvalue
+Binet
+crit
+susceptance
+Uni

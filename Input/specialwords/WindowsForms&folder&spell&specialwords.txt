@@ -10,7 +10,7 @@ tvalue
 mdiff
 Erf
 crit
-binet
+Binet
 a
 al
 ja
@@ -289,3 +289,6 @@ Annot
 statusbaradvpanel
 Caros
 controlcount
+dBASE
+GaugeLableColor
+GaugeLableFont
