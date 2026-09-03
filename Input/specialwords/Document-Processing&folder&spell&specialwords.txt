@@ -36,3 +36,5 @@ nuspec
 dylib
 libgconf
 Agentic
+xltx
+xltm
