@@ -972,6 +972,8 @@ wpf\Classic\Chart
 <li>inline-ai-assist/ai-integrations/es5-ollama-llm-integration.md</li>
 <li>inline-ai-assist/ai-integrations/es5-openai-integration.md</li>
 <li>inline-ai-assist/ai-integrations/gemini-integration.md</li>
+<li>inline-ai-assist/speech/es5-speech-to-text.md</li>
+<li>inline-ai-assist/speech/speech-to-text.md</li>
 <li>document-processing/word/conversions/word-file-formats-conversions.md</li>
 <li>file-manager/overview.md</li>
 <li>rich-text-editor-sdk/react/rich-text-editor/validation.md</li>
