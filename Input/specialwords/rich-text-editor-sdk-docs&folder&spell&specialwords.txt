@@ -29,3 +29,5 @@ codemirror
 middleware
 Nginx
 img
+callouts
+lifecycle
