@@ -46,3 +46,6 @@ Denoise
 Binarization
 ngcc
 vsdx
+callouts
+lifecycle
+plugins
