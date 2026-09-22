@@ -38,3 +38,5 @@ libgconf
 Agentic
 xltx
 xltm
+pptm
+potx
