@@ -31,5 +31,12 @@ Nginx
 img
 callouts
 lifecycle
-Pos
 attrs
+Pos
+cancelled
+Keymap
+backticks
+pos
+colspan
+rowspan
+colwidth
