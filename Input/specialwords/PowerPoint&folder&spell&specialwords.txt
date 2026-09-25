@@ -10,3 +10,4 @@ Malgun
 Batang
 netcoreapp
 Harf
+jsx
