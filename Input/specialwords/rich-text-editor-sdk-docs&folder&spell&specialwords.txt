@@ -40,3 +40,4 @@ pos
 colspan
 rowspan
 colwidth
+autofocus
