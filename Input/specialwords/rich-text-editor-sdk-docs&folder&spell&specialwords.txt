@@ -41,3 +41,9 @@ colspan
 rowspan
 colwidth
 autofocus
+sanitization
+Sanitization
+onload
+onerror
+vbscript
+mailto
