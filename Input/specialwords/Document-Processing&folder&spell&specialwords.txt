@@ -40,8 +40,4 @@ xltx
 xltm
 pptm
 potx
-sqref
-numFmt
-fs
-unc
-mailto
+md
