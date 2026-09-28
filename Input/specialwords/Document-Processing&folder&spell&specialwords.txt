@@ -41,3 +41,4 @@ xltm
 pptm
 potx
 md
+jsx
