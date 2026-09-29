@@ -42,3 +42,5 @@ pptm
 potx
 md
 jsx
+Dsig
+Epes
