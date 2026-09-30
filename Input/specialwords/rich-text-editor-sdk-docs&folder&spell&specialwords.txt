@@ -51,3 +51,5 @@ vbscript
 mailto
 dom
 prosemirror
+keyup
+sms
