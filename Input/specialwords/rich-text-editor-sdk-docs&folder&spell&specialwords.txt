@@ -53,3 +53,4 @@ dom
 prosemirror
 keyup
 sms
+headlesseditor
