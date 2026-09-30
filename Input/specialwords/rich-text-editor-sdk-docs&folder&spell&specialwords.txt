@@ -47,3 +47,5 @@ onload
 onerror
 vbscript
 mailto
+dom
+prosemirror
