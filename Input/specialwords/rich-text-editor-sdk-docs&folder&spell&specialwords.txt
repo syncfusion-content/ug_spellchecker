@@ -29,6 +29,8 @@ codemirror
 middleware
 Nginx
 img
+webp
+plaintext
 callouts
 lifecycle
 attrs
