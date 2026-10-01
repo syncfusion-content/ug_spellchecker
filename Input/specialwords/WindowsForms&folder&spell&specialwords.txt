@@ -293,3 +293,6 @@ Binet
 dBASE
 GaugeLableColor
 GaugeLableFont
+Aligment
+coeficient
+Coeficient
