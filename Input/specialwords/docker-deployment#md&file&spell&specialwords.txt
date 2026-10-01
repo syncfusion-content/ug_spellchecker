@@ -1,2 +1,4 @@
 backend
 tsx
+amazonaws
+dns
