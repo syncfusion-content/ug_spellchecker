@@ -30,6 +30,7 @@ middleware
 Nginx
 img
 webp
+bg
 plaintext
 callouts
 lifecycle
