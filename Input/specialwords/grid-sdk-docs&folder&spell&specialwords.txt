@@ -1,3 +1,7 @@
 Accessor
 selectionsettings
 Colspan
+tablename
+pivotview
+ejs
+eld
