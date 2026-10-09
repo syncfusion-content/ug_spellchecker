@@ -30,3 +30,8 @@ libpdfium
 bitness
 dotnet
 pdfjs
+Tauri
+tauri
+pnpm
+dmg
+Preact
