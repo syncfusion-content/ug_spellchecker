@@ -380,3 +380,7 @@ https://support.microsoft.com/en-us/excel/functions/correl-function
 https://support.microsoft.com/en-us/excel/functions/covar-function
 https://support.microsoft.com/en-us/excel/normsdist-function
 https://support.microsoft.com/en-us/excel/functions/rank-avg-function
+https://support.microsoft.com/en-us/excel/functions/roman-function
+https://support.microsoft.com/en-us/excel/functions/sumx2my2-function
+https://support.microsoft.com/en-us/excel/functions/trunc-function
+https://support.microsoft.com/en-us/excel/functions/covariance-p-function
