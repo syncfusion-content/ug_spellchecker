@@ -37,6 +37,8 @@
 		<Control Name ="Dialog"/>
 		<Control Name ="InPlace Editor"/>
 		<Control Name ="Rich Text Editor"/>
+		<Control Name ="Markdown Converter"/>
+		<Control Name ="Smart Rich Text Editor"/>
 		<Control Name ="Spinner"/>
 		<Control Name ="Splitter"/>
 		<Control Name ="Toast"/>
