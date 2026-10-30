@@ -19,3 +19,4 @@ winui
 mcp
 dnx
 repos
+sfdotnet
