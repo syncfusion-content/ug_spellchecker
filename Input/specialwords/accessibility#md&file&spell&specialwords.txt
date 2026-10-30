@@ -8,3 +8,6 @@ roledescription
 rowindex
 treeitem
 tbody
+colcount
+colindexnt
+rowspan
