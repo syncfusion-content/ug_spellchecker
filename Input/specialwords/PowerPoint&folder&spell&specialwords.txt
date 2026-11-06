@@ -12,3 +12,4 @@ netcoreapp
 Harf
 jsx
 dev
+pptxeditor
