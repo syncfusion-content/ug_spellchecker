@@ -55,3 +55,4 @@ prosemirror
 keyup
 sms
 headlesseditor
+aiquery
