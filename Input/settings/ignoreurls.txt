@@ -388,3 +388,5 @@ https://support.microsoft.com/en-us/excel/functions/chisq-dist-rt-function
 https://support.microsoft.com/en-us/excel/functions/averageifs-function
 https://support.microsoft.com/en-us/excel/functions/seriessum-function
 https://support.microsoft.com/en-us/excel/functions/received-function
+https://unpkg.com/@microsoft/signalr@latest/dist/browser/signalr.min.js
+https://unpkg.com/@microsoft/signalr@latest/dist/browser/signalr.min.js
