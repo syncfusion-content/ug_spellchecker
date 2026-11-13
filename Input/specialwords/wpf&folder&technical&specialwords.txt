@@ -1,0 +1,19 @@
+syncfusion
+MS Office
+html
+xaml
+clr
+northWind
+Pdf
+autofit
+coded UI
+http
+Build-in
+xml
+wpf
+olap
+dlls
+RRule
+winrt
+.Net
+framework

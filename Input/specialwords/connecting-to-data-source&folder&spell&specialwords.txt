@@ -1,0 +1,8 @@
+Myuser
+mypassword
+apxtimestamp
+myaccount
+myuser
+mypassword
+mydb
+myschema

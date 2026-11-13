@@ -1,0 +1,13 @@
+Onchange
+oninput
+onblur
+onfocusout
+onfocusin
+onfocus
+onkeypress
+Ondbclick
+Onmousedown
+Onmouseup
+Onmousemove
+Onmouseenter
+onmouseleave

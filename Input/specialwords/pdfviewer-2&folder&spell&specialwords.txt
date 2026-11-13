@@ -1,0 +1,15 @@
+Forbereder
+til
+udskrivning
+Annot
+Overscan
+preload
+haspopup
+valuetext
+valuemax
+valuemin
+valuenow
+ejs
+Redis
+onfigure
+appsettings

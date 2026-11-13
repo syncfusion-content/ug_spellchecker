@@ -1,0 +1,6 @@
+Ollama
+dmg
+libpng
+devel
+dotnet
+libdl

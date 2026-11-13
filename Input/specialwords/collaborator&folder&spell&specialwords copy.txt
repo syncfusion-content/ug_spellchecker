@@ -1,0 +1,7 @@
+signalr
+websocket
+ws
+Redis
+redis
+ioredis
+tls

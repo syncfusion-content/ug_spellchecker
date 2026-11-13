@@ -1,0 +1,4 @@
+datalabel
+Mousewheel
+zoomin
+zoomout

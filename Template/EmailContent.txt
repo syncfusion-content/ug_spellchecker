@@ -1,0 +1,10 @@
+Hi Everyone,
+
+Today document spell check report has been completed and some controls are reported as not present in the database. 
+Please find the report attached in this mail.
+
+
+
+Regards,
+Documentation-Website Team.
+

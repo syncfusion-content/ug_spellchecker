@@ -1,0 +1,4 @@
+Ollama
+dmg
+fs
+deepseek

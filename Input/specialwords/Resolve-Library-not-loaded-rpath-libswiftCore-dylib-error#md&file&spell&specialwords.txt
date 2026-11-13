@@ -1,0 +1,6 @@
+libswift
+dylib
+FFI
+usr
+Runpath
+rpath

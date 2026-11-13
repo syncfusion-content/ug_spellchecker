@@ -1,0 +1,4 @@
+Entra
+serverless
+JWT
+Jwt

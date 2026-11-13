@@ -1,0 +1,5 @@
+pixelate
+webp
+oversized
+uploader
+plist

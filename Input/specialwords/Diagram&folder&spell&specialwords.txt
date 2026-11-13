@@ -1,0 +1,15 @@
+Zoomable
+Pannable
+Undoable
+onfocus
+onmousemove
+onmouseover
+onmouseout
+onmousedown
+onmouseup
+ondblclick
+ondrop
+onmousedown
+nodegroup
+nodegroups
+vsdx

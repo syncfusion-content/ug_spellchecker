@@ -1,0 +1,8 @@
+mcp
+vscode
+documentsdk
+winui
+codestudio
+dotnet
+aspnetcore
+aspnetmvc

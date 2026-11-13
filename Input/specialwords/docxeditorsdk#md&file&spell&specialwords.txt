@@ -1,0 +1,4 @@
+docxeditorsdk
+mcp
+mcpServers
+vscode

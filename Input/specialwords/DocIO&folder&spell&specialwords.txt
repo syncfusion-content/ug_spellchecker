@@ -1,0 +1,15 @@
+usr
+libfontconfig
+Debian
+Ubuntu
+Dockerfile
+Mangal
+Utsaah
+Yu
+Mincho
+Malgun
+Batang
+Harf
+netcoreapp
+Num
+Microsystems

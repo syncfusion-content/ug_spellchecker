@@ -1,0 +1,17 @@
+grey
+eee
+ccc
+bg
+quintenaryalt
+quintenary
+fontalt
+fg
+containe
+tsx
+vite
+transpiled
+webparts
+webpart
+Webparts
+WebParts
+WebPart

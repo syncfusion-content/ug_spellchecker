@@ -1,0 +1,6 @@
+isdesktopdhortcut
+isstartmenushortcut
+portno
+servertype
+isdesktopshortcut
+mpack

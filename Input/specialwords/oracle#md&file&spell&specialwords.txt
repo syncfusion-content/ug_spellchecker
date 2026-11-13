@@ -1,0 +1,9 @@
+Bson
+Elasticsearch
+mydb
+Uid
+myuser
+Pwd
+mypassword
+myaccount
+myschema

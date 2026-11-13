@@ -1,0 +1,1 @@
+ej2-angular/image-editor/end-user-capabilities.md
