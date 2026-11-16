@@ -388,3 +388,8 @@ https://support.microsoft.com/en-us/excel/functions/chisq-dist-rt-function
 https://support.microsoft.com/en-us/excel/functions/averageifs-function
 https://support.microsoft.com/en-us/excel/functions/seriessum-function
 https://support.microsoft.com/en-us/excel/functions/received-function
+https://unpkg.com/@microsoft/signalr@latest/dist/browser/signalr.js
+https://unpkg.com/@microsoft/signalr@latest/dist/browser/signalr.min.js
+https://dev.mysql.com/downloads/
+https://dev.mysql.com/doc/refman/8.0/en/access-control.html
+https://dev.mysql.com/doc/refman/8.4/en/native-pluggable-authentication.html
