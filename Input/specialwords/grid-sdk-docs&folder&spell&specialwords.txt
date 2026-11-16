@@ -77,3 +77,7 @@ Preact
 eval
 sanitization
 Redis
+const
+allpages
+filterchoicerequest
+filtersearchbegin
