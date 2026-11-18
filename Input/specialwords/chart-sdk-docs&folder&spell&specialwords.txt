@@ -39,3 +39,4 @@ queryset
 pycache
 cellwidth
 cellheight
+Mcp
