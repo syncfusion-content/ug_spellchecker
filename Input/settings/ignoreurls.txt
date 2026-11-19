@@ -414,4 +414,6 @@ https://www.syncfusion.com/forums/166563/how-to-displaying-serial-number-in-Vue-
 https://www.syncfusion.com/forums/144356/how-to-add-update-a-new-row-programmatically-in-Vue-grid
 https://www.syncfusion.com/forums/157193/how-to-apply-overflowmode-to-grid-toolbar-in-vue-grid
 https://www.syncfusion.com/forums/163079/how-to-show-the-toolbar-in-both-top-and-bottom-of-the-vue-grid
-
+https://support.syncfusion.com/kb/article/14432/how-to-customize-null-values-in-pivot-table
+https://www.syncfusion.com/forums/156622/how-to-fetch-the-data-when-the-scrollbar-reaches-the-end-of-the-scroller-in-angular-grid
+https://www.syncfusion.com/forums/160679/lazy-loading-in-angular-grid
