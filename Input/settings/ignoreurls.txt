@@ -419,3 +419,4 @@ https://www.syncfusion.com/forums/156622/how-to-fetch-the-data-when-the-scrollba
 https://www.syncfusion.com/forums/160679/lazy-loading-in-angular-grid
 https://www.syncfusion.com/forums/blazor-components
 https://www.syncfusion.com/forums/
+https://www.syncfusion.com/forums/139361/add-clear-icon-in-search-in-asp-net-mvc-grid
