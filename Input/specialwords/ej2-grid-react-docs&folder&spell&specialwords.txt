@@ -34,3 +34,4 @@ persistselection
 filterafteropen
 filterafteropen
 onscroll
+greaterthan
