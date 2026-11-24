@@ -13,3 +13,4 @@ documenteditorappservice
 sku
 webapp
 azurewebsites
+wordprocessor
