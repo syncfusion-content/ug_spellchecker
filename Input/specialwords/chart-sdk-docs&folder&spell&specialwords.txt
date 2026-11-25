@@ -40,7 +40,3 @@ pycache
 cellwidth
 cellheight
 Mcp
-healthcare
-quickstart
-datamatrix
-Datamatrix
